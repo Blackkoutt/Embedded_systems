@@ -1,0 +1,15 @@
+module binary_BCD_4_bits(input [3:0] V, 
+									output [0:6] d1, d0);
+									
+	wire z;
+	greater_than_9_comp comp0(V[3:0], z);
+	wire [3:0] A, mux_out;
+	circuit_a circuit_A(V[3:0], A[3:0]);
+	mux_2_1_4_bits mux0(V[3:0], A[3:0], z, mux_out[3:0]);
+	
+	decoder_hex_10 dec0(mux_out[3:0], d0[0:6]);
+	decoder_hex_10 dec1({3'b000, z}, d1[0:6]);
+	
+endmodule
+
+	

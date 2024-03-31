@@ -1,0 +1,160 @@
+$comment
+	File created using the following command:
+		vcd file latch_FDDP_FDDN.msim.vcd -direction
+$end
+$date
+	Sat Mar 30 11:01:44 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module latch_FDDP_FDDN_vlg_vec_tst $end
+$var reg 1 ! D $end
+$var reg 1 " clk $end
+$var wire 1 # Qa $end
+$var wire 1 $ Qb $end
+$var wire 1 % Qc $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 - D~input_o $end
+$var wire 1 . clk~input_o $end
+$var wire 1 / latchD|Q~combout $end
+$var wire 1 0 clk~inputCLKENA0_outclk $end
+$var wire 1 1 FDDP|Q~feeder_combout $end
+$var wire 1 2 FDDP|Q~q $end
+$var wire 1 3 FDDN|Q~feeder_combout $end
+$var wire 1 4 FDDN|Q~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+x/
+00
+01
+02
+03
+04
+$end
+#8000
+1!
+1-
+13
+11
+#10000
+1"
+1.
+10
+1/
+1#
+12
+1$
+#12000
+0!
+0-
+03
+01
+0/
+0#
+#14000
+1!
+1-
+13
+11
+1/
+1#
+#16000
+0!
+0-
+03
+01
+0/
+0#
+#20000
+0"
+0.
+00
+#22000
+1!
+1-
+13
+11
+#24000
+0!
+0-
+03
+01
+#26000
+1!
+1-
+13
+11
+#28000
+0!
+0-
+03
+01
+#30000
+1"
+1.
+10
+02
+0$
+#32000
+1!
+1-
+13
+11
+1/
+1#
+#34000
+0!
+0-
+03
+01
+0/
+0#
+#36000
+1!
+1-
+13
+11
+1/
+1#
+#40000
+0"
+0.
+00
+14
+1%
+#42000
+0!
+0-
+03
+01
+#50000

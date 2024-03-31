@@ -1,0 +1,28 @@
+|adder_8_bits
+reg_val[0] => Add0.IN8
+reg_val[1] => Add0.IN7
+reg_val[2] => Add0.IN6
+reg_val[3] => Add0.IN5
+reg_val[4] => Add0.IN4
+reg_val[5] => Add0.IN3
+reg_val[6] => Add0.IN2
+reg_val[7] => Add0.IN1
+A_or_B[0] => Add0.IN16
+A_or_B[1] => Add0.IN15
+A_or_B[2] => Add0.IN14
+A_or_B[3] => Add0.IN13
+A_or_B[4] => Add0.IN12
+A_or_B[5] => Add0.IN11
+A_or_B[6] => Add0.IN10
+A_or_B[7] => Add0.IN9
+cout <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+

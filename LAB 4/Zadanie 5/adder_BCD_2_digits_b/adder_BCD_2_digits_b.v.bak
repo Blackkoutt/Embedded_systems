@@ -1,0 +1,21 @@
+module adder_BCD_2_digits_b(input [3:0] A, B,
+										input [1:0] c,
+										output [1:0] S);	
+	reg T0, Z0; 	
+	always @(*) begin
+		T0 = A + B + c[0];
+		begin
+		
+			if(T0 > 1'd9)
+				Z0 = 1'd10;
+				c[1] = 1'd1;
+			else
+				Z0 = 1'd0;
+				c[1] = 1'd0;
+		end
+			
+		S[0] = T0 - Z0;
+		S[1] = c[1];
+	end
+	
+endmodule

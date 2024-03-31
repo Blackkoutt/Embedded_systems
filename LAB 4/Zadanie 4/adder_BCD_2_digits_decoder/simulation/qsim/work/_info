@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 4/adder_BCD_2_digits_decoder/simulation/qsim
+vadder_BCD_2_digits_decoder
+Z1 !s110 1711737860
+!i10b 1
+!s100 bgSfZaRCaB?<ZW^NW@8j82
+IecdS4S4jLJ6_Rb5[[1Oa^2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1711737859
+8adder_BCD_2_digits_decoder.vo
+Fadder_BCD_2_digits_decoder.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1711737860.000000
+!s107 adder_BCD_2_digits_decoder.vo|
+!s90 -work|work|adder_BCD_2_digits_decoder.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+nadder_@b@c@d_2_digits_decoder
+vadder_BCD_2_digits_decoder_vlg_vec_tst
+R1
+!i10b 1
+!s100 m>j]4Fn?MF>DVbcM^c1J`1
+I?WK_B=^][FSTB[Aj>783;3
+R2
+R0
+w1711737858
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R5
+R6
+nadder_@b@c@d_2_digits_decoder_vlg_vec_tst

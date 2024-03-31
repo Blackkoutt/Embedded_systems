@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 4/binary_5_bits_to_bcd_converter/simulation/qsim
+vbinary_5_bits_to_bcd_converter
+Z1 !s110 1710794832
+!i10b 1
+!s100 o?z2m@_OR_FbIzdHRVe9c0
+IK>FcM8o=HY1WP;T0fBA;_2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1710794832
+8binary_5_bits_to_bcd_converter.vo
+Fbinary_5_bits_to_bcd_converter.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1710794832.000000
+!s107 binary_5_bits_to_bcd_converter.vo|
+!s90 -work|work|binary_5_bits_to_bcd_converter.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vbinary_5_bits_to_bcd_converter_vlg_vec_tst
+R1
+!i10b 1
+!s100 lz=W^6=I9Z_0NND7CS_XA1
+IF=Y1hdlWa@ad?Ih^Sl=lU2
+R2
+R0
+w1710794831
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6

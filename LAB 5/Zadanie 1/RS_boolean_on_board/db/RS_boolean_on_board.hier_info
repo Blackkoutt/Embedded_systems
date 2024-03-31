@@ -1,0 +1,16 @@
+|RS_boolean_on_board
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => ~NO_FANOUT~
+LEDR[0] << RS_boolean:rs_latch.port3
+
+
+|RS_boolean_on_board|RS_boolean:rs_latch
+Clk => R_g.IN0
+Clk => S_g.IN0
+R => R_g.IN1
+S => S_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,19 @@
+|decoder_7_seg
+C[0] => h.IN0
+C[0] => h.IN0
+C[0] => h[5].DATAIN
+C[0] => h.IN0
+C[0] => h.IN0
+C[1] => h.IN1
+C[1] => h.IN1
+C[1] => h.IN1
+C[1] => h.IN1
+h[6] <= <GND>
+h[5] <= C[0].DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= h.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= h.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= h.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= h.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= h.DB_MAX_OUTPUT_PORT_TYPE
+
+

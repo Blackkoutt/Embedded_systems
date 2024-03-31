@@ -1,0 +1,7 @@
+module bcd_to_digit(input [3:0] a1, a0,
+							output [1:0] error,
+							output [0:6] [a1], [a0]);
+						
+	decoder_hex_10 dec0(a1[3:0], [a1][0:6]);
+	
+endmodule 

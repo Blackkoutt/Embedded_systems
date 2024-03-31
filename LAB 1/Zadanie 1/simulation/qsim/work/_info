@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 1/Zadanie 1/simulation/qsim
+vadder_1bit_assign
+Z1 !s110 1709142177
+!i10b 1
+!s100 4;B[LP37VIf0`nGb9i4Rk3
+Idbh309n`kkU9a=D8Jn<iI1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1709142177
+8adder_1bit_assign.vo
+Fadder_1bit_assign.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1709142177.000000
+!s107 adder_1bit_assign.vo|
+!s90 -work|work|adder_1bit_assign.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vadder_1bit_assign_vlg_vec_tst
+R1
+!i10b 1
+!s100 Qim1`n;o9cN[BKD5ld`hn2
+IifU_Q2BXbEK2?C1joGAmJ0
+R2
+R0
+w1709142176
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

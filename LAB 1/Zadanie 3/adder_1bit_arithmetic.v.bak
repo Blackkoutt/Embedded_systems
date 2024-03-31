@@ -1,0 +1,7 @@
+module adder_1bit_arithmetic(
+	input a, b, cin, 
+	output s, cout);
+	
+	assign {s, cout} = a + b + cin;
+	
+endmodule

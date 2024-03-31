@@ -1,0 +1,53 @@
+|binary_to_hex
+b1[0] => b1[0].IN1
+b1[1] => b1[1].IN1
+b1[2] => b1[2].IN1
+b1[3] => b1[3].IN1
+b0[0] => b0[0].IN1
+b0[1] => b0[1].IN1
+b0[2] => b0[2].IN1
+b0[3] => b0[3].IN1
+H1[6] << decoder_hex_16:dec1.port1
+H1[5] << decoder_hex_16:dec1.port1
+H1[4] << decoder_hex_16:dec1.port1
+H1[3] << decoder_hex_16:dec1.port1
+H1[2] << decoder_hex_16:dec1.port1
+H1[1] << decoder_hex_16:dec1.port1
+H1[0] << decoder_hex_16:dec1.port1
+H0[6] << decoder_hex_16:dec0.port1
+H0[5] << decoder_hex_16:dec0.port1
+H0[4] << decoder_hex_16:dec0.port1
+H0[3] << decoder_hex_16:dec0.port1
+H0[2] << decoder_hex_16:dec0.port1
+H0[1] << decoder_hex_16:dec0.port1
+H0[0] << decoder_hex_16:dec0.port1
+
+
+|binary_to_hex|decoder_hex_16:dec0
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_to_hex|decoder_hex_16:dec1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

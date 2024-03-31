@@ -1,0 +1,19 @@
+|adder_1bit_primitives_on_board
+SW[2] => SW[2].IN1
+SW[1] => SW[1].IN1
+SW[0] => SW[0].IN1
+LEDR[1] <= adder_1bit_primitives:ex.port4
+LEDR[0] <= adder_1bit_primitives:ex.port3
+
+
+|adder_1bit_primitives_on_board|adder_1bit_primitives:ex
+a => g1.IN0
+a => g2.IN0
+b => g1.IN1
+b => g2.IN1
+cin => g3.IN1
+cin => g5.IN1
+s <= g5.DB_MAX_OUTPUT_PORT_TYPE
+cout <= g4.DB_MAX_OUTPUT_PORT_TYPE
+
+

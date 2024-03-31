@@ -1,0 +1,16 @@
+module adder_BCD_2_digits_decoder(input [3:0] X, Y,
+												input cin,
+												output [0:6] H5, H3, S0, S1,
+												output error);
+
+	decoder_hex_10 dec0(X[3:0], H5[0:6]);
+	decoder_hex_10 dec1(Y[3:0], H3[0:6]);
+	
+	wire [0:1] add_out;
+	
+	adder_BCD_2_digits(X[3:0], Y[3:0], cin, add_out[0], add_out[1], error);
+	
+	decoder_hex_10 dec0(add_out[0], S0[0:6]);
+	decoder_hex_10 dec1(add_out[1], S1[0:6]);
+	
+endmodule

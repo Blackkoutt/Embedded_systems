@@ -1,0 +1,16 @@
+module adder_BCD_2_digits(input [3:0], X, Y,
+									input cin,
+									output [0:6] s0, s1,
+									output error);
+								
+	wire x_greater, y_greater;
+	greater_than_9_comp(X[3:0], x_greater);
+	greater_than_9_comp(Y[3:0], y_greater);
+	assign error = x_greater | y_greater;
+	
+	wire [4:0] sum_5_bits;
+	sum_5_bits = {1'b0, X} + {1'b0, Y} + {1'b0000, cin};
+	
+	binary_5_bits_to_bcd_converter conv0(sum_5_bits, s0, s1);
+	
+endmodule

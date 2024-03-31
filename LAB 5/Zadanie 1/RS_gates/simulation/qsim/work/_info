@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 5/Zadanie 1/RS_gates/simulation/qsim
+vRS_gates
+Z1 !s110 1711821034
+!i10b 1
+!s100 j0c>:9bCZ8TUKNQlNhoER2
+I]dhj543CoMO95RJ;SWn]M3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1711821034
+8RS_gates.vo
+FRS_gates.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1711821034.000000
+!s107 RS_gates.vo|
+!s90 -work|work|RS_gates.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@r@s_gates
+vRS_gates_vlg_vec_tst
+R1
+!i10b 1
+!s100 @N3;64QHNg=2B7`@Q=4g_1
+IcXA=P2HaLhE^M31RUK:6e0
+R2
+R0
+w1711821033
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R5
+R6
+n@r@s_gates_vlg_vec_tst

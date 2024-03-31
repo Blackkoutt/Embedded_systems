@@ -1,0 +1,198 @@
+$comment
+	File created using the following command:
+		vcd file SW_to_LEDR.msim.vcd -direction
+$end
+$date
+	Wed Mar 06 13:47:46 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module SW_to_LEDR_vlg_vec_tst $end
+$var reg 10 ! SW [9:0] $end
+$var wire 1 " LEDR [9] $end
+$var wire 1 # LEDR [8] $end
+$var wire 1 $ LEDR [7] $end
+$var wire 1 % LEDR [6] $end
+$var wire 1 & LEDR [5] $end
+$var wire 1 ' LEDR [4] $end
+$var wire 1 ( LEDR [3] $end
+$var wire 1 ) LEDR [2] $end
+$var wire 1 * LEDR [1] $end
+$var wire 1 + LEDR [0] $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 3 SW[0]~input_o $end
+$var wire 1 4 SW[1]~input_o $end
+$var wire 1 5 SW[2]~input_o $end
+$var wire 1 6 SW[3]~input_o $end
+$var wire 1 7 SW[4]~input_o $end
+$var wire 1 8 SW[5]~input_o $end
+$var wire 1 9 SW[6]~input_o $end
+$var wire 1 : SW[7]~input_o $end
+$var wire 1 ; SW[8]~input_o $end
+$var wire 1 < SW[9]~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010011010 !
+0+
+1*
+0)
+1(
+1'
+0&
+0%
+1$
+0#
+1"
+0,
+1-
+x.
+1/
+10
+11
+02
+03
+14
+05
+16
+17
+08
+09
+1:
+0;
+1<
+$end
+#20000
+b1011011010 !
+b1011111010 !
+b1011101010 !
+b1011100010 !
+b1011100000 !
+b1011100001 !
+13
+04
+06
+07
+18
+19
+1%
+1&
+0'
+0(
+0*
+1+
+#40000
+b1111100001 !
+b1101100001 !
+b1101100101 !
+b1100100101 !
+b1100000101 !
+b1100010101 !
+b1100010111 !
+14
+15
+17
+08
+09
+0:
+1;
+1#
+0$
+0%
+0&
+1'
+1)
+1*
+#60000
+b100010111 !
+b100011111 !
+b100011110 !
+b100011010 !
+b101011010 !
+b101111010 !
+03
+05
+16
+18
+19
+0<
+0"
+1%
+1&
+1(
+0)
+0+
+#80000
+b101111000 !
+b101111001 !
+b100111001 !
+13
+04
+09
+0%
+0*
+1+
+#100000
+b100101001 !
+b100100001 !
+b100100101 !
+b100000101 !
+b100000111 !
+b100000110 !
+03
+14
+15
+06
+07
+08
+0&
+0'
+0(
+1)
+1*
+0+
+#120000
+b110 !
+b10000110 !
+b1010000110 !
+b1011000110 !
+b1011000010 !
+b1011000011 !
+13
+05
+19
+1:
+0;
+1<
+1"
+0#
+1$
+1%
+0)
+1+
+#140000
+b1011001011 !
+b1001001011 !
+b1000001011 !
+16
+09
+0:
+0$
+0%
+1(
+#160000

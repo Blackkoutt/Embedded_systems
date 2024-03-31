@@ -1,0 +1,34 @@
+|latch_FDDP_FDDN_on_board
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+LEDR[0] <= latch_FDDP_FDDN:latch_FDDP_FDDN0.port2
+LEDR[1] <= latch_FDDP_FDDN:latch_FDDP_FDDN0.port3
+LEDR[2] <= latch_FDDP_FDDN:latch_FDDP_FDDN0.port4
+
+
+|latch_FDDP_FDDN_on_board|latch_FDDP_FDDN:latch_FDDP_FDDN0
+D => D.IN3
+clk => clk.IN3
+Qa <= D_latch:latchD.port2
+Qb <= FDD_posedge:FDDP.port2
+Qc <= FDD_negedge:FDDN.port2
+
+
+|latch_FDDP_FDDN_on_board|latch_FDDP_FDDN:latch_FDDP_FDDN0|D_latch:latchD
+D => Q$latch.DATAIN
+Clk => Q$latch.LATCH_ENABLE
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|latch_FDDP_FDDN_on_board|latch_FDDP_FDDN:latch_FDDP_FDDN0|FDD_posedge:FDDP
+D => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|latch_FDDP_FDDN_on_board|latch_FDDP_FDDN:latch_FDDP_FDDN0|FDD_negedge:FDDN
+D => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,14 @@
+module ripple_carry_4bit_adder(
+	input cin,
+	input wire [3:0] a,b,
+	output wire[3:0] s, 
+	output cout);
+	
+	wire [2:0] temp_cout
+	
+	adder_1_bit_assign ex0(a[0], b[0], cin, s[0], temp_cout[0]);
+	adder_1_bit_assign ex1(a[1], b[1], temp_cout[0], s[0], temp_cout[1]);
+	adder_1_bit_assign ex2(a[2], b[2], temp_cout[1], s[0], temp_cout[2]);
+	adder_1_bit_assign ex3(a[3], b[4], temp_cout[2], s[0], cout);
+	
+endmodule

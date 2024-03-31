@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "bcd_val_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_val_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_val_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_val_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bcd_val_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_val[0]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_val[1]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_val[4]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_val[3]",
+					"strict" : false
+				},
+				{
+					"name" : "binary_val[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

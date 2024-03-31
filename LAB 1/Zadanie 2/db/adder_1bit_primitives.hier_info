@@ -1,0 +1,11 @@
+|adder_1bit_primitives
+a => g1.IN0
+a => g2.IN0
+b => g1.IN1
+b => g2.IN1
+cin => g3.IN1
+cin => g5.IN1
+s <= g5.DB_MAX_OUTPUT_PORT_TYPE
+cout <= g4.DB_MAX_OUTPUT_PORT_TYPE
+
+

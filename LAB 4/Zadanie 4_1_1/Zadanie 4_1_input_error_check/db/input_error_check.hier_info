@@ -1,0 +1,36 @@
+|input_error_check
+x[0] => x[0].IN1
+x[1] => x[1].IN1
+x[2] => x[2].IN1
+x[3] => x[3].IN1
+y[0] => y[0].IN1
+y[1] => y[1].IN1
+y[2] => y[2].IN1
+y[3] => y[3].IN1
+error <= error.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|input_error_check|comparator:comp0
+V[0] => LessThan0.IN4
+V[1] => LessThan0.IN3
+V[2] => LessThan0.IN2
+V[3] => LessThan0.IN1
+val[0] => LessThan0.IN8
+val[1] => LessThan0.IN7
+val[2] => LessThan0.IN6
+val[3] => LessThan0.IN5
+z <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|input_error_check|comparator:comp1
+V[0] => LessThan0.IN4
+V[1] => LessThan0.IN3
+V[2] => LessThan0.IN2
+V[3] => LessThan0.IN1
+val[0] => LessThan0.IN8
+val[1] => LessThan0.IN7
+val[2] => LessThan0.IN6
+val[3] => LessThan0.IN5
+z <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

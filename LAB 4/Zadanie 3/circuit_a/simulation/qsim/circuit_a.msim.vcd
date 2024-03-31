@@ -1,0 +1,161 @@
+$comment
+	File created using the following command:
+		vcd file circuit_a.msim.vcd -direction
+$end
+$date
+	Mon Mar 18 19:33:23 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module circuit_a_vlg_vec_tst $end
+$var reg 4 ! V [3:0] $end
+$var wire 1 " A [3] $end
+$var wire 1 # A [2] $end
+$var wire 1 $ A [1] $end
+$var wire 1 % A [0] $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 - V[0]~input_o $end
+$var wire 1 . V[1]~input_o $end
+$var wire 1 / V[2]~input_o $end
+$var wire 1 0 Add0~0_combout $end
+$var wire 1 1 V[3]~input_o $end
+$var wire 1 2 Add0~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0%
+1$
+1#
+0"
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+01
+02
+$end
+#10000
+b1 !
+1-
+1%
+#20000
+b11 !
+b10 !
+1.
+0-
+0%
+0$
+10
+12
+1"
+0#
+#30000
+b11 !
+1-
+1%
+#40000
+b111 !
+b101 !
+b100 !
+0.
+1/
+0-
+0%
+1$
+#50000
+b101 !
+1-
+1%
+#60000
+b111 !
+b110 !
+1.
+0-
+0%
+0$
+00
+1#
+#70000
+b111 !
+1-
+1%
+#80000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0.
+0/
+11
+0-
+0%
+1$
+#90000
+b1001 !
+1-
+1%
+#100000
+b1011 !
+b1010 !
+1.
+0-
+0%
+0$
+10
+02
+0"
+0#
+#110000
+b1011 !
+1-
+1%
+#120000
+b1111 !
+b1101 !
+b1100 !
+0.
+1/
+0-
+0%
+1$
+#130000
+b1101 !
+1-
+1%
+#140000
+b1111 !
+b1110 !
+1.
+0-
+0%
+0$
+00
+1#
+#150000
+b1111 !
+1-
+1%
+#160000

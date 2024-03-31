@@ -1,0 +1,11 @@
+|decoder_error_check
+dec_out[6] => Equal0.IN6
+dec_out[5] => Equal0.IN5
+dec_out[4] => Equal0.IN4
+dec_out[3] => Equal0.IN3
+dec_out[2] => Equal0.IN2
+dec_out[1] => Equal0.IN1
+dec_out[0] => Equal0.IN0
+err_state <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

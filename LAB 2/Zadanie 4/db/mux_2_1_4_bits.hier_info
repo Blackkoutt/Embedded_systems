@@ -1,0 +1,48 @@
+|mux_2_1_4_bits
+X[0] => X[0].IN1
+X[1] => X[1].IN1
+X[2] => X[2].IN1
+X[3] => X[3].IN1
+Y[0] => Y[0].IN1
+Y[1] => Y[1].IN1
+Y[2] => Y[2].IN1
+Y[3] => Y[3].IN1
+s => s.IN4
+M[0] <= mux_2_1_1_bit:mux1.port3
+M[1] <= mux_2_1_1_bit:mux2.port3
+M[2] <= mux_2_1_1_bit:mux3.port3
+M[3] <= mux_2_1_1_bit:mux4.port3
+
+
+|mux_2_1_4_bits|mux_2_1_1_bit:mux1
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_2_1_4_bits|mux_2_1_1_bit:mux2
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_2_1_4_bits|mux_2_1_1_bit:mux3
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_2_1_4_bits|mux_2_1_1_bit:mux4
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

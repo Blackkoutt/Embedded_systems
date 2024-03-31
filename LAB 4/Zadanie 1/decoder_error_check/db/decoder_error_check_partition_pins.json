@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "err_state",
+					"strict" : false
+				},
+				{
+					"name" : "dec_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dec_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dec_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dec_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dec_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dec_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dec_out[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

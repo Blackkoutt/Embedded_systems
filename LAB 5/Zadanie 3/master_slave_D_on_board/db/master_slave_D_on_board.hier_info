@@ -1,0 +1,28 @@
+|master_slave_D_on_board
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+LEDR[0] <= master_slave_D:M_S_D.port2
+
+
+|master_slave_D_on_board|master_slave_D:M_S_D
+D => D.IN1
+clk => clk.IN1
+Q <= latch_D:slave.port2
+
+
+|master_slave_D_on_board|master_slave_D:M_S_D|latch_D:master
+D => S_g.IN0
+D => R_g.IN0
+clk => S_g.IN1
+clk => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|master_slave_D_on_board|master_slave_D:M_S_D|latch_D:slave
+D => S_g.IN0
+D => R_g.IN0
+clk => S_g.IN1
+clk => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

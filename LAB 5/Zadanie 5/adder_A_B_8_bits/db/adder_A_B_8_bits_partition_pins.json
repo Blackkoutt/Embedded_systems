@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "reg_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sum[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cout",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "areset",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A_or_B[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

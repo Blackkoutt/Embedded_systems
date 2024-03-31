@@ -1,0 +1,9 @@
+module latch_FDDP_FDDN(input D, clk, 
+								output Qa, Qb, Qc);
+								
+								
+	D_latch latch0(D, clk, Qa);
+	FDD_posedge ffDp(D, clk, Qb);
+	FDD_negedge ffDn(D, clk, Qc);
+	
+endmodule

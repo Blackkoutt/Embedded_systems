@@ -1,0 +1,11 @@
+module greater_than_9_comp(input [3:0] V,
+									output z);
+									
+	always @(*) begin
+		if(V>1'd9)
+			z = 1'b1;
+		else
+			z = 1'b0;
+	end
+	
+endmodule

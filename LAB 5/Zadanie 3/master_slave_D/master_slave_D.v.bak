@@ -1,0 +1,8 @@
+module master_slave_D(input D, clk, 
+			output Q);
+
+	wire Qm;
+	latch_D master(D, ~clk, Qm);
+	latch_D slave(Qm, clk, Q);
+	
+endmodule

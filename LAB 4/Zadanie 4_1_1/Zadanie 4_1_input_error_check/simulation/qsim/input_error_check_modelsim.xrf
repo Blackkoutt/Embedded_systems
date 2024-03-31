@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 3/greater_than_9_comp/greater_than_9_comp.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 4_1_1/Zadanie 4_1_input_error_check/input_error_check.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 4_1_1/Zadanie 4_1_input_error_check/db/input_error_check.cbx.xml
+design_name = input_error_check
+instance = comp, \error~output , error~output, input_error_check, 1
+instance = comp, \x[1]~input , x[1]~input, input_error_check, 1
+instance = comp, \y[2]~input , y[2]~input, input_error_check, 1
+instance = comp, \y[3]~input , y[3]~input, input_error_check, 1
+instance = comp, \x[2]~input , x[2]~input, input_error_check, 1
+instance = comp, \x[3]~input , x[3]~input, input_error_check, 1
+instance = comp, \y[1]~input , y[1]~input, input_error_check, 1
+instance = comp, \error~0 , error~0, input_error_check, 1
+instance = comp, \x[0]~input , x[0]~input, input_error_check, 1
+instance = comp, \y[0]~input , y[0]~input, input_error_check, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, input_error_check, 1

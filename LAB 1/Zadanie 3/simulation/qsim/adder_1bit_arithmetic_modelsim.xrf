@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 1/Zadanie 3/adder_1bit_arithmetic.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 1/Zadanie 3/Waveform.vwf
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 1/Zadanie 3/Waveform1.vwf
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 1/Zadanie 3/db/adder_1bit_arithmetic.cbx.xml
+design_name = adder_1bit_arithmetic
+instance = comp, \cout~output , cout~output, adder_1bit_arithmetic, 1
+instance = comp, \s~output , s~output, adder_1bit_arithmetic, 1
+instance = comp, \a~input , a~input, adder_1bit_arithmetic, 1
+instance = comp, \cin~input , cin~input, adder_1bit_arithmetic, 1
+instance = comp, \b~input , b~input, adder_1bit_arithmetic, 1
+instance = comp, \Add1~0 , Add1~0, adder_1bit_arithmetic, 1
+instance = comp, \Add1~1 , Add1~1, adder_1bit_arithmetic, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, adder_1bit_arithmetic, 1

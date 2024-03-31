@@ -1,0 +1,126 @@
+$comment
+	File created using the following command:
+		vcd file master_slave_D.msim.vcd -direction
+$end
+$date
+	Sat Mar 30 19:12:54 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module master_slave_D_vlg_vec_tst $end
+$var reg 1 ! D $end
+$var reg 1 " clk $end
+$var wire 1 # Q $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 + D~input_o $end
+$var wire 1 , clk~input_o $end
+$var wire 1 - master|Qa~0_combout $end
+$var wire 1 . Qm~combout $end
+$var wire 1 / slave|Qa~0_combout $end
+$var wire 1 0 Qs~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+1-
+0.
+x/
+x0
+$end
+#5000
+1!
+1+
+0-
+1.
+#7500
+1"
+1,
+0/
+10
+1#
+#10000
+0!
+0+
+#15000
+1!
+1+
+#20000
+0"
+0!
+0,
+0+
+1-
+0.
+#25000
+1"
+1,
+1/
+00
+0#
+#30000
+1!
+0"
+1+
+0,
+0-
+1.
+#35000
+0!
+0+
+1-
+0.
+#40000
+1!
+1+
+0-
+1.
+#45000
+0!
+0+
+1-
+0.
+#50000
+1!
+1+
+0-
+1.
+#52500
+1"
+1,
+0/
+10
+1#
+#55000
+0!
+0"
+0+
+0,
+1-
+0.
+#60000

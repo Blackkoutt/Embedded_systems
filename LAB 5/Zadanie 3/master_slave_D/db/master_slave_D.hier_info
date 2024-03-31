@@ -1,0 +1,22 @@
+|master_slave_D
+D => D.IN1
+clk => clk.IN1
+Q << Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|master_slave_D|latch_D:master
+D => S_g.IN0
+D => R_g.IN0
+clk => S_g.IN1
+clk => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|master_slave_D|latch_D:slave
+D => S_g.IN0
+D => R_g.IN0
+clk => S_g.IN1
+clk => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+

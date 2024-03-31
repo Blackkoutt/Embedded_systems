@@ -1,0 +1,7 @@
+module ripple_carry_4bit_adder_on_board(
+	input [0:8] SW,
+	output [0:4] LEDR);
+	
+	ripple_carry_4bit_adder ex(SW[8], [3:0] SW, [7:4] SW, [3:0] LEDR, LEDR[4]);
+
+endmodule

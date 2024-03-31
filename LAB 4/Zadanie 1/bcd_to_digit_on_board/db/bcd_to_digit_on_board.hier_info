@@ -1,0 +1,137 @@
+|bcd_to_digit_on_board
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+HEX1[6] <= bcd_to_digit:dec_bcd.port4
+HEX1[5] <= bcd_to_digit:dec_bcd.port4
+HEX1[4] <= bcd_to_digit:dec_bcd.port4
+HEX1[3] <= bcd_to_digit:dec_bcd.port4
+HEX1[2] <= bcd_to_digit:dec_bcd.port4
+HEX1[1] <= bcd_to_digit:dec_bcd.port4
+HEX1[0] <= bcd_to_digit:dec_bcd.port4
+HEX0[6] <= bcd_to_digit:dec_bcd.port5
+HEX0[5] <= bcd_to_digit:dec_bcd.port5
+HEX0[4] <= bcd_to_digit:dec_bcd.port5
+HEX0[3] <= bcd_to_digit:dec_bcd.port5
+HEX0[2] <= bcd_to_digit:dec_bcd.port5
+HEX0[1] <= bcd_to_digit:dec_bcd.port5
+HEX0[0] <= bcd_to_digit:dec_bcd.port5
+LEDR[0] <= bcd_to_digit:dec_bcd.port3
+LEDR[1] <= bcd_to_digit:dec_bcd.port3
+LEDR[2] <= bcd_to_digit:dec_bcd.port3
+LEDR[3] <= bcd_to_digit:dec_bcd.port3
+LEDR[4] <= bcd_to_digit:dec_bcd.port3
+LEDR[5] <= bcd_to_digit:dec_bcd.port3
+LEDR[6] <= bcd_to_digit:dec_bcd.port3
+LEDR[7] <= bcd_to_digit:dec_bcd.port3
+LEDR[8] <= bcd_to_digit:dec_bcd.port2
+LEDR[9] <= bcd_to_digit:dec_bcd.port2
+
+
+|bcd_to_digit_on_board|bcd_to_digit:dec_bcd
+a1[0] => a1[0].IN2
+a1[1] => a1[1].IN2
+a1[2] => a1[2].IN2
+a1[3] => a1[3].IN2
+a0[0] => a0[0].IN2
+a0[1] => a0[1].IN2
+a0[2] => a0[2].IN2
+a0[3] => a0[3].IN2
+error[0] <= decoder_error_check:check0.port1
+error[1] <= decoder_error_check:check1.port1
+leds[0] <= SW_to_LEDR:SW_to_led.port1
+leds[1] <= SW_to_LEDR:SW_to_led.port1
+leds[2] <= SW_to_LEDR:SW_to_led.port1
+leds[3] <= SW_to_LEDR:SW_to_led.port1
+leds[4] <= SW_to_LEDR:SW_to_led.port1
+leds[5] <= SW_to_LEDR:SW_to_led.port1
+leds[6] <= SW_to_LEDR:SW_to_led.port1
+leds[7] <= SW_to_LEDR:SW_to_led.port1
+a1_out[6] <= a1_out[6].DB_MAX_OUTPUT_PORT_TYPE
+a1_out[5] <= a1_out[5].DB_MAX_OUTPUT_PORT_TYPE
+a1_out[4] <= a1_out[4].DB_MAX_OUTPUT_PORT_TYPE
+a1_out[3] <= a1_out[3].DB_MAX_OUTPUT_PORT_TYPE
+a1_out[2] <= a1_out[2].DB_MAX_OUTPUT_PORT_TYPE
+a1_out[1] <= a1_out[1].DB_MAX_OUTPUT_PORT_TYPE
+a1_out[0] <= a1_out[0].DB_MAX_OUTPUT_PORT_TYPE
+a0_out[6] <= a0_out[6].DB_MAX_OUTPUT_PORT_TYPE
+a0_out[5] <= a0_out[5].DB_MAX_OUTPUT_PORT_TYPE
+a0_out[4] <= a0_out[4].DB_MAX_OUTPUT_PORT_TYPE
+a0_out[3] <= a0_out[3].DB_MAX_OUTPUT_PORT_TYPE
+a0_out[2] <= a0_out[2].DB_MAX_OUTPUT_PORT_TYPE
+a0_out[1] <= a0_out[1].DB_MAX_OUTPUT_PORT_TYPE
+a0_out[0] <= a0_out[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_to_digit_on_board|bcd_to_digit:dec_bcd|SW_to_LEDR:SW_to_led
+SW[0] => LEDR[0].DATAIN
+SW[1] => LEDR[1].DATAIN
+SW[2] => LEDR[2].DATAIN
+SW[3] => LEDR[3].DATAIN
+SW[4] => LEDR[4].DATAIN
+SW[5] => LEDR[5].DATAIN
+SW[6] => LEDR[6].DATAIN
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= SW[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_to_digit_on_board|bcd_to_digit:dec_bcd|decoder_hex_10:dec0
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_to_digit_on_board|bcd_to_digit:dec_bcd|decoder_error_check:check0
+dec_out[6] => Equal0.IN6
+dec_out[5] => Equal0.IN5
+dec_out[4] => Equal0.IN4
+dec_out[3] => Equal0.IN3
+dec_out[2] => Equal0.IN2
+dec_out[1] => Equal0.IN1
+dec_out[0] => Equal0.IN0
+err_state <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_to_digit_on_board|bcd_to_digit:dec_bcd|decoder_hex_10:dec1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|bcd_to_digit_on_board|bcd_to_digit:dec_bcd|decoder_error_check:check1
+dec_out[6] => Equal0.IN6
+dec_out[5] => Equal0.IN5
+dec_out[4] => Equal0.IN4
+dec_out[3] => Equal0.IN3
+dec_out[2] => Equal0.IN2
+dec_out[1] => Equal0.IN1
+dec_out[0] => Equal0.IN0
+err_state <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

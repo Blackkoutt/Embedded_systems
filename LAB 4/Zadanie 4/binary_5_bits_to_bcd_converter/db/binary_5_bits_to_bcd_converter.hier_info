@@ -1,0 +1,96 @@
+|binary_5_bits_to_bcd_converter
+binary_val[0] => binary_val[0].IN3
+binary_val[1] => binary_val[1].IN3
+binary_val[2] => binary_val[2].IN3
+binary_val[3] => binary_val[3].IN3
+binary_val[4] => binary_val[4].IN3
+bcd_val_0[0] <= mux_2_1_4_bits:mux0.port3
+bcd_val_0[1] <= mux_2_1_4_bits:mux0.port3
+bcd_val_0[2] <= mux_2_1_4_bits:mux0.port3
+bcd_val_0[3] <= mux_2_1_4_bits:mux0.port3
+bcd_val_1[0] <= z.DB_MAX_OUTPUT_PORT_TYPE
+bcd_val_1[1] <= <GND>
+bcd_val_1[2] <= <GND>
+bcd_val_1[3] <= <GND>
+
+
+|binary_5_bits_to_bcd_converter|comparator:comp0
+V[0] => LessThan0.IN5
+V[1] => LessThan0.IN4
+V[2] => LessThan0.IN3
+V[3] => LessThan0.IN2
+V[4] => LessThan0.IN1
+val[0] => LessThan0.IN10
+val[1] => LessThan0.IN9
+val[2] => LessThan0.IN8
+val[3] => LessThan0.IN7
+val[4] => LessThan0.IN6
+z <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_5_bits_to_bcd_converter|circuit_a:circuit_A
+V[0] => Add0.IN10
+V[1] => Add0.IN9
+V[2] => Add0.IN8
+V[3] => Add0.IN7
+V[4] => Add0.IN6
+val[0] => Add0.IN5
+val[1] => Add0.IN4
+val[2] => Add0.IN3
+val[3] => Add0.IN2
+val[4] => Add0.IN1
+A[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+A[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+A[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+A[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+A[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_5_bits_to_bcd_converter|mux_2_1_4_bits:mux0
+X[0] => X[0].IN1
+X[1] => X[1].IN1
+X[2] => X[2].IN1
+X[3] => X[3].IN1
+Y[0] => Y[0].IN1
+Y[1] => Y[1].IN1
+Y[2] => Y[2].IN1
+Y[3] => Y[3].IN1
+s => s.IN4
+M[0] <= mux_2_1_1_bit:mux1.port3
+M[1] <= mux_2_1_1_bit:mux2.port3
+M[2] <= mux_2_1_1_bit:mux3.port3
+M[3] <= mux_2_1_1_bit:mux4.port3
+
+
+|binary_5_bits_to_bcd_converter|mux_2_1_4_bits:mux0|mux_2_1_1_bit:mux1
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_5_bits_to_bcd_converter|mux_2_1_4_bits:mux0|mux_2_1_1_bit:mux2
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_5_bits_to_bcd_converter|mux_2_1_4_bits:mux0|mux_2_1_1_bit:mux3
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_5_bits_to_bcd_converter|mux_2_1_4_bits:mux0|mux_2_1_1_bit:mux4
+x => m.IN0
+y => m.IN0
+s => m.IN1
+s => m.IN1
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

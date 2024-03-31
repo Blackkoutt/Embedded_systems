@@ -1,0 +1,295 @@
+$comment
+	File created using the following command:
+		vcd file mux_4_1_2_bits.msim.vcd -direction
+$end
+$date
+	Wed Mar 13 23:40:23 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux_4_1_2_bits_vlg_vec_tst $end
+$var reg 2 ! S [1:0] $end
+$var reg 2 " U [1:0] $end
+$var reg 2 # V [1:0] $end
+$var reg 2 $ W [1:0] $end
+$var reg 2 % X [1:0] $end
+$var wire 1 & M [1] $end
+$var wire 1 ' M [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 / W[0]~input_o $end
+$var wire 1 0 S[1]~input_o $end
+$var wire 1 1 V[0]~input_o $end
+$var wire 1 2 U[0]~input_o $end
+$var wire 1 3 S[0]~input_o $end
+$var wire 1 4 X[0]~input_o $end
+$var wire 1 5 mux0|mux_uvwx|m~0_combout $end
+$var wire 1 6 U[1]~input_o $end
+$var wire 1 7 W[1]~input_o $end
+$var wire 1 8 V[1]~input_o $end
+$var wire 1 9 X[1]~input_o $end
+$var wire 1 : mux1|mux_uvwx|m~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b1 #
+b10 $
+b11 %
+0'
+0&
+0(
+1)
+x*
+1+
+1,
+1-
+0.
+0/
+00
+11
+02
+03
+14
+05
+06
+17
+08
+19
+0:
+$end
+#10000
+b1 "
+b0 #
+01
+12
+15
+1'
+#20000
+b11 "
+b10 #
+b0 $
+b1 $
+b1 %
+b0 %
+b10 "
+b11 #
+04
+09
+1/
+07
+11
+18
+02
+16
+1:
+05
+0'
+1&
+#30000
+b1 #
+b0 $
+b11 "
+b0 #
+12
+0/
+01
+08
+15
+1'
+#40000
+b1 !
+b1 "
+b10 $
+b10 %
+b11 %
+14
+19
+17
+06
+13
+0:
+05
+0'
+0&
+#50000
+b1 #
+b11 "
+b1 %
+b0 %
+04
+09
+16
+11
+15
+1'
+#60000
+b11 #
+b11 $
+b10 "
+b1 $
+b10 #
+b0 "
+b10 %
+b11 %
+14
+19
+02
+06
+1/
+07
+01
+18
+1:
+05
+0'
+1&
+#70000
+b0 $
+b11 #
+b1 %
+b0 %
+04
+09
+11
+0/
+15
+1'
+#80000
+b11 !
+b10 !
+b1 #
+b10 "
+b10 %
+b11 %
+14
+19
+16
+08
+03
+10
+0:
+05
+0'
+0&
+#90000
+b11 "
+b1 $
+b0 #
+b10 #
+b1 %
+b0 %
+04
+09
+01
+18
+1/
+12
+15
+1'
+#100000
+b11 $
+b1 "
+b0 "
+b10 $
+b11 #
+b1 #
+b10 %
+b11 %
+14
+19
+11
+08
+02
+06
+0/
+17
+1:
+05
+0'
+1&
+#110000
+b11 $
+b0 #
+b1 %
+b0 %
+04
+09
+01
+1/
+15
+1'
+#120000
+b11 !
+b10 "
+b11 "
+b10 $
+b1 #
+11
+0/
+12
+16
+13
+0:
+05
+0'
+0&
+#130000
+b11 #
+b1 %
+b1 "
+b0 "
+02
+06
+14
+18
+15
+1'
+#140000
+b0 $
+b11 %
+b1 $
+b10 #
+b0 #
+b10 %
+b10 "
+b11 "
+12
+16
+01
+08
+04
+19
+1/
+07
+1:
+05
+0'
+1&
+#150000
+b0 $
+b11 %
+b1 "
+b0 "
+02
+06
+14
+0/
+15
+1'
+#160000

@@ -1,0 +1,165 @@
+$comment
+	File created using the following command:
+		vcd file bcd_converter.msim.vcd -direction
+$end
+$date
+	Thu Mar 21 19:53:12 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module binary_to_bcd_converter_vlg_vec_tst $end
+$var reg 5 ! binary [4:0] $end
+$var wire 1 " bcd [3] $end
+$var wire 1 # bcd [2] $end
+$var wire 1 $ bcd [1] $end
+$var wire 1 % bcd [0] $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , binary[4]~input_o $end
+$var wire 1 - ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 . binary[0]~input_o $end
+$var wire 1 / binary[1]~input_o $end
+$var wire 1 0 binary[2]~input_o $end
+$var wire 1 1 Add0~0_combout $end
+$var wire 1 2 binary[3]~input_o $end
+$var wire 1 3 Add0~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010 !
+0%
+0$
+0#
+0"
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+1/
+00
+11
+12
+03
+$end
+#10000
+b1011 !
+1.
+1%
+#20000
+b1111 !
+b1101 !
+b1100 !
+0/
+10
+0.
+0%
+1$
+#30000
+b1101 !
+1.
+1%
+#40000
+b1111 !
+b1110 !
+1/
+0.
+0%
+0$
+01
+1#
+#50000
+b1111 !
+1.
+1%
+#60000
+b11111 !
+b10111 !
+b10011 !
+b10001 !
+b10000 !
+0/
+00
+02
+1,
+0.
+0%
+1$
+#70000
+b10001 !
+1.
+1%
+#80000
+b10011 !
+b10010 !
+1/
+0.
+0%
+0$
+11
+13
+1"
+0#
+#90000
+b10011 !
+1.
+1%
+#100000
+b10111 !
+b10101 !
+b10100 !
+0/
+10
+0.
+0%
+1$
+#110000
+b10101 !
+1.
+1%
+#120000
+b10111 !
+b10110 !
+1/
+0.
+0%
+0$
+01
+1#
+#130000
+b10111 !
+1.
+1%
+#140000
+b11111 !
+b11011 !
+b11001 !
+b11000 !
+0/
+00
+12
+0.
+0%
+1$
+#150000
+b11001 !
+1.
+1%
+#160000

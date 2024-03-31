@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 3/greater_than_9_comp/greater_than_9_comp.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 3/greater_than_9_comp/db/greater_than_9_comp.cbx.xml
+design_name = greater_than_9_comp
+instance = comp, \z~output , z~output, greater_than_9_comp, 1
+instance = comp, \V[3]~input , V[3]~input, greater_than_9_comp, 1
+instance = comp, \V[1]~input , V[1]~input, greater_than_9_comp, 1
+instance = comp, \V[2]~input , V[2]~input, greater_than_9_comp, 1
+instance = comp, \LessThan0~0 , LessThan0~0, greater_than_9_comp, 1
+instance = comp, \V[0]~input , V[0]~input, greater_than_9_comp, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, greater_than_9_comp, 1

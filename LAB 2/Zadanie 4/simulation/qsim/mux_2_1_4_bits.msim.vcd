@@ -1,0 +1,173 @@
+$comment
+	File created using the following command:
+		vcd file mux_2_1_4_bits.msim.vcd -direction
+$end
+$date
+	Fri Mar 15 11:35:18 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux_2_1_4_bits_vlg_vec_tst $end
+$var reg 4 ! X [3:0] $end
+$var reg 4 " Y [3:0] $end
+$var reg 1 # s $end
+$var wire 1 $ M [3] $end
+$var wire 1 % M [2] $end
+$var wire 1 & M [1] $end
+$var wire 1 ' M [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 / s~input_o $end
+$var wire 1 0 Y[0]~input_o $end
+$var wire 1 1 X[0]~input_o $end
+$var wire 1 2 mux1|m~0_combout $end
+$var wire 1 3 X[1]~input_o $end
+$var wire 1 4 Y[1]~input_o $end
+$var wire 1 5 mux2|m~0_combout $end
+$var wire 1 6 X[2]~input_o $end
+$var wire 1 7 Y[2]~input_o $end
+$var wire 1 8 mux3|m~0_combout $end
+$var wire 1 9 X[3]~input_o $end
+$var wire 1 : Y[3]~input_o $end
+$var wire 1 ; mux4|m~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 !
+b100 "
+0#
+1'
+1&
+1%
+1$
+0(
+1)
+x*
+1+
+1,
+1-
+0.
+0/
+00
+11
+12
+13
+04
+15
+16
+17
+18
+19
+0:
+1;
+$end
+#20000
+b1101 !
+b110 "
+b111 "
+10
+14
+03
+05
+0&
+#40000
+b1111 "
+b1111 !
+b1101 "
+13
+04
+1:
+15
+1&
+#60000
+b111 !
+b110 !
+b1001 "
+b1000 "
+b100 !
+b1010 "
+00
+14
+07
+01
+03
+09
+0;
+05
+02
+0'
+0&
+0$
+#80000
+1#
+b10 "
+b1100 !
+b110 "
+b100 "
+1/
+19
+04
+17
+0:
+#100000
+b1000 !
+b101 "
+b0 !
+b1 "
+10
+07
+06
+09
+08
+12
+1'
+0%
+#120000
+b1 !
+b11 !
+b1001 "
+b111 !
+b1101 "
+17
+1:
+11
+13
+16
+18
+1;
+1$
+1%
+#140000
+b1111 "
+b1110 "
+b1111 !
+b1101 !
+b110 "
+b1001 !
+03
+06
+19
+00
+14
+0:
+0;
+15
+02
+0'
+1&
+0$
+#160000
