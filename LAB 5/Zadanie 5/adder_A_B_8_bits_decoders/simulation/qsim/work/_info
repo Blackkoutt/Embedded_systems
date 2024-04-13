@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 5/Zadanie 5/adder_A_B_8_bits_decoders/simulation/qsim
 vadder_A_B_8_bits_decoders
-Z1 !s110 1711799883
+Z1 !s110 1712764012
 !i10b 1
 !s100 aZeLhbm6:KZgY^0FaLmAK3
 I7CJ;BODLc<fP]:Chhn<X;2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1711799883
+w1712764011
 8adder_A_B_8_bits_decoders.vo
 Fadder_A_B_8_bits_decoders.vo
 L0 31
@@ -23,21 +23,21 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1711799883.000000
+!s108 1712764011.000000
 !s107 adder_A_B_8_bits_decoders.vo|
 !s90 -work|work|adder_A_B_8_bits_decoders.vo|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 nadder_@a_@b_8_bits_decoders
 vadder_A_B_8_bits_decoders_vlg_vec_tst
 R1
 !i10b 1
-!s100 Q2VWjUokC<W;T@?dX_VWE3
-IaN<`6OXJ^[WkVf7>aldW=0
+!s100 ^oKjg`zlB8I4hZOZWcIa>0
+IjA6NbOIGW804_=cEFRl;k1
 R2
 R0
-w1711799882
+w1712764010
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29
@@ -45,10 +45,10 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1712764012.000000
 !s107 Waveform.vwf.vt|
 !s90 -work|work|Waveform.vwf.vt|
 !i113 1
+R4
 R5
-R6
 nadder_@a_@b_8_bits_decoders_vlg_vec_tst

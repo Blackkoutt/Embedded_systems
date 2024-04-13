@@ -1,5 +1,5 @@
 EDA Netlist Writer report for RS_gates
-Sat Mar 30 18:50:34 2024
+Wed Apr 10 17:10:12 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sat Mar 30 18:50:34 2024 ;
+; EDA Netlist Writer Status ; Successful - Wed Apr 10 17:10:11 2024 ;
 ; Revision Name             ; RS_gates                              ;
 ; Top-level Entity Name     ; RS_gates                              ;
 ; Family                    ; Cyclone V                             ;
@@ -93,13 +93,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sat Mar 30 18:50:33 2024
+    Info: Processing started: Wed Apr 10 17:10:11 2024
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 5/Zadanie 1/RS_gates/simulation/qsim/" RS_gates -c RS_gates
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file RS_gates.vo in folder "C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 5/Zadanie 1/RS_gates/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4713 megabytes
-    Info: Processing ended: Sat Mar 30 18:50:34 2024
+    Info: Processing ended: Wed Apr 10 17:10:12 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

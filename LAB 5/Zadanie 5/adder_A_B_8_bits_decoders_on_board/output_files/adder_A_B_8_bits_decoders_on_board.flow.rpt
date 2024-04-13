@@ -1,5 +1,5 @@
 Flow report for adder_A_B_8_bits_decoders_on_board
-Tue Mar 26 19:00:55 2024
+Tue Apr 09 08:25:45 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Mar 26 19:00:48 2024       ;
+; Flow Status                     ; Successful - Tue Apr 09 08:25:38 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; adder_A_B_8_bits_decoders_on_board          ;
 ; Top-level Entity Name           ; adder_A_B_8_bits_decoders_on_board          ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 26 / 32,070 ( < 1 % )                       ;
+; Logic utilization (in ALMs)     ; 34 / 32,070 ( < 1 % )                       ;
 ; Total registers                 ; 8                                           ;
-; Total pins                      ; 53 / 457 ( 12 % )                           ;
+; Total pins                      ; 54 / 457 ( 12 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
 ; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+------------------------------------+
 ; Option            ; Setting                            ;
 +-------------------+------------------------------------+
-; Start date & time ; 03/26/2024 18:59:04                ;
+; Start date & time ; 04/09/2024 08:24:46                ;
 ; Main task         ; Compilation                        ;
 ; Revision Name     ; adder_A_B_8_bits_decoders_on_board ;
 +-------------------+------------------------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 145862339874939.171147594416828        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 145862339874939.171264388617848        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,11 +95,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4839 MB             ; 00:00:24                           ;
-; Fitter               ; 00:01:23     ; 1.0                     ; 6989 MB             ; 00:03:55                           ;
-; Assembler            ; 00:00:07     ; 1.0                     ; 4834 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.1                     ; 5182 MB             ; 00:00:06                           ;
-; Total                ; 00:01:46     ; --                      ; --                  ; 00:04:31                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4840 MB             ; 00:00:24                           ;
+; Fitter               ; 00:00:33     ; 1.0                     ; 6956 MB             ; 00:01:21                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4821 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.1                     ; 5180 MB             ; 00:00:06                           ;
+; Total                ; 00:00:57     ; --                      ; --                  ; 00:01:57                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

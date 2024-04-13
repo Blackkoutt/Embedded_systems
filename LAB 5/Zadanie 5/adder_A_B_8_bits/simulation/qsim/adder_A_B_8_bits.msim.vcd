@@ -3,7 +3,7 @@ $comment
 		vcd file adder_A_B_8_bits.msim.vcd -direction
 $end
 $date
-	Sat Mar 30 17:44:23 2024
+	Wed Apr 10 17:43:28 2024
 $end
 $version
 	ModelSim Version 10.5b
@@ -165,14 +165,14 @@ b11001000 !
 1.
 1-
 #10000
-b11001010 !
 1#
+b11001010 !
 b1001010 !
 b1010 !
+1<
 1@
 0E
 0F
-1<
 1=
 0U
 0S
@@ -199,8 +199,8 @@ b11010 !
 b10010 !
 b10011 !
 b10111 !
-b10101 !
 0#
+b10101 !
 b10010101 !
 b11010101 !
 1>

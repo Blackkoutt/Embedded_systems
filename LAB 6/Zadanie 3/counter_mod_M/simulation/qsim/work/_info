@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 6/Zadanie 3/counter_mod_M/simulation/qsim
+vcounter_mod_M
+Z1 !s110 1712769130
+!i10b 1
+!s100 AzzM`U>8Z`bUEfIXTC_Zi3
+I__MA9^KEhh:=O[JPl=GHV3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1712769129
+8counter_mod_M.vo
+Fcounter_mod_M.vo
+L0 31
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1712769130.000000
+!s107 counter_mod_M.vo|
+!s90 -work|work|counter_mod_M.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+ncounter_mod_@m
+vcounter_mod_M_vlg_vec_tst
+R1
+!i10b 1
+!s100 oQMjWfIHJ[>>c^k8]f`N`2
+IhVGTLE=e6zz:X77?fjS=P0
+R2
+R0
+R3
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+ncounter_mod_@m_vlg_vec_tst

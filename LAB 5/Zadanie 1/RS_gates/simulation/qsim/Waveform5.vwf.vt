@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "03/30/2024 18:50:32"
+// Generated on "04/10/2024 17:10:10"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          RS_gates
 // 
@@ -48,6 +48,15 @@ begin
 #65000 $finish;
 end 
 
+// Clk
+initial
+begin
+	Clk = 1'b1;
+	Clk = #20000 1'b0;
+	Clk = #20000 1'b1;
+	Clk = #5000 1'b0;
+end 
+
 // R
 initial
 begin
@@ -73,15 +82,6 @@ begin
 	S = #10000 1'b1;
 	S = #5000 1'b0;
 	S = #5000 1'b1;
-end 
-
-// Clk
-initial
-begin
-	Clk = 1'b1;
-	Clk = #20000 1'b0;
-	Clk = #20000 1'b1;
-	Clk = #5000 1'b0;
 end 
 endmodule
 

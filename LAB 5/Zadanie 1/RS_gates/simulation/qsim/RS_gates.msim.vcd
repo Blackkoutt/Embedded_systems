@@ -3,7 +3,7 @@ $comment
 		vcd file RS_gates.msim.vcd -direction
 $end
 $date
-	Sat Mar 30 18:50:34 2024
+	Wed Apr 10 17:10:12 2024
 $end
 $version
 	ModelSim Version 10.5b

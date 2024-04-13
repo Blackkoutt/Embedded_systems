@@ -1,0 +1,27 @@
+|shift_word
+clk => char_out[0]~reg0.CLK
+clk => char_out[1]~reg0.CLK
+clk => char_out[2]~reg0.CLK
+clk => char_out[3]~reg0.CLK
+clk => char_out[4]~reg0.CLK
+clk => char_out[5]~reg0.CLK
+clk => char_out[6]~reg0.CLK
+clk => char_out[7]~reg0.CLK
+direction => char_out.OUTPUTSELECT
+direction => char_out.OUTPUTSELECT
+direction => char_out.OUTPUTSELECT
+direction => char_out.OUTPUTSELECT
+direction => char_out.OUTPUTSELECT
+direction => char_out.OUTPUTSELECT
+direction => char_out.OUTPUTSELECT
+direction => char_out.OUTPUTSELECT
+char_out[0] <= char_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+char_out[1] <= char_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+char_out[2] <= char_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+char_out[3] <= char_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+char_out[4] <= char_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+char_out[5] <= char_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+char_out[6] <= char_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+char_out[7] <= char_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

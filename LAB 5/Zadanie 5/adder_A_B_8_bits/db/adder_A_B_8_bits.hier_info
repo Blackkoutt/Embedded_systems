@@ -9,23 +9,23 @@ A_or_B[6] => A_or_B[6].IN2
 A_or_B[7] => A_or_B[7].IN2
 areset => areset.IN1
 clk => clk.IN1
-reg_out[0] <= reg_out[0].DB_MAX_OUTPUT_PORT_TYPE
-reg_out[1] <= reg_out[1].DB_MAX_OUTPUT_PORT_TYPE
-reg_out[2] <= reg_out[2].DB_MAX_OUTPUT_PORT_TYPE
-reg_out[3] <= reg_out[3].DB_MAX_OUTPUT_PORT_TYPE
-reg_out[4] <= reg_out[4].DB_MAX_OUTPUT_PORT_TYPE
-reg_out[5] <= reg_out[5].DB_MAX_OUTPUT_PORT_TYPE
-reg_out[6] <= reg_out[6].DB_MAX_OUTPUT_PORT_TYPE
-reg_out[7] <= reg_out[7].DB_MAX_OUTPUT_PORT_TYPE
-sum[0] <= adder_8_bits:add0.port3
-sum[1] <= adder_8_bits:add0.port3
-sum[2] <= adder_8_bits:add0.port3
-sum[3] <= adder_8_bits:add0.port3
-sum[4] <= adder_8_bits:add0.port3
-sum[5] <= adder_8_bits:add0.port3
-sum[6] <= adder_8_bits:add0.port3
-sum[7] <= adder_8_bits:add0.port3
-cout <= adder_8_bits:add0.port2
+reg_out[0] << reg_out[0].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[1] << reg_out[1].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[2] << reg_out[2].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[3] << reg_out[3].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[4] << reg_out[4].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[5] << reg_out[5].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[6] << reg_out[6].DB_MAX_OUTPUT_PORT_TYPE
+reg_out[7] << reg_out[7].DB_MAX_OUTPUT_PORT_TYPE
+sum[0] << adder_8_bits:add0.port3
+sum[1] << adder_8_bits:add0.port3
+sum[2] << adder_8_bits:add0.port3
+sum[3] << adder_8_bits:add0.port3
+sum[4] << adder_8_bits:add0.port3
+sum[5] << adder_8_bits:add0.port3
+sum[6] << adder_8_bits:add0.port3
+sum[7] << adder_8_bits:add0.port3
+cout << adder_8_bits:add0.port2
 
 
 |adder_A_B_8_bits|reg_N_bits_with_areset:reg0

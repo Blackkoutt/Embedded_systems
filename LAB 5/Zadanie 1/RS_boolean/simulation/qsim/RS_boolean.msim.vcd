@@ -3,7 +3,7 @@ $comment
 		vcd file RS_boolean.msim.vcd -direction
 $end
 $date
-	Sat Mar 30 18:53:57 2024
+	Wed Apr 10 17:25:49 2024
 $end
 $version
 	ModelSim Version 10.5b
@@ -33,92 +33,3 @@ $var wire 1 / S~input_o $end
 $var wire 1 0 S_g~combout $end
 $var wire 1 1 Qb~combout $end
 $var wire 1 2 Qa~combout $end
-$upscope $end
-$upscope $end
-$enddefinitions $end
-#0
-$dumpvars
-1!
-0"
-1#
-1$
-0%
-1&
-x'
-1(
-1)
-1*
-0+
-1,
-0-
-0.
-1/
-10
-01
-12
-$end
-#5000
-1"
-1-
-1.
-02
-0$
-#10000
-0#
-0/
-00
-11
-#15000
-0"
-1#
-0-
-1/
-10
-0.
-01
-12
-1$
-#20000
-0!
-0#
-0,
-0/
-00
-#25000
-1#
-1/
-#30000
-1"
-0#
-1-
-0/
-#35000
-1#
-1/
-#40000
-1!
-0#
-1,
-0/
-1.
-02
-0$
-11
-#45000
-0"
-0!
-0-
-0,
-0.
-#50000
-1#
-1/
-#55000
-1"
-0#
-1-
-0/
-#60000
-1#
-1/
-#65000

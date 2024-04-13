@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 5/Zadanie 5/adder_A_B_8_bits/simulation/qsim
 vadder_A_B_8_bits
-Z1 !s110 1711817063
+Z1 !s110 1712763808
 !i10b 1
 !s100 h@_R1:cRh``EUb]mh8m]73
 IGDk^g@YmG]FVF78;4O7g20
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1711817062
+w1712763807
 8adder_A_B_8_bits.vo
 Fadder_A_B_8_bits.vo
 L0 31
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1711817063.000000
+Z4 !s108 1712763808.000000
 !s107 adder_A_B_8_bits.vo|
 !s90 -work|work|adder_A_B_8_bits.vo|
 !i113 1
@@ -33,11 +33,11 @@ nadder_@a_@b_8_bits
 vadder_A_B_8_bits_vlg_vec_tst
 R1
 !i10b 1
-!s100 fnIhBkneMC4OT1ef2Dj5n3
-I8XUd^1Ko9Z4FXn;YaT9ZS1
+!s100 CODCKMV]oPi5@5;1WnN4U3
+IIg3hIMnQP8]EXCM;TSPBJ3
 R2
 R0
-w1711817061
+w1712763806
 8Waveform4.vwf.vt
 FWaveform4.vwf.vt
 L0 29

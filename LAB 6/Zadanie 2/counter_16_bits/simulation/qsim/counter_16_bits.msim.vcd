@@ -1,0 +1,572 @@
+$comment
+	File created using the following command:
+		vcd file counter_16_bits.msim.vcd -direction
+$end
+$date
+	Wed Apr 10 18:33:30 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module counter_16_bits_vlg_vec_tst $end
+$var reg 1 ! aclr $end
+$var reg 1 " clk $end
+$var reg 1 # enable $end
+$var wire 1 $ Q [15] $end
+$var wire 1 % Q [14] $end
+$var wire 1 & Q [13] $end
+$var wire 1 ' Q [12] $end
+$var wire 1 ( Q [11] $end
+$var wire 1 ) Q [10] $end
+$var wire 1 * Q [9] $end
+$var wire 1 + Q [8] $end
+$var wire 1 , Q [7] $end
+$var wire 1 - Q [6] $end
+$var wire 1 . Q [5] $end
+$var wire 1 / Q [4] $end
+$var wire 1 0 Q [3] $end
+$var wire 1 1 Q [2] $end
+$var wire 1 2 Q [1] $end
+$var wire 1 3 Q [0] $end
+
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 ; clk~input_o $end
+$var wire 1 < clk~inputCLKENA0_outclk $end
+$var wire 1 = counter_16bit|Q[0]~0_combout $end
+$var wire 1 > aclr~input_o $end
+$var wire 1 ? enable~input_o $end
+$var wire 1 @ counter_16bit|Add0~1_sumout $end
+$var wire 1 A counter_16bit|Add0~2 $end
+$var wire 1 B counter_16bit|Add0~5_sumout $end
+$var wire 1 C counter_16bit|Add0~6 $end
+$var wire 1 D counter_16bit|Add0~9_sumout $end
+$var wire 1 E counter_16bit|Add0~10 $end
+$var wire 1 F counter_16bit|Add0~13_sumout $end
+$var wire 1 G counter_16bit|Add0~14 $end
+$var wire 1 H counter_16bit|Add0~17_sumout $end
+$var wire 1 I counter_16bit|Add0~18 $end
+$var wire 1 J counter_16bit|Add0~21_sumout $end
+$var wire 1 K counter_16bit|Add0~22 $end
+$var wire 1 L counter_16bit|Add0~25_sumout $end
+$var wire 1 M counter_16bit|Add0~26 $end
+$var wire 1 N counter_16bit|Add0~29_sumout $end
+$var wire 1 O counter_16bit|Add0~30 $end
+$var wire 1 P counter_16bit|Add0~33_sumout $end
+$var wire 1 Q counter_16bit|Add0~34 $end
+$var wire 1 R counter_16bit|Add0~37_sumout $end
+$var wire 1 S counter_16bit|Add0~38 $end
+$var wire 1 T counter_16bit|Add0~41_sumout $end
+$var wire 1 U counter_16bit|Add0~42 $end
+$var wire 1 V counter_16bit|Add0~45_sumout $end
+$var wire 1 W counter_16bit|Add0~46 $end
+$var wire 1 X counter_16bit|Add0~49_sumout $end
+$var wire 1 Y counter_16bit|Add0~50 $end
+$var wire 1 Z counter_16bit|Add0~53_sumout $end
+$var wire 1 [ counter_16bit|Add0~54 $end
+$var wire 1 \ counter_16bit|Add0~57_sumout $end
+$var wire 1 ] counter_16bit|Q [15] $end
+$var wire 1 ^ counter_16bit|Q [14] $end
+$var wire 1 _ counter_16bit|Q [13] $end
+$var wire 1 ` counter_16bit|Q [12] $end
+$var wire 1 a counter_16bit|Q [11] $end
+$var wire 1 b counter_16bit|Q [10] $end
+$var wire 1 c counter_16bit|Q [9] $end
+$var wire 1 d counter_16bit|Q [8] $end
+$var wire 1 e counter_16bit|Q [7] $end
+$var wire 1 f counter_16bit|Q [6] $end
+$var wire 1 g counter_16bit|Q [5] $end
+$var wire 1 h counter_16bit|Q [4] $end
+$var wire 1 i counter_16bit|Q [3] $end
+$var wire 1 j counter_16bit|Q [2] $end
+$var wire 1 k counter_16bit|Q [1] $end
+$var wire 1 l counter_16bit|Q [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+1#
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+04
+15
+x6
+17
+18
+19
+0:
+0;
+0<
+1=
+1>
+1?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+$end
+#2000
+1"
+1;
+1<
+1l
+13
+1@
+0=
+#4000
+0"
+0;
+0<
+#6000
+1"
+1;
+1<
+1k
+0l
+03
+12
+1=
+#8000
+0"
+0;
+0<
+#10000
+1"
+1;
+1<
+1l
+13
+1A
+0@
+0=
+1B
+#12000
+0#
+0"
+0?
+0;
+0<
+#14000
+1"
+1;
+1<
+#16000
+1#
+0"
+1?
+0;
+0<
+#18000
+1"
+1;
+1<
+1j
+0k
+0l
+03
+02
+11
+0A
+1C
+1=
+0B
+0C
+1B
+1D
+0D
+#20000
+0"
+0;
+0<
+#22000
+1"
+1;
+1<
+1l
+13
+1@
+0=
+#24000
+0"
+0;
+0<
+#26000
+1"
+1;
+1<
+1k
+0l
+03
+12
+1=
+#28000
+0"
+0;
+0<
+#30000
+1"
+1;
+1<
+1l
+13
+1A
+0@
+0=
+1C
+0B
+1D
+#32000
+0"
+0;
+0<
+#34000
+1"
+1;
+1<
+1i
+0j
+0k
+0l
+03
+02
+01
+10
+0A
+0C
+1E
+1=
+1B
+0D
+0E
+0B
+1D
+1F
+0F
+#36000
+0"
+0;
+0<
+#38000
+1"
+1;
+1<
+1l
+13
+1@
+0=
+#40000
+0"
+0;
+0<
+#42000
+1"
+1;
+1<
+1k
+0l
+03
+12
+1=
+#44000
+0"
+0;
+0<
+#46000
+1"
+1;
+1<
+1l
+13
+1A
+0@
+0=
+1B
+#48000
+0"
+0;
+0<
+#50000
+1"
+1;
+1<
+1j
+0k
+0l
+03
+02
+11
+0A
+1C
+1=
+0B
+0C
+1E
+1B
+0D
+0E
+1D
+1F
+0F
+#52000
+0"
+0;
+0<
+#54000
+1"
+1;
+1<
+1l
+13
+1@
+0=
+#56000
+0"
+0;
+0<
+#58000
+1"
+1;
+1<
+1k
+0l
+03
+12
+1=
+#60000
+0"
+0;
+0<
+#62000
+1"
+1;
+1<
+1l
+13
+1A
+0@
+0=
+1C
+0B
+1E
+0D
+1F
+#64000
+0"
+0;
+0<
+#66000
+1"
+1;
+1<
+1h
+0i
+0j
+0k
+0l
+03
+02
+01
+00
+1/
+0A
+0C
+0E
+1G
+1=
+1B
+1D
+0F
+0G
+0B
+0D
+1F
+1H
+0H
+#68000
+0"
+0;
+0<
+#70000
+1"
+1;
+1<
+1l
+13
+1@
+0=
+#72000
+0"
+0;
+0<
+#74000
+1"
+1;
+1<
+1k
+0l
+03
+12
+1=
+#76000
+0"
+0;
+0<
+#78000
+1"
+1;
+1<
+1l
+13
+1A
+0@
+0=
+1B
+#80000
+0"
+0;
+0<
+#82000
+1"
+1;
+1<
+1j
+0k
+0l
+03
+02
+11
+0A
+1C
+1=
+0B
+0C
+1B
+1D
+0D
+#84000
+0"
+0;
+0<
+#86000
+1"
+1;
+1<
+1l
+13
+1@
+0=
+#88000
+0"
+0;
+0<
+#90000
+1"
+1;
+1<
+1k
+0l
+03
+12
+1=
+#92000
+0!
+0"
+0>
+0;
+0<
+0k
+0j
+0h
+0/
+01
+02
+0F
+0B
+0@
+#94000
+1"
+1;
+1<
+#96000
+1!
+0"
+1>
+0;
+0<
+#98000
+1"
+1;
+1<
+1l
+13
+1@
+0=
+#100000

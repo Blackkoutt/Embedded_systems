@@ -3,7 +3,7 @@ $comment
 		vcd file adder_A_B_8_bits_decoders.msim.vcd -direction
 $end
 $date
-	Sat Mar 30 12:58:03 2024
+	Wed Apr 10 17:46:52 2024
 $end
 $version
 	ModelSim Version 10.5b
@@ -357,14 +357,14 @@ b11001000 !
 0F
 1M
 #10000
-b11001010 !
 1#
+b11001010 !
 b1001010 !
 b1010 !
+1l
 1Y
 0d
 0a
-1l
 1m
 01!
 03!
@@ -427,8 +427,8 @@ b11010 !
 b10010 !
 b10011 !
 b10111 !
-b10101 !
 0#
+b10101 !
 b10010101 !
 b11010101 !
 1V

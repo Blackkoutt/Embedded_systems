@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 6/Zadanie 2/counter_16_bits_decoders/simulation/qsim
+vcounter_16_bits_decoders
+Z1 !s110 1712587591
+!i10b 1
+!s100 0HE3;e3k?b393LDjP>l]j2
+Ilc10>9ak3`oTGHzVj=i]81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1712587590
+8counter_16_bits_decoders.vo
+Fcounter_16_bits_decoders.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1712587590.000000
+!s107 counter_16_bits_decoders.vo|
+!s90 -work|work|counter_16_bits_decoders.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vcounter_16_bits_decoders_vlg_vec_tst
+R1
+!i10b 1
+!s100 XfZIHT]OkneTMnR0M=9In1
+IXP1Do@UleVQJz3FaS_5mg3
+R2
+R0
+w1712587588
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1712587591.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R4
+R5

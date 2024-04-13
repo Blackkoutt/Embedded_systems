@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 6/Zadanie 3/counter_mod_M_1s_decoder_on_board/simulation/qsim
+vcounter_mod_M_1s_decoder_on_board
+Z1 !s110 1712605721
+!i10b 1
+!s100 NI_S6aIQ98HQUd>^9omHa2
+IfBHY^LTQlOo0JhK1DC7KM3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1712605720
+8counter_mod_M_1s_decoder_on_board.vo
+Fcounter_mod_M_1s_decoder_on_board.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1712605720.000000
+!s107 counter_mod_M_1s_decoder_on_board.vo|
+!s90 -work|work|counter_mod_M_1s_decoder_on_board.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+ncounter_mod_@m_1s_decoder_on_board
+vcounter_mod_M_1s_decoder_on_board_vlg_vec_tst
+R1
+!i10b 1
+!s100 MeDOzR11[7m;cU^G?<K^b2
+I=WOUO0NBd;Oig@;==m@MO0
+R2
+R0
+w1712605719
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1712605721.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5
+ncounter_mod_@m_1s_decoder_on_board_vlg_vec_tst

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 6/Zadanie 2/convert_to_bcd/simulation/qsim
+vconvert_to_bcd
+Z1 !s110 1712586819
+!i10b 1
+!s100 AaPTzzb_R@_WDSC`=M=5A1
+I^T_j>1aOHCQP8Van4FKMY0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1712586818
+8convert_to_bcd.vo
+Fconvert_to_bcd.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1712586819.000000
+!s107 convert_to_bcd.vo|
+!s90 -work|work|convert_to_bcd.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vconvert_to_bcd_vlg_vec_tst
+R1
+!i10b 1
+!s100 7@WNk?8ok>5YT@_AoZ85O2
+I>XPb1KOgH>1lXcgo=Ze]a3
+R2
+R0
+w1712586816
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6
