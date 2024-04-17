@@ -1,0 +1,18 @@
+module led_blink_timer #(parameter N=8)(input clk, output [N-1:0] led);
+	
+	wire slow_clk;
+	
+	timer #(5) timer_0_5s(clk, slow_clk);
+	/*timer #(5000000) timer_0_10s(clk, slow_clk); // 0.10s - mod 5 000 000
+	timer #(12500000) timer_0_25s(clk, slow_clk); // 0.25s - mod 12 500 000
+	timer #(25000000) timer_0_5s(clk, slow_clk); // 0.5s - mod 25 000 000
+	timer #(40000000) timer_0_8s(clk, slow_clk); // 0.8s - mod 40 000 000
+	timer #(50000000) timer_1s(clk, slow_clk); // 1s - mod 50 000 000
+	timer #(60000000) timer_1_2s(clk, slow_clk); // 1.2s - mod 60 000 000
+	timer #(75000000) timer_1_5s(clk, slow_clk); // 1.5s - mod 75 000 000
+	timer #(90000000) timer_1_8s(clk, slow_clk); // 1.8s - mod 90 000 000	
+	timer #(100000000) timer_2s(clk, slow_clk); // 2s - mod 100 000 000	*/
+	
+	led_blink #(N) (slow_clk, led[N-1:0]);
+	
+endmodule

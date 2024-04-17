@@ -1,0 +1,39 @@
+|led_blink_timer
+clk => clk.IN1
+led[0] << led_blink:comb_3.port1
+led[1] << led_blink:comb_3.port1
+led[2] << led_blink:comb_3.port1
+led[3] << led_blink:comb_3.port1
+led[4] << led_blink:comb_3.port1
+led[5] << led_blink:comb_3.port1
+led[6] << led_blink:comb_3.port1
+led[7] << led_blink:comb_3.port1
+
+
+|led_blink_timer|timer:timer_0_5s
+clk => slow_clk~reg0.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+slow_clk <= slow_clk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|led_blink_timer|led_blink:comb_3
+on => leds[0].DATAIN
+on => leds[7].DATAIN
+on => leds[6].DATAIN
+on => leds[5].DATAIN
+on => leds[4].DATAIN
+on => leds[3].DATAIN
+on => leds[2].DATAIN
+on => leds[1].DATAIN
+leds[0] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[7] <= on.DB_MAX_OUTPUT_PORT_TYPE
+
+

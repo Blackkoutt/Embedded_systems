@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/delay_10_ms/simulation/qsim
+vdelay_10_ms
+Z1 !s110 1713132844
+!i10b 1
+!s100 m;Y3kb`;fWl4g6K5Vz@Um3
+ImaMjN9YfESM[DWAF30oko0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713132843
+8delay_10_ms.vo
+Fdelay_10_ms.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713132844.000000
+!s107 delay_10_ms.vo|
+!s90 -work|work|delay_10_ms.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdelay_10_ms_vlg_vec_tst
+R1
+!i10b 1
+!s100 2WiCVMhKIm_j3]4d3J<KG3
+IkeKaUlPbPjFh^A?]07MCg2
+R2
+R0
+w1713132842
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6

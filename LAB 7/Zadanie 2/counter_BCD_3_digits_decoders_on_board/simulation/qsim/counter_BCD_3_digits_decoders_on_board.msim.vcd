@@ -1,0 +1,762 @@
+$comment
+	File created using the following command:
+		vcd file counter_BCD_3_digits_decoders_on_board.msim.vcd -direction
+$end
+$date
+	Tue Apr 16 18:15:09 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module counter_BCD_3_digits_decoders_on_board_vlg_vec_tst $end
+$var reg 1 ! CLOCK_50 $end
+$var reg 1 " KEY [0:0] $end
+$var wire 1 # HEX0 [0] $end
+$var wire 1 $ HEX0 [1] $end
+$var wire 1 % HEX0 [2] $end
+$var wire 1 & HEX0 [3] $end
+$var wire 1 ' HEX0 [4] $end
+$var wire 1 ( HEX0 [5] $end
+$var wire 1 ) HEX0 [6] $end
+$var wire 1 * HEX1 [0] $end
+$var wire 1 + HEX1 [1] $end
+$var wire 1 , HEX1 [2] $end
+$var wire 1 - HEX1 [3] $end
+$var wire 1 . HEX1 [4] $end
+$var wire 1 / HEX1 [5] $end
+$var wire 1 0 HEX1 [6] $end
+$var wire 1 1 HEX2 [0] $end
+$var wire 1 2 HEX2 [1] $end
+$var wire 1 3 HEX2 [2] $end
+$var wire 1 4 HEX2 [3] $end
+$var wire 1 5 HEX2 [4] $end
+$var wire 1 6 HEX2 [5] $end
+$var wire 1 7 HEX2 [6] $end
+$var wire 1 8 LEDR [0] $end
+
+$scope module i1 $end
+$var wire 1 9 gnd $end
+$var wire 1 : vcc $end
+$var wire 1 ; unknown $end
+$var tri1 1 < devclrn $end
+$var tri1 1 = devpor $end
+$var tri1 1 > devoe $end
+$var wire 1 ? ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 @ CLOCK_50~input_o $end
+$var wire 1 A CLOCK_50~inputCLKENA0_outclk $end
+$var wire 1 B counter_dec|counter|fast_clock_delay|fast_counter|Q~1_combout $end
+$var wire 1 C counter_dec|counter|fast_clock_delay|fast_counter|Q~0_combout $end
+$var wire 1 D counter_dec|counter|fast_clock_delay|fast_counter|Q~2_combout $end
+$var wire 1 E counter_dec|counter|fast_clock_delay|fast_counter|Equal0~combout $end
+$var wire 1 F counter_dec|counter|counter0|Q~0_combout $end
+$var wire 1 G KEY[0]~input_o $end
+$var wire 1 H counter_dec|counter|counter0|Q~1_combout $end
+$var wire 1 I counter_dec|counter|counter0|Q~2_combout $end
+$var wire 1 J counter_dec|counter|counter0|Q~3_combout $end
+$var wire 1 K counter_dec|counter|counter0|Equal0~combout $end
+$var wire 1 L counter_dec|counter|counter1|Q~0_combout $end
+$var wire 1 M counter_dec|counter|counter1|Q~1_combout $end
+$var wire 1 N counter_dec|counter|counter1|Q~2_combout $end
+$var wire 1 O counter_dec|counter|counter1|Q~3_combout $end
+$var wire 1 P counter_dec|counter|counter1|Equal0~combout $end
+$var wire 1 Q counter_dec|counter|counter2|Q[0]~3_combout $end
+$var wire 1 R counter_dec|counter|counter2|Q~0_combout $end
+$var wire 1 S counter_dec|counter|counter2|Q[2]~1_combout $end
+$var wire 1 T counter_dec|counter|counter2|Q~2_combout $end
+$var wire 1 U counter_dec|dec2|WideOr6~0_combout $end
+$var wire 1 V counter_dec|dec2|WideOr5~0_combout $end
+$var wire 1 W counter_dec|dec2|WideOr4~0_combout $end
+$var wire 1 X counter_dec|dec2|WideOr3~0_combout $end
+$var wire 1 Y counter_dec|dec2|WideOr2~0_combout $end
+$var wire 1 Z counter_dec|dec2|WideOr1~0_combout $end
+$var wire 1 [ counter_dec|dec2|WideOr0~0_combout $end
+$var wire 1 \ counter_dec|dec1|WideOr6~0_combout $end
+$var wire 1 ] counter_dec|dec1|WideOr5~0_combout $end
+$var wire 1 ^ counter_dec|dec1|WideOr4~0_combout $end
+$var wire 1 _ counter_dec|dec1|WideOr3~0_combout $end
+$var wire 1 ` counter_dec|dec1|WideOr2~0_combout $end
+$var wire 1 a counter_dec|dec1|WideOr1~0_combout $end
+$var wire 1 b counter_dec|dec1|WideOr0~0_combout $end
+$var wire 1 c counter_dec|dec0|WideOr6~0_combout $end
+$var wire 1 d counter_dec|dec0|WideOr5~0_combout $end
+$var wire 1 e counter_dec|dec0|WideOr4~0_combout $end
+$var wire 1 f counter_dec|dec0|WideOr3~0_combout $end
+$var wire 1 g counter_dec|dec0|WideOr2~0_combout $end
+$var wire 1 h counter_dec|dec0|WideOr1~0_combout $end
+$var wire 1 i counter_dec|dec0|WideOr0~0_combout $end
+$var wire 1 j counter_dec|counter|max_value~combout $end
+$var wire 1 k counter_dec|counter|counter2|Q [3] $end
+$var wire 1 l counter_dec|counter|counter2|Q [2] $end
+$var wire 1 m counter_dec|counter|counter2|Q [1] $end
+$var wire 1 n counter_dec|counter|counter2|Q [0] $end
+$var wire 1 o counter_dec|counter|counter1|Q [3] $end
+$var wire 1 p counter_dec|counter|counter1|Q [2] $end
+$var wire 1 q counter_dec|counter|counter1|Q [1] $end
+$var wire 1 r counter_dec|counter|counter1|Q [0] $end
+$var wire 1 s counter_dec|counter|counter0|Q [3] $end
+$var wire 1 t counter_dec|counter|counter0|Q [2] $end
+$var wire 1 u counter_dec|counter|counter0|Q [1] $end
+$var wire 1 v counter_dec|counter|counter0|Q [0] $end
+$var wire 1 w counter_dec|counter|fast_clock_delay|fast_counter|Q [2] $end
+$var wire 1 x counter_dec|counter|fast_clock_delay|fast_counter|Q [1] $end
+$var wire 1 y counter_dec|counter|fast_clock_delay|fast_counter|Q [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b1 "
+1)
+0(
+0'
+0&
+0%
+0$
+0#
+10
+0/
+0.
+0-
+0,
+0+
+0*
+17
+16
+15
+14
+03
+02
+11
+08
+09
+1:
+x;
+1<
+1=
+1>
+0?
+0@
+0A
+1B
+0C
+0D
+1E
+1F
+1G
+0H
+0I
+0J
+1K
+1L
+0M
+0N
+0O
+1P
+0Q
+1R
+0S
+0T
+0U
+1V
+1W
+1X
+0Y
+0Z
+1[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+1n
+0m
+0l
+0k
+0r
+0q
+0p
+0o
+0v
+0u
+0t
+0s
+0y
+0x
+0w
+$end
+#2000
+1!
+1@
+1A
+1y
+0B
+1C
+#4000
+0!
+0@
+0A
+#6000
+1!
+1@
+1A
+1x
+0y
+1B
+#8000
+0!
+0@
+0A
+#10000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#12000
+0!
+0@
+0A
+#14000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#16000
+0!
+0@
+0A
+#18000
+1!
+1@
+1A
+0w
+1E
+1B
+1v
+1H
+0F
+1i
+1f
+1e
+1d
+1(
+1'
+1&
+1#
+#20000
+0!
+0@
+0A
+#22000
+1!
+1@
+1A
+1y
+0B
+1C
+#24000
+0!
+0@
+0A
+#26000
+1!
+1@
+1A
+1x
+0y
+1B
+#28000
+0!
+0@
+0A
+#30000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#32000
+0!
+0@
+0A
+#34000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#36000
+0!
+0@
+0A
+#38000
+1!
+1@
+1A
+0w
+1E
+1B
+1u
+0v
+1c
+1F
+0i
+1g
+0f
+0e
+0'
+0&
+1%
+0#
+0)
+#40000
+0!
+0@
+0A
+#42000
+1!
+1@
+1A
+1y
+0B
+1C
+#44000
+0!
+0@
+0A
+#46000
+1!
+1@
+1A
+1x
+0y
+1B
+#48000
+0!
+0@
+0A
+#50000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#52000
+0!
+0@
+0A
+#54000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#56000
+0!
+0@
+0A
+#58000
+1!
+1@
+1A
+0w
+1E
+1B
+1v
+1I
+0H
+0F
+0g
+1e
+1'
+0%
+#60000
+0!
+0@
+0A
+#62000
+1!
+1@
+1A
+1y
+0B
+1C
+#64000
+0!
+0@
+0A
+#66000
+1!
+1@
+1A
+1x
+0y
+1B
+#68000
+0!
+0@
+0A
+#70000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#72000
+0!
+0@
+0A
+#74000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#76000
+0!
+0@
+0A
+#78000
+1!
+1@
+1A
+0w
+1E
+1B
+1t
+0u
+0v
+1F
+1i
+1f
+0d
+0(
+1&
+1#
+#80000
+0!
+0@
+0A
+#82000
+1!
+1@
+1A
+1y
+0B
+1C
+#84000
+0!
+0@
+0A
+#86000
+1!
+1@
+1A
+1x
+0y
+1B
+#88000
+0!
+0@
+0A
+#90000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#92000
+0!
+0@
+0A
+#94000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#96000
+0!
+0@
+0A
+#98000
+1!
+1@
+1A
+0w
+1E
+1B
+1v
+1H
+0F
+0i
+1h
+0f
+0&
+1$
+0#
+#100000
+0!
+0@
+0A
+#102000
+1!
+1@
+1A
+1y
+0B
+1C
+#104000
+0!
+0@
+0A
+#106000
+1!
+1@
+1A
+1x
+0y
+1B
+#108000
+0!
+0@
+0A
+#110000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#112000
+0!
+0@
+0A
+#114000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#116000
+0!
+0@
+0A
+#118000
+1!
+1@
+1A
+0w
+1E
+1B
+1u
+0v
+1F
+0e
+0'
+#120000
+0!
+0@
+0A
+#122000
+1!
+1@
+1A
+1y
+0B
+1C
+#124000
+0!
+0@
+0A
+#126000
+1!
+1@
+1A
+1x
+0y
+1B
+#128000
+0!
+0@
+0A
+#130000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#132000
+0!
+0@
+0A
+#134000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#136000
+0!
+0@
+0A
+#138000
+1!
+1@
+1A
+0w
+1E
+1B
+1v
+0c
+1J
+0I
+0H
+0F
+0h
+1f
+1e
+1d
+1(
+1'
+1&
+0$
+1)
+#140000
+0!
+0@
+0A
+#142000
+1!
+1@
+1A
+1y
+0B
+1C
+#144000
+0!
+0@
+0A
+#146000
+1!
+1@
+1A
+1x
+0y
+1B
+#148000
+0!
+0@
+0A
+#150000
+1!
+1@
+1A
+1y
+0B
+1D
+0C
+#152000
+0!
+0@
+0A
+#154000
+1!
+1@
+1A
+1w
+0x
+0y
+1B
+0E
+0B
+0D
+#156000
+0!
+0@
+0A
+#158000
+1!
+1@
+1A
+0w
+1E
+1B
+1s
+0t
+0u
+0v
+1c
+1F
+0f
+0e
+0d
+0(
+0'
+0&
+0)
+#160000

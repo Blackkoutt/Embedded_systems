@@ -1,0 +1,421 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[2]'
+Slack : -4.933
+TNS   : -23.125
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[3]'
+Slack : -4.316
+TNS   : -9.731
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[1]'
+Slack : -4.278
+TNS   : -26.489
+
+Type  : Slow 1100mV 85C Model Setup 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -4.044
+TNS   : -12.169
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.901
+TNS   : -62.461
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[0]'
+Slack : -0.532
+TNS   : -0.532
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -2.561
+TNS   : -47.564
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[2]'
+Slack : -2.410
+TNS   : -13.983
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[1]'
+Slack : -2.308
+TNS   : -16.247
+
+Type  : Slow 1100mV 85C Model Hold 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.941
+TNS   : -3.569
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[3]'
+Slack : -0.855
+TNS   : -2.431
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[0]'
+Slack : 0.578
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'KEY[1]'
+Slack : -4.705
+TNS   : -18.810
+
+Type  : Slow 1100mV 85C Model Recovery 'KEY[2]'
+Slack : -4.577
+TNS   : -18.287
+
+Type  : Slow 1100mV 85C Model Recovery 'KEY[3]'
+Slack : -4.115
+TNS   : -12.337
+
+Type  : Slow 1100mV 85C Model Recovery 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.101
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'KEY[1]'
+Slack : -2.051
+TNS   : -8.194
+
+Type  : Slow 1100mV 85C Model Removal 'KEY[2]'
+Slack : -1.635
+TNS   : -4.901
+
+Type  : Slow 1100mV 85C Model Removal 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -1.156
+TNS   : -4.622
+
+Type  : Slow 1100mV 85C Model Removal 'KEY[3]'
+Slack : 1.398
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -1.040
+TNS   : -29.383
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.978
+TNS   : -24.794
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.674
+TNS   : -6.864
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -9.869
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.235
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -0.764
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[2]'
+Slack : -4.747
+TNS   : -22.576
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[3]'
+Slack : -4.298
+TNS   : -9.649
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[1]'
+Slack : -4.180
+TNS   : -26.439
+
+Type  : Slow 1100mV 0C Model Setup 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -4.084
+TNS   : -11.899
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.547
+TNS   : -56.950
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[0]'
+Slack : -0.528
+TNS   : -0.528
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -2.644
+TNS   : -49.098
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[2]'
+Slack : -2.325
+TNS   : -13.346
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[1]'
+Slack : -2.228
+TNS   : -15.778
+
+Type  : Slow 1100mV 0C Model Hold 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.883
+TNS   : -3.221
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[3]'
+Slack : -0.824
+TNS   : -2.331
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[0]'
+Slack : 0.558
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'KEY[1]'
+Slack : -4.549
+TNS   : -18.186
+
+Type  : Slow 1100mV 0C Model Recovery 'KEY[2]'
+Slack : -4.391
+TNS   : -17.539
+
+Type  : Slow 1100mV 0C Model Recovery 'KEY[3]'
+Slack : -3.974
+TNS   : -11.912
+
+Type  : Slow 1100mV 0C Model Recovery 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.081
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'KEY[1]'
+Slack : -2.002
+TNS   : -7.998
+
+Type  : Slow 1100mV 0C Model Removal 'KEY[2]'
+Slack : -1.568
+TNS   : -4.699
+
+Type  : Slow 1100mV 0C Model Removal 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -1.072
+TNS   : -4.287
+
+Type  : Slow 1100mV 0C Model Removal 'KEY[3]'
+Slack : 1.284
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -1.088
+TNS   : -30.914
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.952
+TNS   : -23.657
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.638
+TNS   : -6.676
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -10.892
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.476
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -0.754
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[2]'
+Slack : -3.225
+TNS   : -14.971
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[1]'
+Slack : -2.876
+TNS   : -16.943
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.831
+TNS   : -47.140
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[3]'
+Slack : -2.820
+TNS   : -6.271
+
+Type  : Fast 1100mV 85C Model Setup 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -1.998
+TNS   : -5.697
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[0]'
+Slack : -0.020
+TNS   : -0.020
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -1.552
+TNS   : -28.874
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[2]'
+Slack : -1.479
+TNS   : -8.761
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[1]'
+Slack : -1.390
+TNS   : -10.124
+
+Type  : Fast 1100mV 85C Model Hold 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.646
+TNS   : -2.485
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[3]'
+Slack : -0.534
+TNS   : -1.537
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[0]'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'KEY[2]'
+Slack : -3.664
+TNS   : -15.385
+
+Type  : Fast 1100mV 85C Model Recovery 'KEY[1]'
+Slack : -3.634
+TNS   : -14.532
+
+Type  : Fast 1100mV 85C Model Recovery 'KEY[3]'
+Slack : -3.321
+TNS   : -9.961
+
+Type  : Fast 1100mV 85C Model Recovery 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.451
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'KEY[1]'
+Slack : -1.319
+TNS   : -5.274
+
+Type  : Fast 1100mV 85C Model Removal 'KEY[2]'
+Slack : -1.053
+TNS   : -3.158
+
+Type  : Fast 1100mV 85C Model Removal 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.752
+TNS   : -3.007
+
+Type  : Fast 1100mV 85C Model Removal 'KEY[3]'
+Slack : 0.922
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.715
+TNS   : -18.921
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.631
+TNS   : -12.967
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.541
+TNS   : -5.603
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.356
+TNS   : -0.363
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.168
+TNS   : -0.672
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.084
+TNS   : -1.579
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[2]'
+Slack : -2.942
+TNS   : -13.774
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[3]'
+Slack : -2.617
+TNS   : -5.746
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[1]'
+Slack : -2.485
+TNS   : -15.477
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.282
+TNS   : -37.577
+
+Type  : Fast 1100mV 0C Model Setup 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -1.927
+TNS   : -5.504
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[0]'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -1.560
+TNS   : -29.059
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[2]'
+Slack : -1.382
+TNS   : -8.228
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[1]'
+Slack : -1.286
+TNS   : -9.469
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[3]'
+Slack : -0.542
+TNS   : -1.574
+
+Type  : Fast 1100mV 0C Model Hold 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.452
+TNS   : -1.696
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[0]'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'KEY[1]'
+Slack : -3.241
+TNS   : -13.160
+
+Type  : Fast 1100mV 0C Model Recovery 'KEY[2]'
+Slack : -3.223
+TNS   : -13.741
+
+Type  : Fast 1100mV 0C Model Recovery 'KEY[3]'
+Slack : -2.944
+TNS   : -8.830
+
+Type  : Fast 1100mV 0C Model Recovery 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'KEY[1]'
+Slack : -1.246
+TNS   : -4.982
+
+Type  : Fast 1100mV 0C Model Removal 'KEY[2]'
+Slack : -0.992
+TNS   : -2.974
+
+Type  : Fast 1100mV 0C Model Removal 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.545
+TNS   : -2.179
+
+Type  : Fast 1100mV 0C Model Removal 'KEY[3]'
+Slack : 0.729
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -0.701
+TNS   : -17.962
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[2]'
+Slack : -0.619
+TNS   : -12.348
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[3]'
+Slack : -0.526
+TNS   : -5.495
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.354
+TNS   : -0.367
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'real_time_clock_decoders:rtc_dec|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.133
+TNS   : -0.532
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.084
+TNS   : -1.578
+
+------------------------------------------------------------

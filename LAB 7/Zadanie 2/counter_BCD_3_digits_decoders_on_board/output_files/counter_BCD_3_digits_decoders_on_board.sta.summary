@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -6.507
+TNS   : -19.202
+
+Type  : Slow 1100mV 85C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : -3.687
+TNS   : -14.633
+
+Type  : Slow 1100mV 85C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -3.618
+TNS   : -14.136
+
+Type  : Slow 1100mV 85C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : -1.356
+TNS   : -4.873
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.712
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : 0.792
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : 0.827
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : -0.394
+TNS   : -2.412
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.238
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : -0.394
+TNS   : -2.096
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -1.557
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -6.311
+TNS   : -18.396
+
+Type  : Slow 1100mV 0C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : -3.596
+TNS   : -14.154
+
+Type  : Slow 1100mV 0C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -3.484
+TNS   : -13.626
+
+Type  : Slow 1100mV 0C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : -1.377
+TNS   : -4.908
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.033
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.638
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : 0.746
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : 0.768
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : -0.394
+TNS   : -2.524
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.376
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : -0.394
+TNS   : -2.104
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -1.697
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.030
+TNS   : -11.897
+
+Type  : Fast 1100mV 85C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : -2.124
+TNS   : -8.378
+
+Type  : Fast 1100mV 85C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -2.028
+TNS   : -7.794
+
+Type  : Fast 1100mV 85C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : -0.542
+TNS   : -1.802
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : 0.560
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.085
+TNS   : -0.253
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.425
+TNS   : -10.163
+
+Type  : Fast 1100mV 0C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : -1.851
+TNS   : -7.318
+
+Type  : Fast 1100mV 0C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -1.754
+TNS   : -6.744
+
+Type  : Fast 1100mV 0C Model Setup 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : -0.446
+TNS   : -1.510
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.084
+TNS   : -0.250
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter1|Q[0]'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'counter_BCD_3_digits_decoders:counter_dec|counter_BCD_3_digits:counter|counter_modulo_k:counter0|Q[0]'
+Slack : 0.161
+TNS   : 0.000
+
+------------------------------------------------------------

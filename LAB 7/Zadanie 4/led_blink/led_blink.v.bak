@@ -1,0 +1,8 @@
+module led_blink(input on, output [7:0] leds);
+
+	if(on)
+		assign leds[7:0] = 8'b11111111;
+	else
+		assign leds[7:0] = 8'b00000000;
+		
+endmodule

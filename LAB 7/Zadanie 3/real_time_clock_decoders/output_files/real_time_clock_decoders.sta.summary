@@ -1,0 +1,581 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -6.339
+TNS   : -25.258
+
+Type  : Slow 1100mV 85C Model Setup 'data[0]'
+Slack : -6.152
+TNS   : -36.943
+
+Type  : Slow 1100mV 85C Model Setup 'load_min'
+Slack : -5.568
+TNS   : -16.917
+
+Type  : Slow 1100mV 85C Model Setup 'load_csec'
+Slack : -4.682
+TNS   : -37.665
+
+Type  : Slow 1100mV 85C Model Setup 'data[4]'
+Slack : -4.560
+TNS   : -32.902
+
+Type  : Slow 1100mV 85C Model Setup 'load_sec'
+Slack : -3.717
+TNS   : -27.930
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.113
+TNS   : -2.113
+
+Type  : Slow 1100mV 85C Model Setup 'timer_enable'
+Slack : -0.578
+TNS   : -0.578
+
+Type  : Slow 1100mV 85C Model Hold 'load_csec'
+Slack : -4.018
+TNS   : -35.482
+
+Type  : Slow 1100mV 85C Model Hold 'data[0]'
+Slack : -3.962
+TNS   : -37.424
+
+Type  : Slow 1100mV 85C Model Hold 'load_sec'
+Slack : -3.941
+TNS   : -29.406
+
+Type  : Slow 1100mV 85C Model Hold 'load_min'
+Slack : -3.761
+TNS   : -15.735
+
+Type  : Slow 1100mV 85C Model Hold 'data[4]'
+Slack : -1.740
+TNS   : -12.480
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.589
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'timer_enable'
+Slack : 0.609
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'load_csec'
+Slack : -7.616
+TNS   : -33.426
+
+Type  : Slow 1100mV 85C Model Recovery 'data[0]'
+Slack : -6.394
+TNS   : -27.834
+
+Type  : Slow 1100mV 85C Model Recovery 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -4.315
+TNS   : -17.260
+
+Type  : Slow 1100mV 85C Model Recovery 'data[4]'
+Slack : -1.016
+TNS   : -7.250
+
+Type  : Slow 1100mV 85C Model Recovery 'load_min'
+Slack : -1.009
+TNS   : -3.020
+
+Type  : Slow 1100mV 85C Model Recovery 'load_sec'
+Slack : -0.747
+TNS   : -5.043
+
+Type  : Slow 1100mV 85C Model Removal 'load_csec'
+Slack : -3.874
+TNS   : -15.496
+
+Type  : Slow 1100mV 85C Model Removal 'data[0]'
+Slack : -3.640
+TNS   : -21.683
+
+Type  : Slow 1100mV 85C Model Removal 'load_sec'
+Slack : -3.487
+TNS   : -23.805
+
+Type  : Slow 1100mV 85C Model Removal 'load_min'
+Slack : -3.248
+TNS   : -9.734
+
+Type  : Slow 1100mV 85C Model Removal 'data[4]'
+Slack : -1.753
+TNS   : -13.468
+
+Type  : Slow 1100mV 85C Model Removal 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 1.998
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'load_csec'
+Slack : -0.972
+TNS   : -24.375
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'load_min'
+Slack : -0.676
+TNS   : -8.083
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'load_sec'
+Slack : -0.653
+TNS   : -16.771
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'data[4]'
+Slack : -0.460
+TNS   : -6.324
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'data[0]'
+Slack : -0.394
+TNS   : -6.760
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.060
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'timer_enable'
+Slack : -0.394
+TNS   : -0.739
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -0.707
+
+Type  : Slow 1100mV 0C Model Setup 'data[0]'
+Slack : -6.742
+TNS   : -41.683
+
+Type  : Slow 1100mV 0C Model Setup 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -6.362
+TNS   : -25.357
+
+Type  : Slow 1100mV 0C Model Setup 'load_min'
+Slack : -5.462
+TNS   : -16.579
+
+Type  : Slow 1100mV 0C Model Setup 'load_csec'
+Slack : -4.672
+TNS   : -39.036
+
+Type  : Slow 1100mV 0C Model Setup 'load_sec'
+Slack : -3.769
+TNS   : -28.164
+
+Type  : Slow 1100mV 0C Model Setup 'data[4]'
+Slack : -3.173
+TNS   : -23.716
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -1.992
+TNS   : -1.992
+
+Type  : Slow 1100mV 0C Model Setup 'timer_enable'
+Slack : -0.568
+TNS   : -0.568
+
+Type  : Slow 1100mV 0C Model Hold 'load_sec'
+Slack : -3.935
+TNS   : -29.552
+
+Type  : Slow 1100mV 0C Model Hold 'load_csec'
+Slack : -3.679
+TNS   : -28.033
+
+Type  : Slow 1100mV 0C Model Hold 'data[0]'
+Slack : -3.379
+TNS   : -28.551
+
+Type  : Slow 1100mV 0C Model Hold 'data[4]'
+Slack : -3.249
+TNS   : -23.368
+
+Type  : Slow 1100mV 0C Model Hold 'load_min'
+Slack : -3.126
+TNS   : -13.670
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.531
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'timer_enable'
+Slack : 0.592
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.867
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'load_csec'
+Slack : -7.316
+TNS   : -35.770
+
+Type  : Slow 1100mV 0C Model Recovery 'data[0]'
+Slack : -6.102
+TNS   : -31.560
+
+Type  : Slow 1100mV 0C Model Recovery 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -4.238
+TNS   : -16.952
+
+Type  : Slow 1100mV 0C Model Recovery 'load_min'
+Slack : -1.102
+TNS   : -3.299
+
+Type  : Slow 1100mV 0C Model Recovery 'load_sec'
+Slack : -0.804
+TNS   : -5.359
+
+Type  : Slow 1100mV 0C Model Recovery 'data[4]'
+Slack : -0.266
+TNS   : -1.342
+
+Type  : Slow 1100mV 0C Model Removal 'load_sec'
+Slack : -3.493
+TNS   : -23.835
+
+Type  : Slow 1100mV 0C Model Removal 'load_min'
+Slack : -3.187
+TNS   : -9.550
+
+Type  : Slow 1100mV 0C Model Removal 'load_csec'
+Slack : -2.963
+TNS   : -11.852
+
+Type  : Slow 1100mV 0C Model Removal 'data[0]'
+Slack : -2.757
+TNS   : -16.263
+
+Type  : Slow 1100mV 0C Model Removal 'data[4]'
+Slack : -2.533
+TNS   : -19.802
+
+Type  : Slow 1100mV 0C Model Removal 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 2.046
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'load_csec'
+Slack : -1.007
+TNS   : -26.092
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'load_sec'
+Slack : -0.736
+TNS   : -17.997
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'load_min'
+Slack : -0.681
+TNS   : -8.449
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'data[4]'
+Slack : -0.452
+TNS   : -6.272
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'data[0]'
+Slack : -0.394
+TNS   : -6.566
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.052
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'timer_enable'
+Slack : -0.394
+TNS   : -0.734
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -0.705
+
+Type  : Fast 1100mV 85C Model Setup 'data[0]'
+Slack : -4.577
+TNS   : -20.599
+
+Type  : Fast 1100mV 85C Model Setup 'load_min'
+Slack : -4.261
+TNS   : -10.316
+
+Type  : Fast 1100mV 85C Model Setup 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -3.496
+TNS   : -13.925
+
+Type  : Fast 1100mV 85C Model Setup 'load_csec'
+Slack : -2.813
+TNS   : -22.717
+
+Type  : Fast 1100mV 85C Model Setup 'load_sec'
+Slack : -2.347
+TNS   : -16.684
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -1.536
+TNS   : -1.536
+
+Type  : Fast 1100mV 85C Model Setup 'data[4]'
+Slack : -1.188
+TNS   : -8.499
+
+Type  : Fast 1100mV 85C Model Setup 'timer_enable'
+Slack : -0.054
+TNS   : -0.054
+
+Type  : Fast 1100mV 85C Model Hold 'load_sec'
+Slack : -2.364
+TNS   : -17.756
+
+Type  : Fast 1100mV 85C Model Hold 'load_csec'
+Slack : -2.144
+TNS   : -16.928
+
+Type  : Fast 1100mV 85C Model Hold 'data[0]'
+Slack : -2.068
+TNS   : -17.111
+
+Type  : Fast 1100mV 85C Model Hold 'data[4]'
+Slack : -2.011
+TNS   : -14.908
+
+Type  : Fast 1100mV 85C Model Hold 'load_min'
+Slack : -1.959
+TNS   : -8.572
+
+Type  : Fast 1100mV 85C Model Hold 'timer_enable'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.501
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.533
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'load_csec'
+Slack : -5.576
+TNS   : -27.284
+
+Type  : Fast 1100mV 85C Model Recovery 'data[0]'
+Slack : -4.331
+TNS   : -19.084
+
+Type  : Fast 1100mV 85C Model Recovery 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -2.256
+TNS   : -9.024
+
+Type  : Fast 1100mV 85C Model Recovery 'load_min'
+Slack : -0.917
+TNS   : -2.749
+
+Type  : Fast 1100mV 85C Model Recovery 'load_sec'
+Slack : -0.789
+TNS   : -5.051
+
+Type  : Fast 1100mV 85C Model Recovery 'data[4]'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'load_sec'
+Slack : -2.080
+TNS   : -14.270
+
+Type  : Fast 1100mV 85C Model Removal 'load_min'
+Slack : -1.971
+TNS   : -5.910
+
+Type  : Fast 1100mV 85C Model Removal 'load_csec'
+Slack : -1.710
+TNS   : -6.840
+
+Type  : Fast 1100mV 85C Model Removal 'data[0]'
+Slack : -1.591
+TNS   : -9.519
+
+Type  : Fast 1100mV 85C Model Removal 'data[4]'
+Slack : -1.577
+TNS   : -12.510
+
+Type  : Fast 1100mV 85C Model Removal 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 1.285
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'load_csec'
+Slack : -0.634
+TNS   : -11.389
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'load_sec'
+Slack : -0.538
+TNS   : -9.428
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'load_min'
+Slack : -0.535
+TNS   : -4.750
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'data[4]'
+Slack : -0.450
+TNS   : -4.323
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'data[0]'
+Slack : -0.335
+TNS   : -3.383
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'timer_enable'
+Slack : -0.331
+TNS   : -0.331
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.298
+TNS   : -0.298
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'load_min'
+Slack : -3.728
+TNS   : -9.864
+
+Type  : Fast 1100mV 0C Model Setup 'data[0]'
+Slack : -3.549
+TNS   : -16.178
+
+Type  : Fast 1100mV 0C Model Setup 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -3.386
+TNS   : -13.447
+
+Type  : Fast 1100mV 0C Model Setup 'load_csec'
+Slack : -2.734
+TNS   : -21.420
+
+Type  : Fast 1100mV 0C Model Setup 'load_sec'
+Slack : -2.217
+TNS   : -15.930
+
+Type  : Fast 1100mV 0C Model Setup 'data[4]'
+Slack : -1.942
+TNS   : -13.790
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.204
+TNS   : -1.204
+
+Type  : Fast 1100mV 0C Model Setup 'timer_enable'
+Slack : -0.013
+TNS   : -0.013
+
+Type  : Fast 1100mV 0C Model Hold 'data[0]'
+Slack : -2.321
+TNS   : -21.738
+
+Type  : Fast 1100mV 0C Model Hold 'load_sec'
+Slack : -2.226
+TNS   : -16.918
+
+Type  : Fast 1100mV 0C Model Hold 'load_csec'
+Slack : -2.212
+TNS   : -19.572
+
+Type  : Fast 1100mV 0C Model Hold 'load_min'
+Slack : -2.144
+TNS   : -9.140
+
+Type  : Fast 1100mV 0C Model Hold 'data[4]'
+Slack : -0.903
+TNS   : -6.820
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'timer_enable'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'load_csec'
+Slack : -4.991
+TNS   : -23.156
+
+Type  : Fast 1100mV 0C Model Recovery 'data[0]'
+Slack : -3.743
+TNS   : -14.968
+
+Type  : Fast 1100mV 0C Model Recovery 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : -2.222
+TNS   : -8.888
+
+Type  : Fast 1100mV 0C Model Recovery 'load_min'
+Slack : -0.908
+TNS   : -2.722
+
+Type  : Fast 1100mV 0C Model Recovery 'load_sec'
+Slack : -0.772
+TNS   : -5.049
+
+Type  : Fast 1100mV 0C Model Recovery 'data[4]'
+Slack : -0.194
+TNS   : -1.288
+
+Type  : Fast 1100mV 0C Model Removal 'load_csec'
+Slack : -2.096
+TNS   : -8.384
+
+Type  : Fast 1100mV 0C Model Removal 'data[0]'
+Slack : -2.012
+TNS   : -12.006
+
+Type  : Fast 1100mV 0C Model Removal 'load_sec'
+Slack : -1.980
+TNS   : -13.505
+
+Type  : Fast 1100mV 0C Model Removal 'load_min'
+Slack : -1.851
+TNS   : -5.548
+
+Type  : Fast 1100mV 0C Model Removal 'data[4]'
+Slack : -0.928
+TNS   : -7.336
+
+Type  : Fast 1100mV 0C Model Removal 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 1.290
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'load_csec'
+Slack : -0.633
+TNS   : -11.196
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'load_sec'
+Slack : -0.509
+TNS   : -8.195
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'load_min'
+Slack : -0.490
+TNS   : -3.924
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'data[4]'
+Slack : -0.399
+TNS   : -3.478
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'timer_enable'
+Slack : -0.331
+TNS   : -0.331
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'data[0]'
+Slack : -0.317
+TNS   : -3.116
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.306
+TNS   : -0.306
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter|Q[0]'
+Slack : 0.142
+TNS   : 0.000
+
+------------------------------------------------------------

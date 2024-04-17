@@ -1,0 +1,5 @@
+module counter_BCD_3_digits_decoders(input clk, aclr,
+												 output [0:6] H2, H1, H0);
+												 
+	
+endmodule

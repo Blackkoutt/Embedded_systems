@@ -1,0 +1,10 @@
+module delay_10_ms(input clk,
+						 output clk_10_ms);
+						 
+	wire rollover_out, counter_out;
+	
+	counter_modulo_k#(500000) fast_counter(clk, 1'b1, 1'b1, counter_out, rollover_out);
+
+	assign clk_1_sec = ~rollover_out;
+	
+endmodule

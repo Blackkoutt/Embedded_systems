@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 1/counter_modulo_k_on_board/simulation/qsim
+vcounter_modulo_k_on_board
+Z1 !s110 1713122022
+!i10b 1
+!s100 =KK9l2aLHnZAj7eOa;DTe0
+IAzE@Mad<jU0Q<YF6f^bHz2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713122021
+8counter_modulo_k_on_board.vo
+Fcounter_modulo_k_on_board.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713122022.000000
+!s107 counter_modulo_k_on_board.vo|
+!s90 -work|work|counter_modulo_k_on_board.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcounter_modulo_k_on_board_vlg_vec_tst
+R1
+!i10b 1
+!s100 5XRzMZA>D^aB;]V<AkGkU0
+IXA[P^IVBSeUdZ:DfJZzWI1
+R2
+R0
+w1713122020
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

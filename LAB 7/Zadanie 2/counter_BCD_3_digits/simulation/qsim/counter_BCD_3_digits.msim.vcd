@@ -1,0 +1,657 @@
+$comment
+	File created using the following command:
+		vcd file counter_BCD_3_digits.msim.vcd -direction
+$end
+$date
+	Tue Apr 16 18:24:23 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module counter_BCD_3_digits_vlg_vec_tst $end
+$var reg 1 ! aclr $end
+$var reg 1 " clk $end
+$var wire 1 # counters_out [11] $end
+$var wire 1 $ counters_out [10] $end
+$var wire 1 % counters_out [9] $end
+$var wire 1 & counters_out [8] $end
+$var wire 1 ' counters_out [7] $end
+$var wire 1 ( counters_out [6] $end
+$var wire 1 ) counters_out [5] $end
+$var wire 1 * counters_out [4] $end
+$var wire 1 + counters_out [3] $end
+$var wire 1 , counters_out [2] $end
+$var wire 1 - counters_out [1] $end
+$var wire 1 . counters_out [0] $end
+$var wire 1 / max_value $end
+
+$scope module i1 $end
+$var wire 1 0 gnd $end
+$var wire 1 1 vcc $end
+$var wire 1 2 unknown $end
+$var tri1 1 3 devclrn $end
+$var tri1 1 4 devpor $end
+$var tri1 1 5 devoe $end
+$var wire 1 6 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 7 clk~input_o $end
+$var wire 1 8 clk~inputCLKENA0_outclk $end
+$var wire 1 9 fast_clock_delay|fast_counter|Q~2_combout $end
+$var wire 1 : fast_clock_delay|fast_counter|Q~0_combout $end
+$var wire 1 ; fast_clock_delay|fast_counter|Q~1_combout $end
+$var wire 1 < fast_clock_delay|fast_counter|Q~3_combout $end
+$var wire 1 = fast_clock_delay|fast_counter|Equal0~combout $end
+$var wire 1 > counter0|Q~1_combout $end
+$var wire 1 ? counter0|Q[1]~feeder_combout $end
+$var wire 1 @ aclr~input_o $end
+$var wire 1 A counter0|Q~2_combout $end
+$var wire 1 B counter0|Q~3_combout $end
+$var wire 1 C counter0|Equal0~combout $end
+$var wire 1 D counter0|Q~0_combout $end
+$var wire 1 E counter1|Q~1_combout $end
+$var wire 1 F counter1|Q[1]~feeder_combout $end
+$var wire 1 G counter1|Q~2_combout $end
+$var wire 1 H counter1|Q~3_combout $end
+$var wire 1 I counter1|Equal0~combout $end
+$var wire 1 J counter1|Q~0_combout $end
+$var wire 1 K counter2|Q[0]~DUPLICATE_q $end
+$var wire 1 L counter2|Q[0]~3_combout $end
+$var wire 1 M counter2|Q[1]~DUPLICATE_q $end
+$var wire 1 N counter2|Q[2]~1_combout $end
+$var wire 1 O counter2|Q[2]~DUPLICATE_q $end
+$var wire 1 P counter2|Q~2_combout $end
+$var wire 1 Q counter2|Q~0_combout $end
+$var wire 1 R counter2|Q[3]~DUPLICATE_q $end
+$var wire 1 S max_value~0_combout $end
+$var wire 1 T counter0|Q [3] $end
+$var wire 1 U counter0|Q [2] $end
+$var wire 1 V counter0|Q [1] $end
+$var wire 1 W counter0|Q [0] $end
+$var wire 1 X counter1|Q [3] $end
+$var wire 1 Y counter1|Q [2] $end
+$var wire 1 Z counter1|Q [1] $end
+$var wire 1 [ counter1|Q [0] $end
+$var wire 1 \ counter2|Q [3] $end
+$var wire 1 ] counter2|Q [2] $end
+$var wire 1 ^ counter2|Q [1] $end
+$var wire 1 _ counter2|Q [0] $end
+$var wire 1 ` fast_clock_delay|fast_counter|Q [3] $end
+$var wire 1 a fast_clock_delay|fast_counter|Q [2] $end
+$var wire 1 b fast_clock_delay|fast_counter|Q [1] $end
+$var wire 1 c fast_clock_delay|fast_counter|Q [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+1&
+0%
+0$
+0#
+0/
+00
+11
+x2
+13
+14
+15
+06
+07
+08
+19
+0:
+0;
+0<
+1=
+0>
+0?
+1@
+0A
+0B
+1C
+1D
+0E
+0F
+0G
+0H
+1I
+1J
+1K
+0L
+0M
+0N
+0O
+0P
+1Q
+0R
+0S
+0W
+0V
+0U
+0T
+0[
+0Z
+0Y
+0X
+1_
+0^
+0]
+0\
+0c
+0b
+0a
+0`
+$end
+#2000
+1"
+17
+18
+1c
+09
+1:
+#4000
+0"
+07
+08
+#6000
+1"
+17
+18
+1b
+0c
+19
+#8000
+0"
+07
+08
+#10000
+1"
+17
+18
+1c
+09
+1;
+0:
+#12000
+0"
+07
+08
+#14000
+1"
+17
+18
+1a
+0b
+0c
+19
+#16000
+0"
+07
+08
+#18000
+1"
+17
+18
+1c
+09
+1:
+#20000
+0"
+07
+08
+#22000
+1"
+17
+18
+1b
+0c
+19
+#24000
+0"
+07
+08
+#26000
+1"
+17
+18
+1c
+09
+1<
+0;
+0:
+#28000
+0"
+07
+08
+#30000
+1"
+17
+18
+1`
+0a
+0b
+0c
+19
+#32000
+0"
+07
+08
+#34000
+1"
+17
+18
+1c
+09
+0=
+1:
+0<
+0:
+#36000
+0"
+07
+08
+#38000
+1"
+17
+18
+0`
+0c
+1=
+19
+1W
+1.
+0D
+1>
+1?
+#40000
+0"
+07
+08
+#42000
+1"
+17
+18
+1c
+09
+1:
+#44000
+0"
+07
+08
+#46000
+1"
+17
+18
+1b
+0c
+19
+#48000
+0"
+07
+08
+#50000
+1"
+17
+18
+1c
+09
+1;
+0:
+#52000
+0"
+07
+08
+#54000
+1"
+17
+18
+1a
+0b
+0c
+19
+#56000
+0"
+07
+08
+#58000
+1"
+17
+18
+1c
+09
+1:
+#60000
+0"
+07
+08
+#62000
+1"
+17
+18
+1b
+0c
+19
+#64000
+0"
+07
+08
+#66000
+1"
+17
+18
+1c
+09
+1<
+0;
+0:
+#68000
+0"
+07
+08
+#70000
+1"
+17
+18
+1`
+0a
+0b
+0c
+19
+#72000
+0"
+07
+08
+#74000
+1"
+17
+18
+1c
+09
+0=
+1:
+0<
+0:
+#76000
+0"
+07
+08
+#78000
+1"
+17
+18
+0`
+0c
+1=
+19
+0W
+1V
+1-
+0.
+1D
+#80000
+0"
+07
+08
+#82000
+1"
+17
+18
+1c
+09
+1:
+#84000
+0"
+07
+08
+#86000
+1"
+17
+18
+1b
+0c
+19
+#88000
+0"
+07
+08
+#90000
+1"
+17
+18
+1c
+09
+1;
+0:
+#92000
+0"
+07
+08
+#94000
+1"
+17
+18
+1a
+0b
+0c
+19
+#96000
+0"
+07
+08
+#98000
+1"
+17
+18
+1c
+09
+1:
+#100000
+0"
+07
+08
+#102000
+1"
+17
+18
+1b
+0c
+19
+#104000
+0"
+07
+08
+#106000
+1"
+17
+18
+1c
+09
+1<
+0;
+0:
+#108000
+0"
+07
+08
+#110000
+1"
+17
+18
+1`
+0a
+0b
+0c
+19
+#112000
+0"
+07
+08
+#114000
+1"
+17
+18
+1c
+09
+0=
+1:
+0<
+0:
+#116000
+0"
+07
+08
+#118000
+1"
+17
+18
+0`
+0c
+1=
+19
+1W
+1.
+0D
+1A
+0>
+0?
+#120000
+0"
+07
+08
+#122000
+1"
+17
+18
+1c
+09
+1:
+#124000
+0"
+07
+08
+#126000
+1"
+17
+18
+1b
+0c
+19
+#128000
+0"
+07
+08
+#130000
+1"
+17
+18
+1c
+09
+1;
+0:
+#132000
+0"
+07
+08
+#134000
+1"
+17
+18
+1a
+0b
+0c
+19
+#136000
+0"
+07
+08
+#138000
+1"
+17
+18
+1c
+09
+1:
+#140000
+0"
+07
+08
+#142000
+1"
+17
+18
+1b
+0c
+19
+#144000
+0"
+07
+08
+#146000
+1"
+17
+18
+1c
+09
+1<
+0;
+0:
+#148000
+0"
+07
+08
+#150000
+1"
+17
+18
+1`
+0a
+0b
+0c
+19
+#152000
+0"
+07
+08
+#154000
+1"
+17
+18
+1c
+09
+0=
+1:
+0<
+0:
+#156000
+0"
+07
+08
+#158000
+1"
+17
+18
+0`
+0c
+1=
+19
+0W
+1U
+0V
+0-
+1,
+0.
+1D
+#160000

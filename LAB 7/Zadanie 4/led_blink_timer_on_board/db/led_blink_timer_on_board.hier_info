@@ -1,0 +1,75 @@
+|led_blink_timer_on_board
+CLOCK_50 => CLOCK_50.IN1
+LEDR[0] << led_blink_timer:timer0.port1
+LEDR[1] << led_blink_timer:timer0.port1
+LEDR[2] << led_blink_timer:timer0.port1
+LEDR[3] << led_blink_timer:timer0.port1
+LEDR[4] << led_blink_timer:timer0.port1
+LEDR[5] << led_blink_timer:timer0.port1
+LEDR[6] << led_blink_timer:timer0.port1
+LEDR[7] << led_blink_timer:timer0.port1
+
+
+|led_blink_timer_on_board|led_blink_timer:timer0
+clk => clk.IN1
+led[0] <= led_blink:comb_3.port1
+led[1] <= led_blink:comb_3.port1
+led[2] <= led_blink:comb_3.port1
+led[3] <= led_blink:comb_3.port1
+led[4] <= led_blink:comb_3.port1
+led[5] <= led_blink:comb_3.port1
+led[6] <= led_blink:comb_3.port1
+led[7] <= led_blink:comb_3.port1
+
+
+|led_blink_timer_on_board|led_blink_timer:timer0|timer:timer_1_8s
+clk => slow_clk~reg0.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+clk => cnt[12].CLK
+clk => cnt[13].CLK
+clk => cnt[14].CLK
+clk => cnt[15].CLK
+clk => cnt[16].CLK
+clk => cnt[17].CLK
+clk => cnt[18].CLK
+clk => cnt[19].CLK
+clk => cnt[20].CLK
+clk => cnt[21].CLK
+clk => cnt[22].CLK
+clk => cnt[23].CLK
+clk => cnt[24].CLK
+clk => cnt[25].CLK
+clk => cnt[26].CLK
+slow_clk <= slow_clk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|led_blink_timer_on_board|led_blink_timer:timer0|led_blink:comb_3
+on => leds[0].DATAIN
+on => leds[7].DATAIN
+on => leds[6].DATAIN
+on => leds[5].DATAIN
+on => leds[4].DATAIN
+on => leds[3].DATAIN
+on => leds[2].DATAIN
+on => leds[1].DATAIN
+leds[0] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[7] <= on.DB_MAX_OUTPUT_PORT_TYPE
+
+

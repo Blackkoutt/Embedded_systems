@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/counter_modulo_k_with_data_load/counter_modulo_k_with_data_load.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/delay_10_ms/delay_10_ms.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/delay_10_ms/Waveform.vwf
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/delay_10_ms/db/delay_10_ms.cbx.xml
+design_name = delay_10_ms
+instance = comp, \clk_10_ms~output , clk_10_ms~output, delay_10_ms, 1
+instance = comp, \clk~input , clk~input, delay_10_ms, 1
+instance = comp, \fast_counter|Q[0] , fast_counter|Q[0], delay_10_ms, 1
+instance = comp, \fast_counter|Q[0]~0 , fast_counter|Q[0]~0, delay_10_ms, 1
+instance = comp, \fast_counter|Q[0]~feeder , fast_counter|Q[0]~feeder, delay_10_ms, 1
+instance = comp, \fast_counter|Q[0]~DUPLICATE , fast_counter|Q[0]~DUPLICATE, delay_10_ms, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, delay_10_ms, 1

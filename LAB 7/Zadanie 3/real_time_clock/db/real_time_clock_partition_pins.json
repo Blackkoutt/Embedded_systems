@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "csec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "csec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "csec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "csec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "csec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "csec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "csec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "csec[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sec[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "min[0]",
+					"strict" : false
+				},
+				{
+					"name" : "min[1]",
+					"strict" : false
+				},
+				{
+					"name" : "min[2]",
+					"strict" : false
+				},
+				{
+					"name" : "min[3]",
+					"strict" : false
+				},
+				{
+					"name" : "min[4]",
+					"strict" : false
+				},
+				{
+					"name" : "min[5]",
+					"strict" : false
+				},
+				{
+					"name" : "min[6]",
+					"strict" : false
+				},
+				{
+					"name" : "load_csec",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "load_sec",
+					"strict" : false
+				},
+				{
+					"name" : "load_min",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "timer_enable",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

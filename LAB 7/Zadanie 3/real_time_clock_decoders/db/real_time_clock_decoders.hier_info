@@ -1,0 +1,344 @@
+|real_time_clock_decoders
+clk => clk.IN1
+timer_enable => timer_enable.IN1
+load_csec => load_csec.IN1
+load_sec => load_sec.IN1
+load_min => load_min.IN1
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+data[3] => data[3].IN1
+data[4] => data[4].IN1
+data[5] => data[5].IN1
+data[6] => data[6].IN1
+data[7] => data[7].IN1
+H5[6] << decoder_hex_10:dec_enable_min1.port1
+H5[5] << decoder_hex_10:dec_enable_min1.port1
+H5[4] << decoder_hex_10:dec_enable_min1.port1
+H5[3] << decoder_hex_10:dec_enable_min1.port1
+H5[2] << decoder_hex_10:dec_enable_min1.port1
+H5[1] << decoder_hex_10:dec_enable_min1.port1
+H5[0] << decoder_hex_10:dec_enable_min1.port1
+H4[6] << decoder_hex_10:dec_enable_min0.port1
+H4[5] << decoder_hex_10:dec_enable_min0.port1
+H4[4] << decoder_hex_10:dec_enable_min0.port1
+H4[3] << decoder_hex_10:dec_enable_min0.port1
+H4[2] << decoder_hex_10:dec_enable_min0.port1
+H4[1] << decoder_hex_10:dec_enable_min0.port1
+H4[0] << decoder_hex_10:dec_enable_min0.port1
+H3[6] << decoder_hex_10:dec_enable_sec1.port1
+H3[5] << decoder_hex_10:dec_enable_sec1.port1
+H3[4] << decoder_hex_10:dec_enable_sec1.port1
+H3[3] << decoder_hex_10:dec_enable_sec1.port1
+H3[2] << decoder_hex_10:dec_enable_sec1.port1
+H3[1] << decoder_hex_10:dec_enable_sec1.port1
+H3[0] << decoder_hex_10:dec_enable_sec1.port1
+H2[6] << decoder_hex_10:dec_enable_sec0.port1
+H2[5] << decoder_hex_10:dec_enable_sec0.port1
+H2[4] << decoder_hex_10:dec_enable_sec0.port1
+H2[3] << decoder_hex_10:dec_enable_sec0.port1
+H2[2] << decoder_hex_10:dec_enable_sec0.port1
+H2[1] << decoder_hex_10:dec_enable_sec0.port1
+H2[0] << decoder_hex_10:dec_enable_sec0.port1
+H1[6] << decoder_hex_10:dec_enable_csec1.port1
+H1[5] << decoder_hex_10:dec_enable_csec1.port1
+H1[4] << decoder_hex_10:dec_enable_csec1.port1
+H1[3] << decoder_hex_10:dec_enable_csec1.port1
+H1[2] << decoder_hex_10:dec_enable_csec1.port1
+H1[1] << decoder_hex_10:dec_enable_csec1.port1
+H1[0] << decoder_hex_10:dec_enable_csec1.port1
+H0[6] << decoder_hex_10:dec_enable_csec0.port1
+H0[5] << decoder_hex_10:dec_enable_csec0.port1
+H0[4] << decoder_hex_10:dec_enable_csec0.port1
+H0[3] << decoder_hex_10:dec_enable_csec0.port1
+H0[2] << decoder_hex_10:dec_enable_csec0.port1
+H0[1] << decoder_hex_10:dec_enable_csec0.port1
+H0[0] << decoder_hex_10:dec_enable_csec0.port1
+
+
+|real_time_clock_decoders|real_time_clock:rtc
+clk => clk.IN1
+timer_enable => enable.CLK
+load_csec => load_csec.IN1
+load_sec => load_sec.IN2
+load_min => load_min.IN2
+data[0] => data[0].IN2
+data[1] => data[1].IN2
+data[2] => data[2].IN2
+data[3] => data[3].IN2
+data[4] => data[4].IN3
+data[5] => data[5].IN3
+data[6] => data[6].IN3
+data[7] => data[7].IN3
+csec[0] <= counter_modulo_k_with_data_load:counter_centisec0.Q[0]
+csec[1] <= counter_modulo_k_with_data_load:counter_centisec0.Q[1]
+csec[2] <= counter_modulo_k_with_data_load:counter_centisec0.Q[2]
+csec[3] <= counter_modulo_k_with_data_load:counter_centisec0.Q[3]
+csec[4] <= counter_modulo_k_with_data_load:counter_centisec1.port5
+csec[5] <= counter_modulo_k_with_data_load:counter_centisec1.port5
+csec[6] <= counter_modulo_k_with_data_load:counter_centisec1.port5
+csec[7] <= counter_modulo_k_with_data_load:counter_centisec1.port5
+sec[0] <= counter_modulo_k_with_data_load:counter_sec0.port5
+sec[1] <= counter_modulo_k_with_data_load:counter_sec0.port5
+sec[2] <= counter_modulo_k_with_data_load:counter_sec0.port5
+sec[3] <= counter_modulo_k_with_data_load:counter_sec0.port5
+sec[4] <= counter_modulo_k_with_data_load:counter_sec1.port5
+sec[5] <= counter_modulo_k_with_data_load:counter_sec1.port5
+sec[6] <= counter_modulo_k_with_data_load:counter_sec1.port5
+sec[7] <= counter_modulo_k_with_data_load:counter_sec1.port5
+min[0] <= counter_modulo_k_with_data_load:counter_min0.port5
+min[1] <= counter_modulo_k_with_data_load:counter_min0.port5
+min[2] <= counter_modulo_k_with_data_load:counter_min0.port5
+min[3] <= counter_modulo_k_with_data_load:counter_min0.port5
+min[4] <= counter_modulo_k_with_data_load:counter_min1.port5
+min[5] <= counter_modulo_k_with_data_load:counter_min1.port5
+min[6] <= counter_modulo_k_with_data_load:counter_min1.port5
+min[7] <= counter_modulo_k_with_data_load:counter_min1.port5
+
+
+|real_time_clock_decoders|real_time_clock:rtc|delay_10_ms:fast_clock_delay
+clk => clk.IN1
+clk_10_ms <= counter_modulo_k_with_data_load:fast_counter.port6
+
+
+|real_time_clock_decoders|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter
+clk => Q[0]~reg0.CLK
+aclr => Q[0].IN0
+aclr => Q[0]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+load => Q[0].IN1
+data[0] => Q[0]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_centisec0
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[3].IN0
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+load => Q[3].IN1
+data[0] => Q[0]~reg0.ADATA
+data[1] => Q[1]~reg0.ADATA
+data[2] => Q[2]~reg0.ADATA
+data[3] => Q[3]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_centisec1
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[3].IN0
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+load => Q[3].IN1
+data[0] => Q[0]~reg0.ADATA
+data[1] => Q[1]~reg0.ADATA
+data[2] => Q[2]~reg0.ADATA
+data[3] => Q[3]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_sec0
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[3].IN0
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+load => Q[3].IN1
+data[0] => Q[0]~reg0.ADATA
+data[1] => Q[1]~reg0.ADATA
+data[2] => Q[2]~reg0.ADATA
+data[3] => Q[3]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_sec1
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+aclr => Q[2].IN0
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+load => Q[2].IN1
+data[0] => Q[0]~reg0.ADATA
+data[1] => Q[1]~reg0.ADATA
+data[2] => Q[2]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min0
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[3].IN0
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+load => Q[3].IN1
+data[0] => Q[0]~reg0.ADATA
+data[1] => Q[1]~reg0.ADATA
+data[2] => Q[2]~reg0.ADATA
+data[3] => Q[3]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+aclr => Q[2].IN0
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+load => Q[2].IN1
+data[0] => Q[0]~reg0.ADATA
+data[1] => Q[1]~reg0.ADATA
+data[2] => Q[2]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|decoder_hex_10:dec_enable_csec0
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|decoder_hex_10:dec_enable_csec1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|decoder_hex_10:dec_enable_sec0
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|decoder_hex_10:dec_enable_sec1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|decoder_hex_10:dec_enable_min0
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|real_time_clock_decoders|decoder_hex_10:dec_enable_min1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

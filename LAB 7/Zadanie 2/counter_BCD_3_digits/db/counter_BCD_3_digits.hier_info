@@ -1,0 +1,103 @@
+|counter_BCD_3_digits
+clk => clk.IN1
+aclr => aclr.IN3
+counters_out[0] << counter_modulo_k:counter0.port3
+counters_out[1] << counter_modulo_k:counter0.port3
+counters_out[2] << counter_modulo_k:counter0.port3
+counters_out[3] << counter_modulo_k:counter0.port3
+counters_out[4] << counter_modulo_k:counter1.port3
+counters_out[5] << counter_modulo_k:counter1.port3
+counters_out[6] << counter_modulo_k:counter1.port3
+counters_out[7] << counter_modulo_k:counter1.port3
+counters_out[8] << counter_modulo_k:counter2.port3
+counters_out[9] << counter_modulo_k:counter2.port3
+counters_out[10] << counter_modulo_k:counter2.port3
+counters_out[11] << counter_modulo_k:counter2.port3
+max_value << max_value.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter_BCD_3_digits|delay_1_sec:fast_clock_delay
+clk => clk.IN1
+clk_1_sec <= counter_modulo_k:fast_counter.port4
+
+
+|counter_BCD_3_digits|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter_BCD_3_digits|counter_modulo_k:counter0
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter_BCD_3_digits|counter_modulo_k:counter1
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter_BCD_3_digits|counter_modulo_k:counter2
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+aclr => Q[0]~reg0.ACLR
+aclr => Q[1]~reg0.ACLR
+aclr => Q[2]~reg0.ACLR
+aclr => Q[3]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+enable => Q[3]~reg0.ENA
+enable => Q[2]~reg0.ENA
+enable => Q[1]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

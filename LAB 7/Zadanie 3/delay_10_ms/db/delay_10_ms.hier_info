@@ -1,0 +1,16 @@
+|delay_10_ms
+clk => clk.IN1
+clk_10_ms <= counter_modulo_k_with_data_load:fast_counter.port6
+
+
+|delay_10_ms|counter_modulo_k_with_data_load:fast_counter
+clk => Q[0]~reg0.CLK
+aclr => Q[0].IN0
+aclr => Q[0]~reg0.ACLR
+enable => Q[0]~reg0.ENA
+load => Q[0].IN1
+data[0] => Q[0]~reg0.ADATA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rollover <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

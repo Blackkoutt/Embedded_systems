@@ -1,0 +1,19 @@
+|led_blink
+on => leds[0].DATAIN
+on => leds[7].DATAIN
+on => leds[6].DATAIN
+on => leds[5].DATAIN
+on => leds[4].DATAIN
+on => leds[3].DATAIN
+on => leds[2].DATAIN
+on => leds[1].DATAIN
+leds[0] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= on.DB_MAX_OUTPUT_PORT_TYPE
+leds[7] <= on.DB_MAX_OUTPUT_PORT_TYPE
+
+
