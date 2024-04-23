@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 3/array_multiplier_4_bits/simulation/qsim
+varray_multiplier_4_bits
+Z1 !s110 1713890515
+!i10b 1
+!s100 ^MD7zo>C4fNXQ[BzdR05o1
+IRo^5LCjB?:A6DQlMM]L4j0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713890514
+8array_multiplier_4_bits.vo
+Farray_multiplier_4_bits.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713890515.000000
+!s107 array_multiplier_4_bits.vo|
+!s90 -work|work|array_multiplier_4_bits.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+varray_multiplier_4_bits_vlg_vec_tst
+R1
+!i10b 1
+!s100 BmFdXdRGDF^7QEIBJo15j1
+I462:JeKG]B5`beL32FCNO2
+R2
+R0
+w1713890512
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

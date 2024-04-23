@@ -16,14 +16,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "Q[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Q[4]",
-					"strict" : false
-				},
-				{
 					"name" : "rollover",
 					"strict" : false
 				},
@@ -41,14 +33,6 @@
 				},
 				{
 					"name" : "data[2]",
-					"strict" : false
-				},
-				{
-					"name" : "data[3]",
-					"strict" : false
-				},
-				{
-					"name" : "data[4]",
 					"strict" : false
 				},
 				{

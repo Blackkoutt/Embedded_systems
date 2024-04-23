@@ -1,0 +1,20 @@
+|logic_circuit_add_sub
+A => overflow.IN0
+A => overflow.IN0
+A => overflow.IN0
+A => overflow.IN0
+S => overflow.IN1
+S => overflow.IN1
+S => overflow.IN1
+S => overflow.IN1
+sum_sub_A_S => overflow.IN1
+sum_sub_A_S => overflow.IN1
+sum_sub_A_S => overflow.IN1
+sum_sub_A_S => overflow.IN1
+add_or_sub => overflow.IN1
+add_or_sub => overflow.IN1
+add_or_sub => overflow.IN1
+add_or_sub => overflow.IN1
+overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+

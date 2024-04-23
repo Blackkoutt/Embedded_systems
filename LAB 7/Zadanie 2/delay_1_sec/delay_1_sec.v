@@ -3,7 +3,7 @@ module delay_1_sec(input clk,
 						 
 	wire rollover_out, counter_out;
 	// 50 000 000
-	counter_modulo_k#(10) fast_counter(clk, 1'b1, 1'b1, counter_out, rollover_out);
+	counter_modulo_k#(50000000) fast_counter(clk, 1'b1, 1'b1, counter_out, rollover_out);
 
 	assign clk_1_sec = ~rollover_out;
 	

@@ -1,4 +1,4 @@
-module counter_modulo_k #(parameter k=20)
+module counter_modulo_k #(parameter k=10)
 								 (input clk, aclr, enable,
 								  output reg [N-1:0] Q,
 								  output rollover);

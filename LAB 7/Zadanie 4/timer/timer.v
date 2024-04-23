@@ -1,4 +1,4 @@
-module timer #(parameter M=50000000) // 1sec
+module timer #(parameter M=90000000) // 1sec
 				(input clk, output reg slow_clk);
 				
 	function integer clogb2(input [31:0] v);

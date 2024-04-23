@@ -1,0 +1,33 @@
+# do mux_2_1_N_bits.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:01:24 on Apr 23,2024
+# vlog -work work mux_2_1_N_bits.vo 
+# -- Compiling module mux_2_1_N_bits
+# 
+# Top level modules:
+# 	mux_2_1_N_bits
+# End time: 02:01:24 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:01:24 on Apr 23,2024
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module mux_2_1_N_bits_vlg_vec_tst
+# 
+# Top level modules:
+# 	mux_2_1_N_bits_vlg_vec_tst
+# End time: 02:01:24 on Apr 23,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mux_2_1_N_bits_vlg_vec_tst 
+# Start time: 02:01:24 on Apr 23,2024
+# Loading work.mux_2_1_N_bits_vlg_vec_tst
+# Loading work.mux_2_1_N_bits
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# after#23
+# ** Note: $stop    : Waveform.vwf.vt(48)
+#    Time: 20 ns  Iteration: 0  Instance: /mux_2_1_N_bits_vlg_vec_tst
+# Break in Module mux_2_1_N_bits_vlg_vec_tst at Waveform.vwf.vt line 48
+# Stopped at Waveform.vwf.vt line 48
+# End time: 02:01:25 on Apr 23,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

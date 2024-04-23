@@ -216,11 +216,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "timer_enable",
 					"strict" : false
 				},
 				{
-					"name" : "timer_enable",
+					"name" : "clk",
 					"strict" : false
 				}
 			]

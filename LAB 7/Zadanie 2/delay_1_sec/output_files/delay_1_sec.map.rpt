@@ -1,5 +1,5 @@
 Analysis & Synthesis report for delay_1_sec
-Sun Apr 14 21:26:40 2024
+Fri Apr 19 21:13:14 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -44,7 +44,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Apr 14 21:26:40 2024       ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 19 21:13:14 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; delay_1_sec                                 ;
 ; Top-level Entity Name           ; delay_1_sec                                 ;
@@ -288,7 +288,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Sun Apr 14 21:26:33 2024
+    Info: Processing started: Fri Apr 19 21:13:00 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off delay_1_sec -c delay_1_sec
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -307,9 +307,9 @@ Info (21057): Implemented 33 device resources after synthesis - the final resour
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 31 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4867 megabytes
-    Info: Processing ended: Sun Apr 14 21:26:40 2024
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 4866 megabytes
+    Info: Processing ended: Fri Apr 19 21:13:14 2024
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:17
 
 

@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Mon Apr 15 14:25:36 2024
+Analysis & Synthesis Status : Successful - Fri Apr 19 23:16:17 2024
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : led_blink_timer
 Top-level Entity Name : led_blink_timer
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 4
+Total registers : 28
 Total pins : 9
 Total virtual pins : 0
 Total block memory bits : 0

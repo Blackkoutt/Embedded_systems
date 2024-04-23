@@ -1,5 +1,5 @@
 Analysis & Synthesis report for real_time_clock_decoders
-Mon Apr 15 01:18:06 2024
+Fri Apr 19 22:18:46 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -56,13 +56,13 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Apr 15 01:18:06 2024       ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 19 22:18:46 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; real_time_clock_decoders                    ;
 ; Top-level Entity Name           ; real_time_clock_decoders                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 24                                          ;
+; Total registers                 ; 42                                          ;
 ; Total pins                      ; 55                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -176,7 +176,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-8         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -198,16 +199,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------------+
 ; Resource                                    ; Usage           ;
 +---------------------------------------------+-----------------+
-; Estimate of Logic utilization (ALMs needed) ; 61              ;
+; Estimate of Logic utilization (ALMs needed) ; 73              ;
 ;                                             ;                 ;
-; Combinational ALUT usage for logic          ; 119             ;
+; Combinational ALUT usage for logic          ; 141             ;
 ;     -- 7 input functions                    ; 0               ;
-;     -- 6 input functions                    ; 2               ;
-;     -- 5 input functions                    ; 3               ;
+;     -- 6 input functions                    ; 4               ;
+;     -- 5 input functions                    ; 5               ;
 ;     -- 4 input functions                    ; 65              ;
-;     -- <=3 input functions                  ; 49              ;
+;     -- <=3 input functions                  ; 67              ;
 ;                                             ;                 ;
-; Dedicated logic registers                   ; 24              ;
+; Dedicated logic registers                   ; 42              ;
 ;                                             ;                 ;
 ; I/O pins                                    ; 55              ;
 ;                                             ;                 ;
@@ -215,8 +216,8 @@ refer to the applicable agreement for further details.
 ;                                             ;                 ;
 ; Maximum fan-out node                        ; load_csec~input ;
 ; Maximum fan-out                             ; 24              ;
-; Total fan-out                               ; 598             ;
-; Average fan-out                             ; 2.36            ;
+; Total fan-out                               ; 711             ;
+; Average fan-out                             ; 2.43            ;
 +---------------------------------------------+-----------------+
 
 
@@ -225,22 +226,22 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------+--------------+
 ; Compilation Hierarchy Node                                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                     ; Entity Name                     ; Library Name ;
 +-----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------+--------------+
-; |real_time_clock_decoders                                 ; 119 (0)             ; 24 (0)                    ; 0                 ; 0          ; 55   ; 0            ; |real_time_clock_decoders                                                                                               ; real_time_clock_decoders        ; work         ;
+; |real_time_clock_decoders                                 ; 141 (0)             ; 42 (0)                    ; 0                 ; 0          ; 55   ; 0            ; |real_time_clock_decoders                                                                                               ; real_time_clock_decoders        ; work         ;
 ;    |decoder_hex_10:dec_enable_csec0|                      ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|decoder_hex_10:dec_enable_csec0                                                               ; decoder_hex_10                  ; work         ;
 ;    |decoder_hex_10:dec_enable_csec1|                      ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|decoder_hex_10:dec_enable_csec1                                                               ; decoder_hex_10                  ; work         ;
 ;    |decoder_hex_10:dec_enable_min0|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|decoder_hex_10:dec_enable_min0                                                                ; decoder_hex_10                  ; work         ;
 ;    |decoder_hex_10:dec_enable_min1|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|decoder_hex_10:dec_enable_min1                                                                ; decoder_hex_10                  ; work         ;
 ;    |decoder_hex_10:dec_enable_sec0|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|decoder_hex_10:dec_enable_sec0                                                                ; decoder_hex_10                  ; work         ;
 ;    |decoder_hex_10:dec_enable_sec1|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|decoder_hex_10:dec_enable_sec1                                                                ; decoder_hex_10                  ; work         ;
-;    |real_time_clock:rtc|                                  ; 77 (1)              ; 24 (1)                    ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc                                                                           ; real_time_clock                 ; work         ;
+;    |real_time_clock:rtc|                                  ; 99 (1)              ; 42 (1)                    ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc                                                                           ; real_time_clock                 ; work         ;
 ;       |counter_modulo_k_with_data_load:counter_centisec0| ; 15 (15)             ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_centisec0                         ; counter_modulo_k_with_data_load ; work         ;
 ;       |counter_modulo_k_with_data_load:counter_centisec1| ; 15 (15)             ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_centisec1                         ; counter_modulo_k_with_data_load ; work         ;
 ;       |counter_modulo_k_with_data_load:counter_min0|      ; 13 (13)             ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min0                              ; counter_modulo_k_with_data_load ; work         ;
 ;       |counter_modulo_k_with_data_load:counter_min1|      ; 9 (9)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1                              ; counter_modulo_k_with_data_load ; work         ;
 ;       |counter_modulo_k_with_data_load:counter_sec0|      ; 13 (13)             ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_sec0                              ; counter_modulo_k_with_data_load ; work         ;
 ;       |counter_modulo_k_with_data_load:counter_sec1|      ; 10 (10)             ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|counter_modulo_k_with_data_load:counter_sec1                              ; counter_modulo_k_with_data_load ; work         ;
-;       |delay_10_ms:fast_clock_delay|                      ; 1 (0)               ; 1 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|delay_10_ms:fast_clock_delay                                              ; delay_10_ms                     ; work         ;
-;          |counter_modulo_k_with_data_load:fast_counter|   ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter ; counter_modulo_k_with_data_load ; work         ;
+;       |delay_10_ms:fast_clock_delay|                      ; 23 (0)              ; 19 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|delay_10_ms:fast_clock_delay                                              ; delay_10_ms                     ; work         ;
+;          |counter_modulo_k_with_data_load:fast_counter|   ; 23 (23)             ; 19 (19)                   ; 0                 ; 0          ; 0    ; 0            ; |real_time_clock_decoders|real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter ; counter_modulo_k_with_data_load ; work         ;
 +-----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------+---------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -250,8 +251,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 24    ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 42    ;
+; Number of registers using Synchronous Clear  ; 19    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 22    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -262,11 +263,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +--------------------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter ;
-+----------------+-------+-------------------------------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                                              ;
-+----------------+-------+-------------------------------------------------------------------------------------------------------------------+
-; k              ; 2     ; Signed Integer                                                                                                    ;
-+----------------+-------+-------------------------------------------------------------------------------------------------------------------+
++----------------+--------+------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                                                                             ;
++----------------+--------+------------------------------------------------------------------------------------------------------------------+
+; k              ; 500000 ; Signed Integer                                                                                                   ;
++----------------+--------+------------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -394,17 +395,19 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter" ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                      ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------+
-; aclr   ; Input  ; Info     ; Stuck at VCC                                                                                 ;
-; enable ; Input  ; Info     ; Stuck at VCC                                                                                 ;
-; load   ; Input  ; Info     ; Stuck at GND                                                                                 ;
-; data   ; Input  ; Info     ; Stuck at GND                                                                                 ;
-; Q      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.          ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter"                                                   ;
++--------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                                                        ;
++--------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+; aclr   ; Input  ; Info     ; Stuck at VCC                                                                                                                                   ;
+; enable ; Input  ; Info     ; Stuck at VCC                                                                                                                                   ;
+; load   ; Input  ; Info     ; Stuck at GND                                                                                                                                   ;
+; data   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (19 bits) it drives.  Extra input bit(s) "data[18..1]" will be connected to GND. ;
+; data   ; Input  ; Info     ; Stuck at GND                                                                                                                                   ;
+; Q      ; Output ; Warning  ; Output or bidir port (19 bits) is wider than the port expression (1 bits) it drives; bit(s) "Q[18..1]" have no fanouts                         ;
+; Q      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                            ;
++--------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -412,22 +415,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 24                          ;
+; arriav_ff             ; 42                          ;
 ;     CLR               ; 18                          ;
 ;     ENA CLR           ; 4                           ;
-;     plain             ; 2                           ;
-; arriav_lcell_comb     ; 123                         ;
-;     normal            ; 123                         ;
-;         1 data inputs ; 6                           ;
+;     SCLR              ; 19                          ;
+;     plain             ; 1                           ;
+; arriav_lcell_comb     ; 145                         ;
+;     arith             ; 19                          ;
+;         1 data inputs ; 19                          ;
+;     normal            ; 126                         ;
+;         1 data inputs ; 5                           ;
 ;         2 data inputs ; 3                           ;
 ;         3 data inputs ; 44                          ;
 ;         4 data inputs ; 65                          ;
-;         5 data inputs ; 3                           ;
-;         6 data inputs ; 2                           ;
+;         5 data inputs ; 5                           ;
+;         6 data inputs ; 4                           ;
 ; boundary_port         ; 55                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.41                        ;
+; Average LUT depth     ; 2.38                        ;
 +-----------------------+-----------------------------+
 
 
@@ -446,7 +452,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Mon Apr 15 01:17:59 2024
+    Info: Processing started: Fri Apr 19 22:18:38 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off real_time_clock_decoders -c real_time_clock_decoders
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -463,11 +469,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file real_ti
 Info (12127): Elaborating entity "real_time_clock_decoders" for the top level hierarchy
 Info (12128): Elaborating entity "real_time_clock" for hierarchy "real_time_clock:rtc" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/real_time_clock_decoders/real_time_clock_decoders.v Line: 9
 Info (12128): Elaborating entity "delay_10_ms" for hierarchy "real_time_clock:rtc|delay_10_ms:fast_clock_delay" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/real_time_clock/real_time_clock.v Line: 10
-Info (12128): Elaborating entity "counter_modulo_k_with_data_load" for hierarchy "real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/delay_10_ms/delay_10_ms.v Line: 6
+Info (12128): Elaborating entity "counter_modulo_k_with_data_load" for hierarchy "real_time_clock:rtc|delay_10_ms:fast_clock_delay|counter_modulo_k_with_data_load:fast_counter" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/delay_10_ms/delay_10_ms.v Line: 7
 Info (12128): Elaborating entity "counter_modulo_k_with_data_load" for hierarchy "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_centisec0" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/real_time_clock/real_time_clock.v Line: 19
 Info (12128): Elaborating entity "counter_modulo_k_with_data_load" for hierarchy "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_sec1" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/real_time_clock/real_time_clock.v Line: 29
 Info (12128): Elaborating entity "decoder_hex_10" for hierarchy "decoder_hex_10:dec_enable_csec0" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/real_time_clock_decoders/real_time_clock_decoders.v Line: 12
-Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
     Warning (13310): Register "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1|Q[1]" is converted into an equivalent circuit using register "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1|Q[1]~_emulated" and latch "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1|Q[1]~1" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/counter_modulo_k_with_data_load/counter_modulo_k_with_data_load.v Line: 20
     Warning (13310): Register "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1|Q[0]" is converted into an equivalent circuit using register "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1|Q[0]~_emulated" and latch "real_time_clock:rtc|counter_modulo_k_with_data_load:counter_min1|Q[0]~5" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 3/counter_modulo_k_with_data_load/counter_modulo_k_with_data_load.v Line: 20
@@ -494,14 +500,14 @@ Warning (13004): Presettable and clearable registers converted to equivalent cir
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 174 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 196 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 42 output pins
-    Info (21061): Implemented 119 logic cells
+    Info (21061): Implemented 141 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 4869 megabytes
-    Info: Processing ended: Mon Apr 15 01:18:06 2024
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:16
+    Info: Peak virtual memory: 4900 megabytes
+    Info: Processing ended: Fri Apr 19 22:18:46 2024
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:18
 
 

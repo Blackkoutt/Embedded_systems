@@ -20,10 +20,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "Q[4]",
-					"strict" : false
-				},
-				{
 					"name" : "rollover",
 					"strict" : false
 				},

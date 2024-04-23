@@ -1,5 +1,5 @@
 Flow report for delay_1_sec
-Sun Apr 14 21:29:35 2024
+Fri Apr 19 21:13:58 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sun Apr 14 21:29:35 2024       ;
+; Flow Status                     ; Successful - Fri Apr 19 21:13:51 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; delay_1_sec                                 ;
 ; Top-level Entity Name           ; delay_1_sec                                 ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/14/2024 21:26:34 ;
+; Start date & time ; 04/19/2024 21:13:01 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; delay_1_sec         ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 145862339874939.171312279313396        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 145862339874939.171355398003524        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,15 +95,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4867 MB             ; 00:00:15                           ;
-; Fitter               ; 00:00:25     ; 1.0                     ; 6949 MB             ; 00:01:29                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4832 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5175 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4704 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:02                           ;
-; Total                ; 00:00:43     ; --                      ; --                  ; 00:01:57                           ;
+; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4866 MB             ; 00:00:17                           ;
+; Fitter               ; 00:00:25     ; 1.0                     ; 6955 MB             ; 00:01:29                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4825 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 5177 MB             ; 00:00:03                           ;
+; Total                ; 00:00:52     ; --                      ; --                  ; 00:01:53                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -116,10 +112,6 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -130,10 +122,6 @@ quartus_map --read_settings_files=on --write_settings_files=off delay_1_sec -c d
 quartus_fit --read_settings_files=off --write_settings_files=off delay_1_sec -c delay_1_sec
 quartus_asm --read_settings_files=off --write_settings_files=off delay_1_sec -c delay_1_sec
 quartus_sta delay_1_sec -c delay_1_sec
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off delay_1_sec -c delay_1_sec --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/simulation/qsim/Waveform.vwf.vt"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/simulation/qsim/" delay_1_sec -c delay_1_sec
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off delay_1_sec -c delay_1_sec --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/simulation/qsim/Waveform.vwf.vt"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/simulation/qsim/" delay_1_sec -c delay_1_sec
 
 
 

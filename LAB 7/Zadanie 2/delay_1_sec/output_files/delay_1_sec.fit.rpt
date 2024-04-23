@@ -1,5 +1,5 @@
 Fitter report for delay_1_sec
-Sun Apr 14 21:27:06 2024
+Fri Apr 19 21:13:40 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -60,7 +60,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Sun Apr 14 21:27:06 2024       ;
+; Fitter Status                   ; Successful - Fri Apr 19 21:13:40 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; delay_1_sec                                 ;
 ; Top-level Entity Name           ; delay_1_sec                                 ;
@@ -155,8 +155,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.1%      ;
+;     Processor 2            ;   0.2%      ;
+;     Processor 3            ;   0.2%      ;
 ;     Processor 4            ;   0.1%      ;
 ;     Processors 5-8         ;   0.1%      ;
 +----------------------------+-------------+
@@ -1645,10 +1645,10 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/output_files/delay_1_sec.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6949 megabytes
-    Info: Processing ended: Sun Apr 14 21:27:06 2024
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:01:29
+    Info: Peak virtual memory: 6955 megabytes
+    Info: Processing ended: Fri Apr 19 21:13:43 2024
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:01:30
 
 
 +----------------------------+

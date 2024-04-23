@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 4/mux_2_1_N_bits/simulation/qsim
+vmux_2_1_N_bits
+Z1 !s110 1713830484
+!i10b 1
+!s100 60_HWR77OoDWSi1oeXYWT1
+INe21=aTXV:6K50R5oGloO0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713830484
+8mux_2_1_N_bits.vo
+Fmux_2_1_N_bits.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1713830484.000000
+!s107 mux_2_1_N_bits.vo|
+!s90 -work|work|mux_2_1_N_bits.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+nmux_2_1_@n_bits
+vmux_2_1_N_bits_vlg_vec_tst
+R1
+!i10b 1
+!s100 @iHiX]j0>m9`QB8d61Jc41
+Ig3_<ikDQ>Dh1QBG_3_I9M1
+R2
+R0
+w1713830483
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+nmux_2_1_@n_bits_vlg_vec_tst

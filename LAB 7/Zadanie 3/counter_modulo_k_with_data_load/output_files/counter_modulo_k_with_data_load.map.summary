@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Sun Apr 14 23:20:30 2024
+Analysis & Synthesis Status : Successful - Fri Apr 19 22:48:15 2024
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : counter_modulo_k_with_data_load
 Top-level Entity Name : counter_modulo_k_with_data_load
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 5
-Total pins : 15
+Total registers : 3
+Total pins : 11
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

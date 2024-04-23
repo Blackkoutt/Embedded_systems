@@ -1,0 +1,309 @@
+|array_multiplier_4_bits_decoders
+A[0] => A[0].IN2
+A[1] => A[1].IN2
+A[2] => A[2].IN2
+A[3] => A[3].IN2
+B[0] => B[0].IN2
+B[1] => B[1].IN2
+B[2] => B[2].IN2
+B[3] => B[3].IN2
+H0[6] <= decoder_hex_10:dec_B.port1
+H0[5] <= decoder_hex_10:dec_B.port1
+H0[4] <= decoder_hex_10:dec_B.port1
+H0[3] <= decoder_hex_10:dec_B.port1
+H0[2] <= decoder_hex_10:dec_B.port1
+H0[1] <= decoder_hex_10:dec_B.port1
+H0[0] <= decoder_hex_10:dec_B.port1
+H2[6] <= decoder_hex_10:dec_A.port1
+H2[5] <= decoder_hex_10:dec_A.port1
+H2[4] <= decoder_hex_10:dec_A.port1
+H2[3] <= decoder_hex_10:dec_A.port1
+H2[2] <= decoder_hex_10:dec_A.port1
+H2[1] <= decoder_hex_10:dec_A.port1
+H2[0] <= decoder_hex_10:dec_A.port1
+H4[6] <= decoder_hex_10:dec_P0.port1
+H4[5] <= decoder_hex_10:dec_P0.port1
+H4[4] <= decoder_hex_10:dec_P0.port1
+H4[3] <= decoder_hex_10:dec_P0.port1
+H4[2] <= decoder_hex_10:dec_P0.port1
+H4[1] <= decoder_hex_10:dec_P0.port1
+H4[0] <= decoder_hex_10:dec_P0.port1
+H5[6] <= decoder_hex_10:dec_P1.port1
+H5[5] <= decoder_hex_10:dec_P1.port1
+H5[4] <= decoder_hex_10:dec_P1.port1
+H5[3] <= decoder_hex_10:dec_P1.port1
+H5[2] <= decoder_hex_10:dec_P1.port1
+H5[1] <= decoder_hex_10:dec_P1.port1
+H5[0] <= decoder_hex_10:dec_P1.port1
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier
+A[0] => AB.IN0
+A[0] => AB.IN0
+A[0] => AB.IN0
+A[0] => AB.IN0
+A[1] => AB.IN0
+A[1] => AB.IN0
+A[1] => AB.IN0
+A[1] => AB.IN0
+A[2] => AB.IN0
+A[2] => AB.IN0
+A[2] => AB.IN0
+A[2] => AB.IN0
+A[3] => AB.IN0
+A[3] => AB.IN0
+A[3] => AB.IN0
+A[3] => AB.IN0
+B[0] => AB.IN1
+B[0] => AB.IN1
+B[0] => AB.IN1
+B[0] => AB.IN1
+B[1] => AB.IN1
+B[1] => AB.IN1
+B[1] => AB.IN1
+B[1] => AB.IN1
+B[2] => AB.IN1
+B[2] => AB.IN1
+B[2] => AB.IN1
+B[2] => AB.IN1
+B[3] => AB.IN1
+B[3] => AB.IN1
+B[3] => AB.IN1
+B[3] => AB.IN1
+P[0] <= AB.DB_MAX_OUTPUT_PORT_TYPE
+P[1] <= full_adder:FA0.port3
+P[2] <= full_adder:FA4.port3
+P[3] <= full_adder:FA8.port3
+P[4] <= full_adder:FA9.port3
+P[5] <= full_adder:FA10.port3
+P[6] <= full_adder:FA11.port3
+P[7] <= full_adder:FA11.port4
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA0
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA1
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA2
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA3
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA4
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA5
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA6
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA7
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA8
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA9
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA10
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|array_multiplier_4_bits:multiplier|full_adder:FA11
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|decoder_hex_10:dec_A
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|decoder_hex_10:dec_B
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|bcd_converter_8_bits:converter
+in_value[0] => Div0.IN14
+in_value[0] => Mod0.IN14
+in_value[0] => Mod1.IN11
+in_value[1] => Div0.IN13
+in_value[1] => Mod0.IN13
+in_value[1] => Mod1.IN10
+in_value[2] => Div0.IN12
+in_value[2] => Mod0.IN12
+in_value[2] => Mod1.IN9
+in_value[3] => Div0.IN11
+in_value[3] => Mod0.IN11
+in_value[3] => Mod1.IN8
+in_value[4] => Div0.IN10
+in_value[4] => Mod0.IN10
+in_value[4] => Mod1.IN7
+in_value[5] => Div0.IN9
+in_value[5] => Mod0.IN9
+in_value[5] => Mod1.IN6
+in_value[6] => Div0.IN8
+in_value[6] => Mod0.IN8
+in_value[6] => Mod1.IN5
+in_value[7] => Div0.IN7
+in_value[7] => Mod0.IN7
+in_value[7] => Mod1.IN4
+out_bcd_value[0] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[1] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[2] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[3] <= Mod1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[4] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[5] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[6] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[7] <= Div1.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[8] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[9] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[10] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+out_bcd_value[11] <= Div0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|decoder_hex_10:dec_P0
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|array_multiplier_4_bits_decoders|decoder_hex_10:dec_P1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

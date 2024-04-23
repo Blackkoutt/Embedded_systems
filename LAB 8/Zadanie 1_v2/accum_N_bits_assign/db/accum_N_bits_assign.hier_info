@@ -1,0 +1,111 @@
+|accum_N_bits_assign
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN2
+clk => clk.IN2
+aclr => aclr.IN2
+A_reg_out[0] << reg_N_bits_with_areset:reg_A.port3
+A_reg_out[1] << reg_N_bits_with_areset:reg_A.port3
+A_reg_out[2] << reg_N_bits_with_areset:reg_A.port3
+A_reg_out[3] << reg_N_bits_with_areset:reg_A.port3
+A_reg_out[4] << reg_N_bits_with_areset:reg_A.port3
+A_reg_out[5] << reg_N_bits_with_areset:reg_A.port3
+A_reg_out[6] << reg_N_bits_with_areset:reg_A.port3
+A_reg_out[7] << reg_N_bits_with_areset:reg_A.port3
+S[0] << reg_N_bits_with_areset:reg_S.port3
+S[1] << reg_N_bits_with_areset:reg_S.port3
+S[2] << reg_N_bits_with_areset:reg_S.port3
+S[3] << reg_N_bits_with_areset:reg_S.port3
+S[4] << reg_N_bits_with_areset:reg_S.port3
+S[5] << reg_N_bits_with_areset:reg_S.port3
+S[6] << reg_N_bits_with_areset:reg_S.port3
+S[7] << S[7].DB_MAX_OUTPUT_PORT_TYPE
+carry << carry~reg0.DB_MAX_OUTPUT_PORT_TYPE
+overflow << overflow~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|accum_N_bits_assign|reg_N_bits_with_areset:reg_A
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+reset => out[0]~reg0.ACLR
+reset => out[1]~reg0.ACLR
+reset => out[2]~reg0.ACLR
+reset => out[3]~reg0.ACLR
+reset => out[4]~reg0.ACLR
+reset => out[5]~reg0.ACLR
+reset => out[6]~reg0.ACLR
+reset => out[7]~reg0.ACLR
+data[0] => out[0]~reg0.DATAIN
+data[1] => out[1]~reg0.DATAIN
+data[2] => out[2]~reg0.DATAIN
+data[3] => out[3]~reg0.DATAIN
+data[4] => out[4]~reg0.DATAIN
+data[5] => out[5]~reg0.DATAIN
+data[6] => out[6]~reg0.DATAIN
+data[7] => out[7]~reg0.DATAIN
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|accum_N_bits_assign|reg_N_bits_with_areset:reg_S
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+reset => out[0]~reg0.ACLR
+reset => out[1]~reg0.ACLR
+reset => out[2]~reg0.ACLR
+reset => out[3]~reg0.ACLR
+reset => out[4]~reg0.ACLR
+reset => out[5]~reg0.ACLR
+reset => out[6]~reg0.ACLR
+reset => out[7]~reg0.ACLR
+data[0] => out[0]~reg0.DATAIN
+data[1] => out[1]~reg0.DATAIN
+data[2] => out[2]~reg0.DATAIN
+data[3] => out[3]~reg0.DATAIN
+data[4] => out[4]~reg0.DATAIN
+data[5] => out[5]~reg0.DATAIN
+data[6] => out[6]~reg0.DATAIN
+data[7] => out[7]~reg0.DATAIN
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|accum_N_bits_assign|logic_circuit:check_overflow
+A => overflow.IN0
+A => overflow.IN0
+S => overflow.IN1
+S => overflow.IN1
+sum_A_S => overflow.IN1
+sum_A_S => overflow.IN1
+overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+

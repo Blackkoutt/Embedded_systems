@@ -1,4 +1,4 @@
-module counter_modulo_k_with_data_load #(parameter k=20)
+module counter_modulo_k_with_data_load #(parameter k=6)
 													(input clk, aclr, enable, load,
 													input [N-1:0] data,
 													output reg [N-1:0] Q,

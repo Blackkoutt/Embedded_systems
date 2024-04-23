@@ -1,5 +1,5 @@
 Analysis & Synthesis report for counter_BCD_3_digits
-Tue Apr 16 18:23:12 2024
+Fri Apr 19 21:16:51 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -50,13 +50,13 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 16 18:23:12 2024       ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 19 21:16:51 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; counter_BCD_3_digits                        ;
 ; Top-level Entity Name           ; counter_BCD_3_digits                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 16                                          ;
+; Total registers                 ; 38                                          ;
 ; Total pins                      ; 15                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -170,8 +170,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-8         ;   0.0%      ;
+;     Processors 2-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -186,31 +185,31 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimate of Logic utilization (ALMs needed) ; 11         ;
-;                                             ;            ;
-; Combinational ALUT usage for logic          ; 20         ;
-;     -- 7 input functions                    ; 0          ;
-;     -- 6 input functions                    ; 1          ;
-;     -- 5 input functions                    ; 3          ;
-;     -- 4 input functions                    ; 8          ;
-;     -- <=3 input functions                  ; 8          ;
-;                                             ;            ;
-; Dedicated logic registers                   ; 16         ;
-;                                             ;            ;
-; I/O pins                                    ; 15         ;
-;                                             ;            ;
-; Total DSP Blocks                            ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; aclr~input ;
-; Maximum fan-out                             ; 12         ;
-; Total fan-out                               ; 144        ;
-; Average fan-out                             ; 2.18       ;
-+---------------------------------------------+------------+
++-----------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                     ;
++---------------------------------------------+-------------------------------------------------------------------+
+; Resource                                    ; Usage                                                             ;
++---------------------------------------------+-------------------------------------------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 26                                                                ;
+;                                             ;                                                                   ;
+; Combinational ALUT usage for logic          ; 46                                                                ;
+;     -- 7 input functions                    ; 0                                                                 ;
+;     -- 6 input functions                    ; 6                                                                 ;
+;     -- 5 input functions                    ; 2                                                                 ;
+;     -- 4 input functions                    ; 6                                                                 ;
+;     -- <=3 input functions                  ; 32                                                                ;
+;                                             ;                                                                   ;
+; Dedicated logic registers                   ; 38                                                                ;
+;                                             ;                                                                   ;
+; I/O pins                                    ; 15                                                                ;
+;                                             ;                                                                   ;
+; Total DSP Blocks                            ; 0                                                                 ;
+;                                             ;                                                                   ;
+; Maximum fan-out node                        ; delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter|Equal0 ;
+; Maximum fan-out                             ; 30                                                                ;
+; Total fan-out                               ; 277                                                               ;
+; Average fan-out                             ; 2.43                                                              ;
++---------------------------------------------+-------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -218,12 +217,12 @@ refer to the applicable agreement for further details.
 +---------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node            ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                              ; Entity Name          ; Library Name ;
 +---------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------+----------------------+--------------+
-; |counter_BCD_3_digits                 ; 20 (1)              ; 16 (0)                    ; 0                 ; 0          ; 15   ; 0            ; |counter_BCD_3_digits                                                            ; counter_BCD_3_digits ; work         ;
+; |counter_BCD_3_digits                 ; 46 (1)              ; 38 (0)                    ; 0                 ; 0          ; 15   ; 0            ; |counter_BCD_3_digits                                                            ; counter_BCD_3_digits ; work         ;
 ;    |counter_modulo_k:counter0|        ; 5 (5)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |counter_BCD_3_digits|counter_modulo_k:counter0                                  ; counter_modulo_k     ; work         ;
 ;    |counter_modulo_k:counter1|        ; 5 (5)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |counter_BCD_3_digits|counter_modulo_k:counter1                                  ; counter_modulo_k     ; work         ;
 ;    |counter_modulo_k:counter2|        ; 4 (4)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |counter_BCD_3_digits|counter_modulo_k:counter2                                  ; counter_modulo_k     ; work         ;
-;    |delay_1_sec:fast_clock_delay|     ; 5 (0)               ; 4 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |counter_BCD_3_digits|delay_1_sec:fast_clock_delay                               ; delay_1_sec          ; work         ;
-;       |counter_modulo_k:fast_counter| ; 5 (5)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |counter_BCD_3_digits|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter ; counter_modulo_k     ; work         ;
+;    |delay_1_sec:fast_clock_delay|     ; 31 (0)              ; 26 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |counter_BCD_3_digits|delay_1_sec:fast_clock_delay                               ; delay_1_sec          ; work         ;
+;       |counter_modulo_k:fast_counter| ; 31 (31)             ; 26 (26)                   ; 0                 ; 0          ; 0    ; 0            ; |counter_BCD_3_digits|delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter ; counter_modulo_k     ; work         ;
 +---------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -233,8 +232,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 16    ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Total registers                              ; 38    ;
+; Number of registers using Synchronous Clear  ; 26    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 12    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -245,11 +244,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +---------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter ;
-+----------------+-------+--------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                           ;
-+----------------+-------+--------------------------------------------------------------------------------+
-; k              ; 10    ; Signed Integer                                                                 ;
-+----------------+-------+--------------------------------------------------------------------------------+
++----------------+----------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                                        ;
++----------------+----------+-----------------------------------------------------------------------------+
+; k              ; 50000000 ; Signed Integer                                                              ;
++----------------+----------+-----------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -310,16 +309,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------+-------+----------+---------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter"                                                            ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                              ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
-; aclr   ; Input  ; Info     ; Stuck at VCC                                                                                                         ;
-; enable ; Input  ; Info     ; Stuck at VCC                                                                                                         ;
-; Q      ; Output ; Warning  ; Output or bidir port (4 bits) is wider than the port expression (1 bits) it drives; bit(s) "Q[3..1]" have no fanouts ;
-; Q      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                  ;
-+--------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter"                                                              ;
++--------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                                ;
++--------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
+; aclr   ; Input  ; Info     ; Stuck at VCC                                                                                                           ;
+; enable ; Input  ; Info     ; Stuck at VCC                                                                                                           ;
+; Q      ; Output ; Warning  ; Output or bidir port (26 bits) is wider than the port expression (1 bits) it drives; bit(s) "Q[25..1]" have no fanouts ;
+; Q      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                    ;
++--------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -327,21 +326,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 16                          ;
+; arriav_ff             ; 38                          ;
 ;     CLR               ; 12                          ;
-;     plain             ; 4                           ;
-; arriav_lcell_comb     ; 20                          ;
+;     SCLR              ; 26                          ;
+; arriav_lcell_comb     ; 46                          ;
+;     arith             ; 26                          ;
+;         1 data inputs ; 26                          ;
 ;     normal            ; 20                          ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 3                           ;
-;         3 data inputs ; 4                           ;
-;         4 data inputs ; 8                           ;
-;         5 data inputs ; 3                           ;
-;         6 data inputs ; 1                           ;
+;         2 data inputs ; 2                           ;
+;         3 data inputs ; 3                           ;
+;         4 data inputs ; 6                           ;
+;         5 data inputs ; 2                           ;
+;         6 data inputs ; 6                           ;
 ; boundary_port         ; 15                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.68                        ;
+; Max LUT depth         ; 3.50                        ;
+; Average LUT depth     ; 2.40                        ;
 +-----------------------+-----------------------------+
 
 
@@ -360,7 +361,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Apr 16 18:23:01 2024
+    Info: Processing started: Fri Apr 19 21:16:44 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off counter_BCD_3_digits -c counter_BCD_3_digits
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -373,18 +374,19 @@ Info (12021): Found 1 design units, including 1 entities, in source file counter
 Info (12127): Elaborating entity "counter_BCD_3_digits" for the top level hierarchy
 Info (12128): Elaborating entity "delay_1_sec" for hierarchy "delay_1_sec:fast_clock_delay" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/counter_BCD_3_digits/counter_BCD_3_digits.v Line: 8
 Info (12128): Elaborating entity "counter_modulo_k" for hierarchy "delay_1_sec:fast_clock_delay|counter_modulo_k:fast_counter" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/delay_1_sec/delay_1_sec.v Line: 6
+Info (12128): Elaborating entity "counter_modulo_k" for hierarchy "counter_modulo_k:counter0" File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 2/counter_BCD_3_digits/counter_BCD_3_digits.v Line: 10
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 35 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 61 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 13 output pins
-    Info (21061): Implemented 20 logic cells
+    Info (21061): Implemented 46 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4865 megabytes
-    Info: Processing ended: Tue Apr 16 18:23:12 2024
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:25
+    Info: Peak virtual memory: 4864 megabytes
+    Info: Processing ended: Fri Apr 19 21:16:51 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:17
 
 

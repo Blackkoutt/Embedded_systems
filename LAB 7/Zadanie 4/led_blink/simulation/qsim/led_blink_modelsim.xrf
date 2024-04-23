@@ -1,6 +1,7 @@
 vendor_name = ModelSim
 source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 4/led_blink/led_blink.v
 source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 4/led_blink/Waveform.vwf
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 4/led_blink/Waveform1.vwf
 source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 7/Zadanie 4/led_blink/db/led_blink.cbx.xml
 design_name = led_blink
 instance = comp, \leds[0]~output , leds[0]~output, led_blink, 1

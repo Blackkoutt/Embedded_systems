@@ -1,28 +1,28 @@
 |counter_BCD_3_digits_decoders
 clk => clk.IN1
 aclr => aclr.IN1
-H2[6] <= decoder_hex_10:dec2.port1
-H2[5] <= decoder_hex_10:dec2.port1
-H2[4] <= decoder_hex_10:dec2.port1
-H2[3] <= decoder_hex_10:dec2.port1
-H2[2] <= decoder_hex_10:dec2.port1
-H2[1] <= decoder_hex_10:dec2.port1
-H2[0] <= decoder_hex_10:dec2.port1
-H1[6] <= decoder_hex_10:dec1.port1
-H1[5] <= decoder_hex_10:dec1.port1
-H1[4] <= decoder_hex_10:dec1.port1
-H1[3] <= decoder_hex_10:dec1.port1
-H1[2] <= decoder_hex_10:dec1.port1
-H1[1] <= decoder_hex_10:dec1.port1
-H1[0] <= decoder_hex_10:dec1.port1
-H0[6] <= decoder_hex_10:dec0.port1
-H0[5] <= decoder_hex_10:dec0.port1
-H0[4] <= decoder_hex_10:dec0.port1
-H0[3] <= decoder_hex_10:dec0.port1
-H0[2] <= decoder_hex_10:dec0.port1
-H0[1] <= decoder_hex_10:dec0.port1
-H0[0] <= decoder_hex_10:dec0.port1
-max_val_led <= counter_BCD_3_digits:counter.port3
+H2[6] << decoder_hex_10:dec2.port1
+H2[5] << decoder_hex_10:dec2.port1
+H2[4] << decoder_hex_10:dec2.port1
+H2[3] << decoder_hex_10:dec2.port1
+H2[2] << decoder_hex_10:dec2.port1
+H2[1] << decoder_hex_10:dec2.port1
+H2[0] << decoder_hex_10:dec2.port1
+H1[6] << decoder_hex_10:dec1.port1
+H1[5] << decoder_hex_10:dec1.port1
+H1[4] << decoder_hex_10:dec1.port1
+H1[3] << decoder_hex_10:dec1.port1
+H1[2] << decoder_hex_10:dec1.port1
+H1[1] << decoder_hex_10:dec1.port1
+H1[0] << decoder_hex_10:dec1.port1
+H0[6] << decoder_hex_10:dec0.port1
+H0[5] << decoder_hex_10:dec0.port1
+H0[4] << decoder_hex_10:dec0.port1
+H0[3] << decoder_hex_10:dec0.port1
+H0[2] << decoder_hex_10:dec0.port1
+H0[1] << decoder_hex_10:dec0.port1
+H0[0] << decoder_hex_10:dec0.port1
+max_val_led << counter_BCD_3_digits:counter.port3
 
 
 |counter_BCD_3_digits_decoders|counter_BCD_3_digits:counter

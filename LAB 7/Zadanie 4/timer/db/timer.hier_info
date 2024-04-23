@@ -1,4 +1,5 @@
 |timer
+clk => slow_clk~reg0.CLK
 clk => cnt[0].CLK
 clk => cnt[1].CLK
 clk => cnt[2].CLK
@@ -25,6 +26,7 @@ clk => cnt[22].CLK
 clk => cnt[23].CLK
 clk => cnt[24].CLK
 clk => cnt[25].CLK
-slow_clk <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+clk => cnt[26].CLK
+slow_clk <= slow_clk~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 

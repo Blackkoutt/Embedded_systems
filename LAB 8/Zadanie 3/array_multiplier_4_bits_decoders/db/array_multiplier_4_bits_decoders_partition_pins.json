@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "H0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

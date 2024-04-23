@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 1/accum_N_bits_decoders_on_board/simulation/qsim
+vaccum_N_bits_decoders_on_board
+Z1 !s110 1713806573
+!i10b 1
+!s100 h8l[4?gMm5dWYZWMRA04z2
+I[S[OdoMAnVj:>U@=Z4?IN0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713806572
+8accum_N_bits_decoders_on_board.vo
+Faccum_N_bits_decoders_on_board.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1713806572.000000
+!s107 accum_N_bits_decoders_on_board.vo|
+!s90 -work|work|accum_N_bits_decoders_on_board.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+naccum_@n_bits_decoders_on_board
+vaccum_N_bits_decoders_on_board_vlg_vec_tst
+R1
+!i10b 1
+!s100 Qlhn>Q?[2ACcARcRAVSK40
+Ik:1FMLYP=4E1_PJiMo<jc3
+R2
+R0
+w1713806571
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1713806573.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5
+naccum_@n_bits_decoders_on_board_vlg_vec_tst

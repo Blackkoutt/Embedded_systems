@@ -1,0 +1,14 @@
+module bcd_converter_8_bits(input [7:0] in_value, 
+									  output reg [7:0] out_bcd_value);
+									  
+	reg [3:0] temp;
+	
+	// Konwersja dziesiątek
+	temp = (in_value % 100) / 10;
+   out_bcd_value[7:4] = temp;
+	
+	// Konwersja jedności
+   temp = in_value % 10;
+   out_bcd_value[3:0] = temp;
+
+endmodule

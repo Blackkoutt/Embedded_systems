@@ -1,0 +1,22 @@
+module product_generator(input [3:0] A, B,
+								 output [3:0][3:0] AB);
+								
+	generate 
+	
+		genvar i, j;
+		
+		for(i=0; i<=3; i=i+1) begin first
+		
+			for(j=0; j<=3; j=j+1) begin second
+			
+				assign AB[i][j] = A[i] & B[j];
+				
+			end
+			
+		end
+		
+	endgenerate
+	
+endmodule
+	
+								 

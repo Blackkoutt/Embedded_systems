@@ -1,5 +1,5 @@
 Analysis & Synthesis report for real_time_clock_decoders_on_board
-Tue Apr 16 18:38:12 2024
+Fri Apr 19 22:16:06 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -56,7 +56,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 16 18:38:12 2024       ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 19 22:16:06 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; real_time_clock_decoders_on_board           ;
 ; Top-level Entity Name           ; real_time_clock_decoders_on_board           ;
@@ -176,8 +176,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-8         ;   0.0%      ;
+;     Processors 2-8         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -454,7 +453,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Apr 16 18:38:01 2024
+    Info: Processing started: Fri Apr 19 22:15:58 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off real_time_clock_decoders_on_board -c real_time_clock_decoders_on_board
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -510,9 +509,9 @@ Info (21057): Implemented 199 device resources after synthesis - the final resou
     Info (21059): Implemented 42 output pins
     Info (21061): Implemented 144 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 4866 megabytes
-    Info: Processing ended: Tue Apr 16 18:38:12 2024
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:25
+    Info: Peak virtual memory: 4870 megabytes
+    Info: Processing ended: Fri Apr 19 22:16:06 2024
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:16
 
 

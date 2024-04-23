@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 1/logic_circuit/logic_circuit.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 1/logic_circuit/db/logic_circuit.cbx.xml
+design_name = logic_circuit
+instance = comp, \overflow~output , overflow~output, logic_circuit, 1
+instance = comp, \sum_A_S~input , sum_A_S~input, logic_circuit, 1
+instance = comp, \A~input , A~input, logic_circuit, 1
+instance = comp, \S~input , S~input, logic_circuit, 1
+instance = comp, \overflow~0 , overflow~0, logic_circuit, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, logic_circuit, 1

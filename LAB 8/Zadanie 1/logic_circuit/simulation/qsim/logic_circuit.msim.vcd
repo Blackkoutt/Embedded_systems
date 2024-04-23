@@ -1,0 +1,91 @@
+$comment
+	File created using the following command:
+		vcd file logic_circuit.msim.vcd -direction
+$end
+$date
+	Mon Apr 22 17:24:18 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module logic_circuit_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " S $end
+$var reg 1 # sum_A_S $end
+$var wire 1 $ overflow $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , sum_A_S~input_o $end
+$var wire 1 - A~input_o $end
+$var wire 1 . S~input_o $end
+$var wire 1 / overflow~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+1/
+$end
+#5000
+1#
+1,
+0/
+1$
+#10000
+1"
+0#
+1.
+0,
+1/
+0$
+#15000
+1#
+1,
+#20000
+1!
+0"
+0#
+1-
+0.
+0,
+#25000
+1#
+1,
+#30000
+1"
+0#
+1.
+0,
+0/
+1$
+#35000
+1#
+1,
+1/
+0$
+#40000
