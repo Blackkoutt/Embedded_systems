@@ -19,7 +19,7 @@ module multiplier_N_bits #(parameter N=8)
 		
 	endgenerate
 	
-	// tworzenie cząstkowych iloczynów
+	// tworzenie cząstkowych sum
 	ripple_carry_adder #(N) adder_0({1'b0, PP[0][N-1:1]}, PP[1], 1'b0, cout[1], s[1]);
 	generate 
 	

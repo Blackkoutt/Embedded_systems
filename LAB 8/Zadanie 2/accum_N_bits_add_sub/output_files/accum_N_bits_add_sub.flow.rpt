@@ -1,5 +1,5 @@
 Flow report for accum_N_bits_add_sub
-Tue Apr 23 18:04:54 2024
+Mon Apr 29 08:25:56 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Apr 23 18:04:54 2024       ;
+; Flow Status                     ; Successful - Mon Apr 29 08:25:56 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; accum_N_bits_add_sub                        ;
 ; Top-level Entity Name           ; accum_N_bits_add_sub                        ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 04/22/2024 23:46:54  ;
+; Start date & time ; 04/29/2024 08:24:29  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; accum_N_bits_add_sub ;
 +-------------------+----------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 145862339874939.171382241424428        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 145862339874939.171437186917756        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,19 +95,13 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4867 MB             ; 00:00:17                           ;
-; Fitter               ; 00:00:26     ; 1.0                     ; 6921 MB             ; 00:01:38                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4825 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 5156 MB             ; 00:00:03                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4865 MB             ; 00:00:22                           ;
+; Fitter               ; 00:00:34     ; 1.0                     ; 6914 MB             ; 00:01:51                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4826 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 5152 MB             ; 00:00:05                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4714 MB             ; 00:00:01                           ;
-; Total                ; 00:00:50     ; --                      ; --                  ; 00:02:10                           ;
+; Total                ; 00:00:57     ; --                      ; --                  ; 00:02:26                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -122,12 +116,6 @@ refer to the applicable agreement for further details.
 ; Timing Analyzer      ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -138,12 +126,6 @@ quartus_map --read_settings_files=on --write_settings_files=off accum_N_bits_add
 quartus_fit --read_settings_files=off --write_settings_files=off accum_N_bits_add_sub -c accum_N_bits_add_sub
 quartus_asm --read_settings_files=off --write_settings_files=off accum_N_bits_add_sub -c accum_N_bits_add_sub
 quartus_sta accum_N_bits_add_sub -c accum_N_bits_add_sub
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off accum_N_bits_add_sub -c accum_N_bits_add_sub --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/Waveform.vwf.vt"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/" accum_N_bits_add_sub -c accum_N_bits_add_sub
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off accum_N_bits_add_sub -c accum_N_bits_add_sub --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/Waveform.vwf.vt"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/" accum_N_bits_add_sub -c accum_N_bits_add_sub
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off accum_N_bits_add_sub -c accum_N_bits_add_sub --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/Waveform.vwf.vt"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/" accum_N_bits_add_sub -c accum_N_bits_add_sub
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off accum_N_bits_add_sub -c accum_N_bits_add_sub --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/Waveform.vwf.vt"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim/" accum_N_bits_add_sub -c accum_N_bits_add_sub
 

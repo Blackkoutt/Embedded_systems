@@ -13,9 +13,8 @@ module accum_N_bits #(parameter N=8)
 	wire cout;
 	wire [N-1:0] sum_A_S;
 	
-	//assign {cout, sum_A_S} = A_reg_out_wire + S;
-	
 	ripple_carry_adder #(N) RCA(S, A_reg_out_wire, 1'b0, cout, sum_A_S);
+	
 	reg_N_bits_with_areset #(N) reg_S(clk, aclr, sum_A_S, S);
 	
 	wire of_flag;

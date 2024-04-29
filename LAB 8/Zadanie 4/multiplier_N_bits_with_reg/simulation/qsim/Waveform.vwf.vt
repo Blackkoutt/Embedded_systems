@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "04/23/2024 17:09:36"
+// Generated on "04/29/2024 09:08:50"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          multiplier_N_bits_with_reg
 // 
@@ -51,7 +51,7 @@ multiplier_N_bits_with_reg i1 (
 );
 initial 
 begin 
-#100000 $finish;
+#95000 $finish;
 end 
 
 // clk
@@ -73,56 +73,97 @@ end
 initial
 begin
 	Data[7] = 1'b0;
+	Data[7] = #35000 1'b1;
+	Data[7] = #5000 1'b0;
 end 
 // Data[ 6 ]
 initial
 begin
 	Data[6] = 1'b0;
+	Data[6] = #30000 1'b1;
+	Data[6] = #5000 1'b0;
+	Data[6] = #20000 1'b1;
+	Data[6] = #10000 1'b0;
+	Data[6] = #5000 1'b1;
+	Data[6] = #5000 1'b0;
 end 
 // Data[ 5 ]
 initial
 begin
 	Data[5] = 1'b0;
+	Data[5] = #5000 1'b1;
+	Data[5] = #5000 1'b0;
+	Data[5] = #20000 1'b1;
+	Data[5] = #5000 1'b0;
+	Data[5] = #5000 1'b1;
+	Data[5] = #5000 1'b0;
 end 
 // Data[ 4 ]
 initial
 begin
-	Data[4] = 1'b0;
+	Data[4] = 1'b1;
+	Data[4] = #5000 1'b0;
+	Data[4] = #15000 1'b1;
+	Data[4] = #5000 1'b0;
+	Data[4] = #10000 1'b1;
+	Data[4] = #10000 1'b0;
+	Data[4] = #10000 1'b1;
+	Data[4] = #5000 1'b0;
 end 
 // Data[ 3 ]
 initial
 begin
-	Data[3] = 1'b0;
-	Data[3] = #70000 1'b1;
+	Data[3] = 1'b1;
+	Data[3] = #10000 1'b0;
+	Data[3] = #5000 1'b1;
+	Data[3] = #5000 1'b0;
+	Data[3] = #20000 1'b1;
+	Data[3] = #5000 1'b0;
+	Data[3] = #15000 1'b1;
+	Data[3] = #5000 1'b0;
+	Data[3] = #10000 1'b1;
 end 
 // Data[ 2 ]
 initial
 begin
 	Data[2] = 1'b0;
-	Data[2] = #30000 1'b1;
-	Data[2] = #40000 1'b0;
+	Data[2] = #10000 1'b1;
+	Data[2] = #10000 1'b0;
+	Data[2] = #10000 1'b1;
+	Data[2] = #10000 1'b0;
+	Data[2] = #5000 1'b1;
+	Data[2] = #10000 1'b0;
+	Data[2] = #5000 1'b1;
+	Data[2] = #5000 1'b0;
+	Data[2] = #25000 1'b1;
 end 
 // Data[ 1 ]
 initial
 begin
 	Data[1] = 1'b0;
-	Data[1] = #10000 1'b1;
+	Data[1] = #20000 1'b1;
+	Data[1] = #10000 1'b0;
+	Data[1] = #5000 1'b1;
+	Data[1] = #5000 1'b0;
+	Data[1] = #5000 1'b1;
 	Data[1] = #20000 1'b0;
-	Data[1] = #10000 1'b1;
-	Data[1] = #30000 1'b0;
 	Data[1] = #20000 1'b1;
 end 
 // Data[ 0 ]
 initial
 begin
 	Data[0] = 1'b1;
-	Data[0] = #10000 1'b0;
+	Data[0] = #5000 1'b0;
+	Data[0] = #5000 1'b1;
+	Data[0] = #5000 1'b0;
 	Data[0] = #10000 1'b1;
-	Data[0] = #30000 1'b0;
-	Data[0] = #10000 1'b1;
+	Data[0] = #5000 1'b0;
+	Data[0] = #15000 1'b1;
+	Data[0] = #5000 1'b0;
+	Data[0] = #5000 1'b1;
 	Data[0] = #10000 1'b0;
-	Data[0] = #10000 1'b1;
-	Data[0] = #10000 1'b0;
+	Data[0] = #15000 1'b1;
+	Data[0] = #5000 1'b0;
 end 
 
 // EA
@@ -134,7 +175,11 @@ begin
 	EA = #5000 1'b0;
 	EA = #15000 1'b1;
 	EA = #5000 1'b0;
-	EA = #20000 1'b1;
+	EA = #5000 1'b1;
+	EA = #5000 1'b0;
+	EA = #5000 1'b1;
+	EA = #5000 1'b0;
+	EA = #5000 1'b1;
 	EA = #5000 1'b0;
 end 
 
@@ -147,6 +192,8 @@ begin
 	EB = #20000 1'b1;
 	EB = #5000 1'b0;
 	EB = #20000 1'b1;
+	EB = #5000 1'b0;
+	EB = #15000 1'b1;
 	EB = #5000 1'b0;
 end 
 endmodule

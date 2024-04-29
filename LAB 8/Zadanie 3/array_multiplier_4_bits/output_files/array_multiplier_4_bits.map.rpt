@@ -1,5 +1,5 @@
 Analysis & Synthesis report for array_multiplier_4_bits
-Tue Apr 23 18:37:14 2024
+Mon Apr 29 08:32:02 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -46,7 +46,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 23 18:37:14 2024       ;
+; Analysis & Synthesis Status     ; Successful - Mon Apr 29 08:32:02 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; array_multiplier_4_bits                     ;
 ; Top-level Entity Name           ; array_multiplier_4_bits                     ;
@@ -302,7 +302,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -312,7 +312,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Tue Apr 23 18:36:59 2024
+    Info: Processing started: Mon Apr 29 08:31:51 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off array_multiplier_4_bits -c array_multiplier_4_bits
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -330,9 +330,9 @@ Info (21057): Implemented 38 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 22 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4840 megabytes
-    Info: Processing ended: Tue Apr 23 18:37:14 2024
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:29
+    Info: Peak virtual memory: 4836 megabytes
+    Info: Processing ended: Mon Apr 29 08:32:02 2024
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:23
 
 

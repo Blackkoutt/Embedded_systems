@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_bcd_value[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[14]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[15]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[16]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[17]",
+					"strict" : false
+				},
+				{
+					"name" : "out_bcd_value[18]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[0]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[1]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[2]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[3]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[4]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[5]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[6]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[7]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[8]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[9]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[10]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[11]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[12]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[13]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[14]",
+					"strict" : false
+				},
+				{
+					"name" : "in_value[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

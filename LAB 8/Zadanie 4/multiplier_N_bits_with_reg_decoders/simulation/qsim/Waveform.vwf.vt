@@ -1,0 +1,156 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "04/26/2024 20:13:08"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          multiplier_N_bits_with_reg_decoders
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module multiplier_N_bits_with_reg_decoders_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg EA;
+reg EB;
+reg aclr;
+reg clk;
+reg [7:0] data;
+// wires                                               
+wire [0:6] H0;
+wire [0:6] H1;
+wire [0:6] H2;
+wire [0:6] H3;
+wire [7:0] reg_out_A_B_leds;
+
+// assign statements (if any)                          
+multiplier_N_bits_with_reg_decoders i1 (
+// port map - connection between master ports and signals/registers   
+	.EA(EA),
+	.EB(EB),
+	.H0(H0),
+	.H1(H1),
+	.H2(H2),
+	.H3(H3),
+	.aclr(aclr),
+	.clk(clk),
+	.data(data),
+	.reg_out_A_B_leds(reg_out_A_B_leds)
+);
+initial 
+begin 
+#100000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #2500 1'b1;
+	#2500;
+end 
+
+// EA
+initial
+begin
+	EA = 1'b1;
+	EA = #5000 1'b0;
+	EA = #15000 1'b1;
+	EA = #5000 1'b0;
+end 
+
+// EB
+initial
+begin
+	EB = 1'b0;
+	EB = #5000 1'b1;
+	EB = #5000 1'b0;
+	EB = #5000 1'b1;
+	EB = #5000 1'b0;
+end 
+
+// aclr
+initial
+begin
+	aclr = 1'b0;
+end 
+// data[ 7 ]
+initial
+begin
+	data[7] = 1'b0;
+end 
+// data[ 6 ]
+initial
+begin
+	data[6] = 1'b0;
+	data[6] = #15000 1'b1;
+	data[6] = #5000 1'b0;
+end 
+// data[ 5 ]
+initial
+begin
+	data[5] = 1'b0;
+	data[5] = #15000 1'b1;
+	data[5] = #5000 1'b0;
+end 
+// data[ 4 ]
+initial
+begin
+	data[4] = 1'b0;
+	data[4] = #15000 1'b1;
+	data[4] = #5000 1'b0;
+end 
+// data[ 3 ]
+initial
+begin
+	data[3] = 1'b0;
+	data[3] = #5000 1'b1;
+	data[3] = #5000 1'b0;
+	data[3] = #5000 1'b1;
+	data[3] = #10000 1'b0;
+end 
+// data[ 2 ]
+initial
+begin
+	data[2] = 1'b1;
+	data[2] = #5000 1'b0;
+	data[2] = #10000 1'b1;
+	data[2] = #5000 1'b0;
+end 
+// data[ 1 ]
+initial
+begin
+	data[1] = 1'b0;
+	data[1] = #5000 1'b1;
+	data[1] = #5000 1'b0;
+	data[1] = #10000 1'b1;
+	data[1] = #5000 1'b0;
+end 
+// data[ 0 ]
+initial
+begin
+	data[0] = 1'b1;
+	data[0] = #5000 1'b0;
+	data[0] = #10000 1'b1;
+	data[0] = #5000 1'b0;
+end 
+endmodule
+

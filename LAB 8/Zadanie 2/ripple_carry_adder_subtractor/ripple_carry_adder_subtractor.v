@@ -1,4 +1,4 @@
-module ripple_carry_adder_subtractor #(parameter N=4)
+module ripple_carry_adder_subtractor #(parameter N=8)
 													(input [N-1:0] A, B,
 													input sub,													
 													output [N-1:0] S,

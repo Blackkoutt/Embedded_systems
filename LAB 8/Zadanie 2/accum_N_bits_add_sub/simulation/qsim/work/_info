@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 2/accum_N_bits_add_sub/simulation/qsim
 vaccum_N_bits_add_sub
-Z1 !s110 1713888295
+Z1 !s110 1714371957
 !i10b 1
 !s100 aabN6enX]^O150fe=EUDT3
 I[gIlif^kXQ77C@1;jcB8X2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1713888294
+w1714371956
 8accum_N_bits_add_sub.vo
 Faccum_N_bits_add_sub.vo
 L0 31
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1713888295.000000
+Z4 !s108 1714371957.000000
 !s107 accum_N_bits_add_sub.vo|
 !s90 -work|work|accum_N_bits_add_sub.vo|
 !i113 1
@@ -37,7 +37,7 @@ R1
 IHPMAPnz7<TQm:<oQdZIDR1
 R2
 R0
-w1713888292
+w1714371954
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

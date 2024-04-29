@@ -1,13 +1,13 @@
-Fitter Status : Successful - Mon Apr 22 20:56:31 2024
+Fitter Status : Successful - Fri Apr 26 19:13:20 2024
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : ripple_carry_adder_subtractor
 Top-level Entity Name : ripple_carry_adder_subtractor
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 5 / 32,070 ( < 1 % )
+Logic utilization (in ALMs) : 12 / 32,070 ( < 1 % )
 Total registers : 0
-Total pins : 14 / 457 ( 3 % )
+Total pins : 26 / 457 ( 6 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 4,065,280 ( 0 % )
 Total RAM Blocks : 0 / 397 ( 0 % )

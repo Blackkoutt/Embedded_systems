@@ -12,8 +12,6 @@ module multiplier_N_bits_with_reg #(parameter N=8)
 		if(EA) A_or_B <= Data;
 		else if (EB) A_or_B <= Data;
 		else A_or_B <= 0;
-		
-	//mux_2_1_N_bits #(N) led_mux(A, B, {EB, EA}, A_or_B);
 	
 	wire [2*N-1:0] p_out;
 	multiplier_N_bits #(N) multiplier(A, B, p_out);

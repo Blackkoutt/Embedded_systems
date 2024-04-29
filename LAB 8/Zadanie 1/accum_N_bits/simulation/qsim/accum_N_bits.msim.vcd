@@ -3,7 +3,7 @@ $comment
 		vcd file accum_N_bits.msim.vcd -direction
 $end
 $date
-	Tue Apr 23 18:28:45 2024
+	Fri Apr 26 16:43:47 2024
 $end
 $version
 	ModelSim Version 10.5b

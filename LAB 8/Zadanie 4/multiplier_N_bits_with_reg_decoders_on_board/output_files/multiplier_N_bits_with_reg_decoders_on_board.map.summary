@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Apr 29 08:58:06 2024
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : multiplier_N_bits_with_reg_decoders_on_board
+Top-level Entity Name : multiplier_N_bits_with_reg_decoders_on_board
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 32
+Total pins : 48
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

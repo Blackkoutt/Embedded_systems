@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Mon Apr 22 20:55:40 2024
+Analysis & Synthesis Status : Successful - Fri Apr 26 19:12:45 2024
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : ripple_carry_adder_subtractor
 Top-level Entity Name : ripple_carry_adder_subtractor
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 14
+Total pins : 26
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

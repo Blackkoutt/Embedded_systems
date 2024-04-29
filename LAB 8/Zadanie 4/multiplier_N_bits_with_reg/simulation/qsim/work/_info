@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 8/Zadanie 4/multiplier_N_bits_with_reg/simulation/qsim
 vmultiplier_N_bits_with_reg
-Z1 !s110 1713884977
+Z1 !s110 1714374533
 !i10b 1
 !s100 =ADUcE>35zRkI>=CEbHNk3
 I0V`o49ooi22>IDPKOokoH2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1713884977
+w1714374532
 8multiplier_N_bits_with_reg.vo
 Fmultiplier_N_bits_with_reg.vo
 L0 31
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1713884977.000000
+Z4 !s108 1714374533.000000
 !s107 multiplier_N_bits_with_reg.vo|
 !s90 -work|work|multiplier_N_bits_with_reg.vo|
 !i113 1
@@ -33,11 +33,11 @@ nmultiplier_@n_bits_with_reg
 vmultiplier_N_bits_with_reg_vlg_vec_tst
 R1
 !i10b 1
-!s100 bhXMN>Nc7LO<Ifd84ineA1
-Im:i2@DM97:zHz>=`m?ZX40
+!s100 3E5G6[ZTnRL6QN78N`NzZ3
+IL;P_Q954eUamW`I1l_Z<h3
 R2
 R0
-w1713884976
+w1714374531
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29
