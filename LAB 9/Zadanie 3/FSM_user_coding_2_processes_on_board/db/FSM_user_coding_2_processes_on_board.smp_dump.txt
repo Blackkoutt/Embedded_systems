@@ -1,0 +1,12 @@
+
+State Machine - |FSM_user_coding_2_processes_on_board|FSM_user_coding_2_processes:FSM|state
+Name state.H state.G state.F state.E state.D state.C state.B state.A state.I 
+state.A 0 0 0 0 0 0 0 0 0 
+state.B 0 0 0 0 0 0 1 1 0 
+state.C 0 0 0 0 0 1 0 1 0 
+state.D 0 0 0 0 1 0 0 1 0 
+state.E 0 0 0 1 0 0 0 1 0 
+state.F 0 0 1 0 0 0 0 1 0 
+state.G 0 1 0 0 0 0 0 1 0 
+state.H 1 0 0 0 0 0 0 1 0 
+state.I 0 0 0 0 0 0 0 1 1 

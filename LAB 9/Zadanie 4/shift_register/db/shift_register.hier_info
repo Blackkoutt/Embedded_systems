@@ -1,0 +1,20 @@
+|shift_register
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+clk => state[2]~reg0.CLK
+clk => state[3]~reg0.CLK
+aclr => state[0]~reg0.ALOAD
+aclr => state[1]~reg0.ALOAD
+aclr => state[2]~reg0.ALOAD
+aclr => state[3]~reg0.ALOAD
+w => state[0]~reg0.DATAIN
+init_state[0] => state[0]~reg0.ADATA
+init_state[1] => state[1]~reg0.ADATA
+init_state[2] => state[2]~reg0.ADATA
+init_state[3] => state[3]~reg0.ADATA
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

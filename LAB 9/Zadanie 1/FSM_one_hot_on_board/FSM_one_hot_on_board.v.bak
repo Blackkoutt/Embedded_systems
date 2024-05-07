@@ -1,0 +1,8 @@
+module FSM_one_hot_on_board(input clk, aclr, w,
+                   output reg z,
+                   output [8:0] y);
+						 
+	FSM_one_hot FSM(.clk(~KEY[0]), .aclr(SW[0]), .w(SW[1]),
+								.z(LEDR[9]), .Y(LEDR[8:0]));
+
+endmodule

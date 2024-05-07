@@ -1,0 +1,47 @@
+|FSM_one_hot_on_board
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+KEY[0] => _.IN1
+LEDR[0] <= FSM_one_hot:FSM.y
+LEDR[1] <= FSM_one_hot:FSM.y
+LEDR[2] <= FSM_one_hot:FSM.y
+LEDR[3] <= FSM_one_hot:FSM.y
+LEDR[4] <= FSM_one_hot:FSM.y
+LEDR[5] <= FSM_one_hot:FSM.y
+LEDR[6] <= FSM_one_hot:FSM.y
+LEDR[7] <= FSM_one_hot:FSM.y
+LEDR[8] <= FSM_one_hot:FSM.y
+LEDR[9] <= FSM_one_hot:FSM.z
+
+
+|FSM_one_hot_on_board|FSM_one_hot:FSM
+clk => state~1.DATAIN
+aclr => state~3.DATAIN
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+w => next.IN0
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y[4].DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y[5].DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y[6].DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y[7].DB_MAX_OUTPUT_PORT_TYPE
+y[8] <= y[8].DB_MAX_OUTPUT_PORT_TYPE
+
+

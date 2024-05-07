@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 9/Zadanie 1/FSM_one_hot/simulation/qsim
+vFSM_one_hot
+Z1 !s110 1714863167
+!i10b 1
+!s100 DlQYQ@?7SLFZZfVNlc>0o2
+I2fkl2Bm4gI]V[A:G@>cP:0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1714863166
+8FSM_one_hot.vo
+FFSM_one_hot.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1714863167.000000
+!s107 FSM_one_hot.vo|
+!s90 -work|work|FSM_one_hot.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@f@s@m_one_hot
+vFSM_one_hot_vlg_vec_tst
+R1
+!i10b 1
+!s100 V`X_ozERBX7MC:_`[c>_H2
+INZcUWd<LdU:GnPULL_hje0
+R2
+R0
+w1714863165
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@f@s@m_one_hot_vlg_vec_tst

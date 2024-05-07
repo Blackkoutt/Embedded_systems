@@ -1,0 +1,54 @@
+|detector_with_shift_reg_on_board
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+KEY[0] => _.IN1
+LEDR[0] <= detector_with_shift_reg:detector_reg.z
+
+
+|detector_with_shift_reg_on_board|detector_with_shift_reg:detector_reg
+clk => clk.IN2
+aclr => aclr.IN2
+w => w.IN2
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|detector_with_shift_reg_on_board|detector_with_shift_reg:detector_reg|shift_register:shift_reg0
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+clk => state[2]~reg0.CLK
+clk => state[3]~reg0.CLK
+aclr => state[0]~reg0.ALOAD
+aclr => state[1]~reg0.ALOAD
+aclr => state[2]~reg0.ALOAD
+aclr => state[3]~reg0.ALOAD
+w => state[0]~reg0.DATAIN
+init_state[0] => state[0]~reg0.ADATA
+init_state[1] => state[1]~reg0.ADATA
+init_state[2] => state[2]~reg0.ADATA
+init_state[3] => state[3]~reg0.ADATA
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|detector_with_shift_reg_on_board|detector_with_shift_reg:detector_reg|shift_register:shift_reg1
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+clk => state[2]~reg0.CLK
+clk => state[3]~reg0.CLK
+aclr => state[0]~reg0.ALOAD
+aclr => state[1]~reg0.ALOAD
+aclr => state[2]~reg0.ALOAD
+aclr => state[3]~reg0.ALOAD
+w => state[0]~reg0.DATAIN
+init_state[0] => state[0]~reg0.ADATA
+init_state[1] => state[1]~reg0.ADATA
+init_state[2] => state[2]~reg0.ADATA
+init_state[3] => state[3]~reg0.ADATA
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
