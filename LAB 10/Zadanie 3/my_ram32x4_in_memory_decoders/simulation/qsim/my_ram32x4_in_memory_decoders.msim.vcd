@@ -1,0 +1,481 @@
+$comment
+	File created using the following command:
+		vcd file my_ram32x4_in_memory_decoders.msim.vcd -direction
+$end
+$date
+	Sat May 11 19:23:09 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module my_ram32x4_in_memory_decoders_vlg_vec_tst $end
+$var reg 5 ! address [4:0] $end
+$var reg 1 " clk $end
+$var reg 4 # data [3:0] $end
+$var reg 1 $ wren $end
+$var wire 1 % H0_q_out [0] $end
+$var wire 1 & H0_q_out [1] $end
+$var wire 1 ' H0_q_out [2] $end
+$var wire 1 ( H0_q_out [3] $end
+$var wire 1 ) H0_q_out [4] $end
+$var wire 1 * H0_q_out [5] $end
+$var wire 1 + H0_q_out [6] $end
+$var wire 1 , H2_data [0] $end
+$var wire 1 - H2_data [1] $end
+$var wire 1 . H2_data [2] $end
+$var wire 1 / H2_data [3] $end
+$var wire 1 0 H2_data [4] $end
+$var wire 1 1 H2_data [5] $end
+$var wire 1 2 H2_data [6] $end
+$var wire 1 3 H4_addr_0 [0] $end
+$var wire 1 4 H4_addr_0 [1] $end
+$var wire 1 5 H4_addr_0 [2] $end
+$var wire 1 6 H4_addr_0 [3] $end
+$var wire 1 7 H4_addr_0 [4] $end
+$var wire 1 8 H4_addr_0 [5] $end
+$var wire 1 9 H4_addr_0 [6] $end
+$var wire 1 : H5_addr_1 [0] $end
+$var wire 1 ; H5_addr_1 [1] $end
+$var wire 1 < H5_addr_1 [2] $end
+$var wire 1 = H5_addr_1 [3] $end
+$var wire 1 > H5_addr_1 [4] $end
+$var wire 1 ? H5_addr_1 [5] $end
+$var wire 1 @ H5_addr_1 [6] $end
+
+$scope module i1 $end
+$var wire 1 A gnd $end
+$var wire 1 B vcc $end
+$var wire 1 C unknown $end
+$var tri1 1 D devclrn $end
+$var tri1 1 E devpor $end
+$var tri1 1 F devoe $end
+$var wire 1 G ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 H address[4]~input_o $end
+$var wire 1 I address[3]~input_o $end
+$var wire 1 J address[2]~input_o $end
+$var wire 1 K address[1]~input_o $end
+$var wire 1 L address[0]~input_o $end
+$var wire 1 M dec_addr_0|WideOr6~0_combout $end
+$var wire 1 N dec_addr_0|WideOr5~0_combout $end
+$var wire 1 O dec_addr_0|WideOr4~0_combout $end
+$var wire 1 P dec_addr_0|WideOr3~0_combout $end
+$var wire 1 Q dec_addr_0|WideOr2~0_combout $end
+$var wire 1 R dec_addr_0|WideOr1~0_combout $end
+$var wire 1 S dec_addr_0|WideOr0~0_combout $end
+$var wire 1 T data[1]~input_o $end
+$var wire 1 U data[2]~input_o $end
+$var wire 1 V data[0]~input_o $end
+$var wire 1 W data[3]~input_o $end
+$var wire 1 X dec_data|WideOr6~0_combout $end
+$var wire 1 Y dec_data|WideOr5~0_combout $end
+$var wire 1 Z dec_data|WideOr4~0_combout $end
+$var wire 1 [ dec_data|WideOr3~0_combout $end
+$var wire 1 \ dec_data|WideOr2~0_combout $end
+$var wire 1 ] dec_data|WideOr1~0_combout $end
+$var wire 1 ^ dec_data|WideOr0~0_combout $end
+$var wire 1 _ wren~input_o $end
+$var wire 1 ` clk~input_o $end
+$var wire 1 a clk~inputCLKENA0_outclk $end
+$var wire 1 b ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a3 $end
+$var wire 1 c ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a1 $end
+$var wire 1 d ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a2 $end
+$var wire 1 e ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0~portadataout $end
+$var wire 1 f dec_q_out|WideOr6~0_combout $end
+$var wire 1 g dec_q_out|WideOr5~0_combout $end
+$var wire 1 h dec_q_out|WideOr4~0_combout $end
+$var wire 1 i dec_q_out|WideOr3~0_combout $end
+$var wire 1 j dec_q_out|WideOr2~0_combout $end
+$var wire 1 k dec_q_out|WideOr1~0_combout $end
+$var wire 1 l dec_q_out|WideOr0~0_combout $end
+$var wire 1 m ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [19] $end
+$var wire 1 n ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [18] $end
+$var wire 1 o ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 p ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 q ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 r ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 s ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 t ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 u ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 v ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 w ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 x ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 y ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 z ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 { ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 | ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 } ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 ~ ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 !! ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 "! ram_in_mem|memory_array_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+b0 #
+0$
+1+
+0*
+0)
+0(
+0'
+0&
+0%
+12
+01
+00
+0/
+0.
+0-
+0,
+19
+08
+07
+06
+05
+04
+03
+1@
+0?
+0>
+0=
+0<
+0;
+0:
+0A
+1B
+xC
+1D
+1E
+1F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+$end
+#5000
+1"
+1`
+1a
+#10000
+0"
+0`
+0a
+#15000
+1"
+1`
+1a
+#20000
+b1000 #
+b1010 #
+1$
+0"
+1T
+1W
+1_
+0`
+0a
+1X
+1[
+1/
+02
+#25000
+1"
+1`
+1a
+#25001
+1!!
+1}
+1b
+1c
+1f
+1i
+1(
+0+
+#30000
+b10 #
+b0 #
+0$
+0"
+0T
+0W
+0_
+0`
+0a
+0X
+0[
+0/
+12
+#35000
+1"
+1`
+1a
+#40000
+b10000 !
+b11000 !
+b11100 !
+b11110 !
+b11111 !
+b100 #
+b101 #
+1$
+0"
+1V
+1U
+1L
+1K
+1J
+1I
+1_
+0`
+0a
+1H
+1?
+1>
+1=
+1:
+1M
+1X
+1R
+1Q
+1P
+1]
+1Z
+10
+1-
+16
+15
+14
+02
+09
+#45000
+1"
+1`
+1a
+#45001
+1"!
+0!!
+1~
+0}
+0b
+1d
+0c
+1e
+1k
+0i
+1h
+1)
+0(
+1&
+#50000
+b1111 !
+b111 !
+b11 !
+b1 !
+b0 !
+b1 #
+b0 #
+0$
+0"
+0V
+0U
+0L
+0K
+0J
+0I
+0_
+0`
+0a
+0H
+0?
+0>
+0=
+0:
+0M
+0X
+0R
+0Q
+0P
+0]
+0Z
+00
+0-
+06
+05
+04
+12
+19
+#55000
+1"
+1`
+1a
+#55001
+0"!
+1!!
+0~
+1}
+1b
+0d
+1c
+0e
+0k
+1i
+0h
+0)
+1(
+0&
+#60000
+b10000 !
+b11000 !
+b11100 !
+b11110 !
+b11111 !
+0"
+1L
+1K
+1J
+1I
+0`
+0a
+1H
+1?
+1>
+1=
+1:
+1M
+1R
+1Q
+1P
+16
+15
+14
+09
+#65000
+1"
+1`
+1a
+#65001
+1"!
+0!!
+1~
+0}
+0b
+1d
+0c
+1e
+1k
+0i
+1h
+1)
+0(
+1&
+#70000
+b1111 !
+b111 !
+b11 !
+b1 !
+b0 !
+0"
+0L
+0K
+0J
+0I
+0`
+0a
+0H
+0?
+0>
+0=
+0:
+0M
+0R
+0Q
+0P
+06
+05
+04
+19
+#75000
+1"
+1`
+1a
+#75001
+0"!
+1!!
+0~
+1}
+1b
+0d
+1c
+0e
+0k
+1i
+0h
+0)
+1(
+0&
+#80000
+0"
+0`
+0a
+#85000

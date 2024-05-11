@@ -1,0 +1,201 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "H0_q_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H0_q_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H0_q_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H0_q_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H0_q_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H0_q_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H0_q_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H1_data_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H1_data_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H1_data_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H1_data_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H1_data_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H1_data_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H1_data_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H2_read_addr_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H2_read_addr_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H2_read_addr_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H2_read_addr_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H2_read_addr_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H2_read_addr_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H2_read_addr_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H3_read_addr_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H3_read_addr_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H3_read_addr_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H3_read_addr_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H4_write_addr_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H4_write_addr_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H4_write_addr_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H4_write_addr_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H4_write_addr_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H4_write_addr_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H4_write_addr_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H5_write_addr_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H5_write_addr_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H5_write_addr_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H5_write_addr_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "write_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "write_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "write_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "write_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "write_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "write_ena",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

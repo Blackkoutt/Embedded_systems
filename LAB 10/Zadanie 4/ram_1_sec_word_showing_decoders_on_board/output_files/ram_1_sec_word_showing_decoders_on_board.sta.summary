@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -7.757
+TNS   : -220.124
+
+Type  : Slow 1100mV 85C Model Setup 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -1.482
+TNS   : -6.393
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -69.253
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.647
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -7.403
+TNS   : -208.765
+
+Type  : Slow 1100mV 0C Model Setup 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -1.449
+TNS   : -6.204
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -70.483
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -0.394
+TNS   : -2.708
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.975
+TNS   : -142.718
+
+Type  : Fast 1100mV 85C Model Setup 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -0.515
+TNS   : -1.991
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -57.766
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.251
+TNS   : -121.019
+
+Type  : Fast 1100mV 0C Model Setup 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : -0.405
+TNS   : -1.561
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -2.174
+TNS   : -57.768
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ram_1_sec_word_showing_decoders:ram_dec|ram_1_sec_word_showing:ram|delay_1_sec:delay|counter_modulo_k:fast_counter|Q[0]'
+Slack : 0.121
+TNS   : 0.000
+
+------------------------------------------------------------
