@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Done",
+					"strict" : false
+				},
+				{
+					"name" : "G_in",
+					"strict" : false
+				},
+				{
+					"name" : "G_out",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_out",
+					"strict" : false
+				},
+				{
+					"name" : "add_sub",
+					"strict" : false
+				},
+				{
+					"name" : "IR_in",
+					"strict" : false
+				},
+				{
+					"name" : "A_in",
+					"strict" : false
+				},
+				{
+					"name" : "R_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "R_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "R_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "R_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "R_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "R_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Tstep_Q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Tstep_Q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "IR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Resetn",
+					"strict" : false
+				},
+				{
+					"name" : "Run",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+module proc(input [8:0]DIN,
+				input Resetn, Clock, Run,
+				output Done,
+				output [8:0] BusWires);
+	
+	// stany wewnętrzne automatu
+	parameter T0=2'b00, T1=2'b01, T2=2'b10, T3=2'b11;
+	
+	assign I = IR[1:3]; // Kod rozkazu
+	
+	// Dekodowanie do systemu ósemkowego kodu rejestrów
+	dec3to8 decX(IR[4:6], 1'b1, Xreg);
+	dec3to8 decY(IR[7:9], 1'b1, Yreg);
+	
+	// Przejścia między stanami automatu
+	always @(Tstep_Q, Run, Done)
+		begin 
+			case(Tstep_Q)
+				T0: 
+					if(!Run) Tstep_D = T0;
+					else Tstep_D = T1;
+				T1:
+				
+				T2:
+				
+				T3:
+			endcase
+		end
+			
+	// Wyjścia automatu
+	always @(Tstep_Q, I, Xreg, Yreg)
+		begin
+			case(Tstep_Q)
+				T0:
+					begin
+						IRin = 1'b1;
+					end
+				T1:
+					case(I)
+					
+					endcase
+				T2:
+					case(I)
+					
+					endcase
+				T3:
+					case(I)
+					
+					endcase
+			endcase
+		end
+	
+	// Sterowanie przerzutnikami automatu
+	always @(posedge Clock, negedge Resetn)
+		if(!Resetn)
+			
+			
+	regn reg_0(BusWires, Rin[0], Clock, R0);
+				

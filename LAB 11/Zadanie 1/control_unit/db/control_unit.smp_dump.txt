@@ -1,0 +1,7 @@
+
+State Machine - |control_unit|Tstep_Q_reg
+Name Tstep_Q_reg.T3 Tstep_Q_reg.T2 Tstep_Q_reg.T1 Tstep_Q_reg.T0 
+Tstep_Q_reg.T0 0 0 0 0 
+Tstep_Q_reg.T1 0 0 1 1 
+Tstep_Q_reg.T2 0 1 0 1 
+Tstep_Q_reg.T3 1 0 0 1 

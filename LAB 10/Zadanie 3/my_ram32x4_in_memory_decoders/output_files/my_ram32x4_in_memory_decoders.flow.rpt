@@ -1,5 +1,5 @@
 Flow report for my_ram32x4_in_memory_decoders
-Sat May 11 19:23:07 2024
+Mon May 13 15:39:13 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat May 11 19:23:07 2024       ;
+; Flow Status                     ; Successful - Mon May 13 15:39:13 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; my_ram32x4_in_memory_decoders               ;
 ; Top-level Entity Name           ; my_ram32x4_in_memory_decoders               ;
@@ -103,7 +103,9 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
-; Total                ; 00:00:59     ; --                      ; --                  ; 00:02:13                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4706 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
+; Total                ; 00:01:00     ; --                      ; --                  ; 00:02:15                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -120,6 +122,8 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -130,6 +134,8 @@ quartus_map --read_settings_files=on --write_settings_files=off my_ram32x4_in_me
 quartus_fit --read_settings_files=off --write_settings_files=off my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders
 quartus_asm --read_settings_files=off --write_settings_files=off my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders
 quartus_sta my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/simulation/qsim/" my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/simulation/qsim/Waveform.vwf.vt"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/simulation/qsim/" my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4_in_memory_decoders -c my_ram32x4_in_memory_decoders --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/simulation/qsim/Waveform.vwf.vt"

@@ -1,5 +1,5 @@
 Flow report for ram_1_sec_word_showing
-Sat May 11 20:32:11 2024
+Mon May 20 08:41:19 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat May 11 20:32:06 2024       ;
+; Flow Status                     ; Successful - Mon May 20 08:41:19 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; ram_1_sec_word_showing                      ;
 ; Top-level Entity Name           ; ram_1_sec_word_showing                      ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+------------------------+
 ; Option            ; Setting                ;
 +-------------------+------------------------+
-; Start date & time ; 05/11/2024 20:31:22    ;
+; Start date & time ; 05/20/2024 08:39:40    ;
 ; Main task         ; Compilation            ;
 ; Revision Name     ; ram_1_sec_word_showing ;
 +-------------------+------------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 145862339874939.171545228233468        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 145862339874939.171618717923740        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,11 +95,13 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4901 MB             ; 00:00:17                           ;
-; Fitter               ; 00:00:30     ; 1.0                     ; 6970 MB             ; 00:01:52                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4826 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5177 MB             ; 00:00:04                           ;
-; Total                ; 00:00:46     ; --                      ; --                  ; 00:02:18                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4873 MB             ; 00:00:24                           ;
+; Fitter               ; 00:00:56     ; 1.0                     ; 7042 MB             ; 00:02:22                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4826 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 5178 MB             ; 00:00:05                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4707 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
+; Total                ; 00:01:21     ; --                      ; --                  ; 00:02:59                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +114,8 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -122,6 +126,8 @@ quartus_map --read_settings_files=on --write_settings_files=off ram_1_sec_word_s
 quartus_fit --read_settings_files=off --write_settings_files=off ram_1_sec_word_showing -c ram_1_sec_word_showing
 quartus_asm --read_settings_files=off --write_settings_files=off ram_1_sec_word_showing -c ram_1_sec_word_showing
 quartus_sta ram_1_sec_word_showing -c ram_1_sec_word_showing
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off ram_1_sec_word_showing -c ram_1_sec_word_showing --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 4/ram_1_sec_word_showing/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 4/ram_1_sec_word_showing/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 4/ram_1_sec_word_showing/simulation/qsim/" ram_1_sec_word_showing -c ram_1_sec_word_showing
 
 
 

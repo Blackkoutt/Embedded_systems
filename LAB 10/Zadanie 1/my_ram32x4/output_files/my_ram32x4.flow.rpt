@@ -1,5 +1,5 @@
 Flow report for my_ram32x4
-Sat May 11 17:54:53 2024
+Wed May 15 14:09:55 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat May 11 17:54:53 2024       ;
+; Flow Status                     ; Successful - Wed May 15 14:09:55 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; my_ram32x4                                  ;
 ; Top-level Entity Name           ; my_ram32x4                                  ;
@@ -104,7 +104,14 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
-; Total                ; 00:01:03     ; --                      ; --                  ; 00:02:15                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4713 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4713 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4713 MB             ; 00:00:01                           ;
+; Total                ; 00:01:11     ; --                      ; --                  ; 00:02:22                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -121,6 +128,13 @@ refer to the applicable agreement for further details.
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -131,6 +145,13 @@ quartus_map --read_settings_files=on --write_settings_files=off my_ram32x4 -c my
 quartus_fit --read_settings_files=off --write_settings_files=off my_ram32x4 -c my_ram32x4
 quartus_asm --read_settings_files=off --write_settings_files=off my_ram32x4 -c my_ram32x4
 quartus_sta my_ram32x4 -c my_ram32x4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4 -c my_ram32x4 --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/" my_ram32x4 -c my_ram32x4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4 -c my_ram32x4 --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/" my_ram32x4 -c my_ram32x4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4 -c my_ram32x4 --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/" my_ram32x4 -c my_ram32x4
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4 -c my_ram32x4 --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/Waveform.vwf.vt"
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4 -c my_ram32x4 --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/Waveform.vwf.vt"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/" my_ram32x4 -c my_ram32x4
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off my_ram32x4 -c my_ram32x4 --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 1/my_ram32x4/simulation/qsim/Waveform.vwf.vt"

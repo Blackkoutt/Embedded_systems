@@ -20,6 +20,7 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
 vlib work
@@ -38,6 +39,7 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
 </modelsim_script_timing>
 <hdl_lang>verilog</hdl_lang>
 </simulation_settings>*/
@@ -387,7 +389,9 @@ TRANSITION_LIST("data[0]")
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 80.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -497,7 +501,9 @@ TRANSITION_LIST("write_addr[3]")
 		REPEAT = 1;
 		LEVEL 0 FOR 15.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 80.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -523,7 +529,9 @@ TRANSITION_LIST("write_addr[1]")
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 15.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 70.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -551,7 +559,9 @@ TRANSITION_LIST("write_ena")
 		LEVEL 1 FOR 5.0;
 		LEVEL 0 FOR 5.0;
 		LEVEL 1 FOR 5.0;
-		LEVEL 0 FOR 70.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -566,60 +576,10 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "data";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
-	TREE_INDEX = 1;
-	TREE_LEVEL = 0;
-	CHILDREN = 2, 3, 4, 5;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data[3]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
-	TREE_INDEX = 2;
-	TREE_LEVEL = 1;
-	PARENT = 1;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
-	TREE_INDEX = 3;
-	TREE_LEVEL = 1;
-	PARENT = 1;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data[1]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
-	TREE_INDEX = 4;
-	TREE_LEVEL = 1;
-	PARENT = 1;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data[0]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
-	TREE_INDEX = 5;
-	TREE_LEVEL = 1;
-	PARENT = 1;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "write_ena";
+	CHANNEL = "reset";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
-	TREE_INDEX = 6;
+	TREE_INDEX = 1;
 	TREE_LEVEL = 0;
 }
 
@@ -628,9 +588,9 @@ DISPLAY_LINE
 	CHANNEL = "write_addr";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Unsigned;
-	TREE_INDEX = 7;
+	TREE_INDEX = 2;
 	TREE_LEVEL = 0;
-	CHILDREN = 8, 9, 10, 11, 12;
+	CHILDREN = 3, 4, 5, 6, 7;
 }
 
 DISPLAY_LINE
@@ -638,9 +598,9 @@ DISPLAY_LINE
 	CHANNEL = "write_addr[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Unsigned;
-	TREE_INDEX = 8;
+	TREE_INDEX = 3;
 	TREE_LEVEL = 1;
-	PARENT = 7;
+	PARENT = 2;
 }
 
 DISPLAY_LINE
@@ -648,9 +608,9 @@ DISPLAY_LINE
 	CHANNEL = "write_addr[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Unsigned;
-	TREE_INDEX = 9;
+	TREE_INDEX = 4;
 	TREE_LEVEL = 1;
-	PARENT = 7;
+	PARENT = 2;
 }
 
 DISPLAY_LINE
@@ -658,9 +618,9 @@ DISPLAY_LINE
 	CHANNEL = "write_addr[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Unsigned;
-	TREE_INDEX = 10;
+	TREE_INDEX = 5;
 	TREE_LEVEL = 1;
-	PARENT = 7;
+	PARENT = 2;
 }
 
 DISPLAY_LINE
@@ -668,9 +628,9 @@ DISPLAY_LINE
 	CHANNEL = "write_addr[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Unsigned;
-	TREE_INDEX = 11;
+	TREE_INDEX = 6;
 	TREE_LEVEL = 1;
-	PARENT = 7;
+	PARENT = 2;
 }
 
 DISPLAY_LINE
@@ -678,18 +638,68 @@ DISPLAY_LINE
 	CHANNEL = "write_addr[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Unsigned;
-	TREE_INDEX = 12;
+	TREE_INDEX = 7;
 	TREE_LEVEL = 1;
-	PARENT = 7;
+	PARENT = 2;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "reset";
+	CHANNEL = "write_ena";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
-	TREE_INDEX = 13;
+	TREE_INDEX = 8;
 	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+	CHILDREN = 10, 11, 12, 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 1;
+	PARENT = 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 1;
+	PARENT = 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 1;
+	PARENT = 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 1;
+	PARENT = 9;
 }
 
 DISPLAY_LINE

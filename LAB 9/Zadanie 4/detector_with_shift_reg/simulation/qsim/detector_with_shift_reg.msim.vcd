@@ -3,7 +3,7 @@ $comment
 		vcd file detector_with_shift_reg.msim.vcd -direction
 $end
 $date
-	Mon May 06 01:50:55 2024
+	Mon May 13 08:53:27 2024
 $end
 $version
 	ModelSim Version 10.5b

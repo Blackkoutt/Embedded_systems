@@ -11,15 +11,15 @@ data[2] => data[2].IN1
 data[3] => data[3].IN1
 write_ena => write_ena.IN1
 reset => reset.IN1
-read_addr[0] <= read_addr[0].DB_MAX_OUTPUT_PORT_TYPE
-read_addr[1] <= read_addr[1].DB_MAX_OUTPUT_PORT_TYPE
-read_addr[2] <= read_addr[2].DB_MAX_OUTPUT_PORT_TYPE
-read_addr[3] <= read_addr[3].DB_MAX_OUTPUT_PORT_TYPE
-read_addr[4] <= read_addr[4].DB_MAX_OUTPUT_PORT_TYPE
-q[0] <= ram32x4_2_ports:memory.port5
-q[1] <= ram32x4_2_ports:memory.port5
-q[2] <= ram32x4_2_ports:memory.port5
-q[3] <= ram32x4_2_ports:memory.port5
+read_addr[0] << read_addr[0].DB_MAX_OUTPUT_PORT_TYPE
+read_addr[1] << read_addr[1].DB_MAX_OUTPUT_PORT_TYPE
+read_addr[2] << read_addr[2].DB_MAX_OUTPUT_PORT_TYPE
+read_addr[3] << read_addr[3].DB_MAX_OUTPUT_PORT_TYPE
+read_addr[4] << read_addr[4].DB_MAX_OUTPUT_PORT_TYPE
+q[0] << ram32x4_2_ports:memory.port5
+q[1] << ram32x4_2_ports:memory.port5
+q[2] << ram32x4_2_ports:memory.port5
+q[3] << ram32x4_2_ports:memory.port5
 
 
 |ram_1_sec_word_showing|delay_1_sec:delay

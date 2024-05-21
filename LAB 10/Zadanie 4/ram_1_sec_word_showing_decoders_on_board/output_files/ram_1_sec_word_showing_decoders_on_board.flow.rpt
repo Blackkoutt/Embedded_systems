@@ -1,5 +1,5 @@
 Flow report for ram_1_sec_word_showing_decoders_on_board
-Sat May 11 20:59:13 2024
+Tue May 14 18:13:42 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat May 11 20:59:07 2024       ;
+; Flow Status                     ; Successful - Tue May 14 18:13:34 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; ram_1_sec_word_showing_decoders_on_board    ;
 ; Top-level Entity Name           ; ram_1_sec_word_showing_decoders_on_board    ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+------------------------------------------+
 ; Option            ; Setting                                  ;
 +-------------------+------------------------------------------+
-; Start date & time ; 05/11/2024 20:58:29                      ;
+; Start date & time ; 05/14/2024 18:12:41                      ;
 ; Main task         ; Compilation                              ;
 ; Revision Name     ; ram_1_sec_word_showing_decoders_on_board ;
 +-------------------+------------------------------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 145862339874939.171545390928172        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 145862339874939.171570316011276        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,11 +95,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4872 MB             ; 00:00:16                           ;
-; Fitter               ; 00:00:25     ; 1.0                     ; 6962 MB             ; 00:01:16                           ;
-; Assembler            ; 00:00:04     ; 1.0                     ; 4824 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 5181 MB             ; 00:00:05                           ;
-; Total                ; 00:00:41     ; --                      ; --                  ; 00:01:41                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4875 MB             ; 00:00:22                           ;
+; Fitter               ; 00:00:35     ; 1.0                     ; 6968 MB             ; 00:01:32                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4824 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.1                     ; 5181 MB             ; 00:00:07                           ;
+; Total                ; 00:00:58     ; --                      ; --                  ; 00:02:07                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 9/Zadanie 4/detector_with_shift_reg/simulation/qsim
 vdetector_with_shift_reg
-Z1 !s110 1714953054
+Z1 !s110 1715583207
 !i10b 1
 !s100 `JJUBVKhMF8DBmQn>CWdW0
 I39coGPHbe[LccjAR^P24O3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1714953054
+w1715583206
 8detector_with_shift_reg.vo
 Fdetector_with_shift_reg.vo
 L0 31
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1714953054.000000
+Z4 !s108 1715583207.000000
 !s107 detector_with_shift_reg.vo|
 !s90 -work|work|detector_with_shift_reg.vo|
 !i113 1
@@ -36,7 +36,7 @@ R1
 I8SddMN40k>EQWI]KlZ00d0
 R2
 R0
-w1714953053
+w1715583204
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

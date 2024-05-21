@@ -2,7 +2,7 @@
 SW[0] => SW[0].IN1
 SW[1] => SW[1].IN1
 KEY[0] => _.IN1
-LEDR[0] <= detector_with_shift_reg:detector_reg.z
+LEDR[0] << detector_with_shift_reg:detector_reg.z
 
 
 |detector_with_shift_reg_on_board|detector_with_shift_reg:detector_reg

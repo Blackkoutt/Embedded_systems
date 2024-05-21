@@ -1,5 +1,5 @@
 Fitter report for my_ram32x4_decoders_on_board
-Sat May 11 18:56:45 2024
+Tue May 14 17:44:29 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Sat May 11 18:56:45 2024       ;
+; Fitter Status                   ; Successful - Tue May 14 17:44:29 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; my_ram32x4_decoders_on_board                ;
 ; Top-level Entity Name           ; my_ram32x4_decoders_on_board                ;
@@ -71,7 +71,7 @@ refer to the applicable agreement for further details.
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; 11 / 32,070 ( < 1 % )                       ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 40 / 457 ( 9 % )                            ;
+; Total pins                      ; 39 / 457 ( 9 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 128 / 4,065,280 ( < 1 % )                   ;
 ; Total RAM Blocks                ; 1 / 397 ( < 1 % )                           ;
@@ -159,7 +159,7 @@ refer to the applicable agreement for further details.
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.2%      ;
 ;     Processor 3            ;   0.2%      ;
-;     Processor 4            ;   0.1%      ;
+;     Processor 4            ;   0.2%      ;
 ;     Processors 5-8         ;   0.1%      ;
 +----------------------------+-------------+
 
@@ -322,6 +322,7 @@ refer to the applicable agreement for further details.
 ; Location ;                ;              ; HEX3[6]        ; PIN_AB22      ; QSF Assignment ;
 ; Location ;                ;              ; IRDA_RXD       ; PIN_AA30      ; QSF Assignment ;
 ; Location ;                ;              ; IRDA_TXD       ; PIN_AB30      ; QSF Assignment ;
+; Location ;                ;              ; KEY[1]         ; PIN_AA15      ; QSF Assignment ;
 ; Location ;                ;              ; KEY[2]         ; PIN_W15       ; QSF Assignment ;
 ; Location ;                ;              ; KEY[3]         ; PIN_Y16       ; QSF Assignment ;
 ; Location ;                ;              ; LEDR[0]        ; PIN_V16       ; QSF Assignment ;
@@ -405,8 +406,8 @@ refer to the applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 107 ) ; 0.00 % ( 0 / 107 )         ; 0.00 % ( 0 / 107 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 107 ) ; 0.00 % ( 0 / 107 )         ; 0.00 % ( 0 / 107 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 105 ) ; 0.00 % ( 0 / 105 )         ; 0.00 % ( 0 / 105 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 105 ) ; 0.00 % ( 0 / 105 )         ; 0.00 % ( 0 / 105 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -429,7 +430,7 @@ refer to the applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 107 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 105 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -482,7 +483,7 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ;         -- Routing optimization registers                   ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Virtual pins                                                ; 0                  ;       ;
-; I/O pins                                                    ; 40 / 457           ; 9 %   ;
+; I/O pins                                                    ; 39 / 457           ; 9 %   ;
 ;     -- Clock pins                                           ; 2 / 8              ; 25 %  ;
 ;     -- Dedicated input pins                                 ; 0 / 21             ; 0 %   ;
 ;                                                             ;                    ;       ;
@@ -538,8 +539,8 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ; Peak interconnect usage (total/H/V)                         ; 0.4% / 0.4% / 0.7% ;       ;
 ; Maximum fan-out                                             ; 28                 ;       ;
 ; Highest non-global fan-out                                  ; 8                  ;       ;
-; Total fan-out                                               ; 140                ;       ;
-; Average fan-out                                             ; 1.35               ;       ;
+; Total fan-out                                               ; 139                ;       ;
+; Average fan-out                                             ; 1.36               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -589,7 +590,7 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ;                                                             ;                      ;                                ;
 ;                                                             ;                      ;                                ;
 ; Virtual pins                                                ; 0                    ; 0                              ;
-; I/O pins                                                    ; 40                   ; 0                              ;
+; I/O pins                                                    ; 39                   ; 0                              ;
 ; I/O registers                                               ; 0                    ; 0                              ;
 ; Total block memory bits                                     ; 128                  ; 0                              ;
 ; Total block memory implementation bits                      ; 10240                ; 0                              ;
@@ -603,7 +604,7 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 161                  ; 0                              ;
+;     -- Total Connections                                    ; 160                  ; 0                              ;
 ;     -- Registered Connections                               ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
@@ -611,7 +612,7 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ;     -- hard_block:auto_generated_inst                       ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Partition Interface                                         ;                      ;                                ;
-;     -- Input Ports                                          ; 12                   ; 0                              ;
+;     -- Input Ports                                          ; 11                   ; 0                              ;
 ;     -- Output Ports                                         ; 28                   ; 0                              ;
 ;     -- Bidir Ports                                          ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
@@ -637,7 +638,6 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ; Name   ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +--------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 ; KEY[0] ; AA14  ; 3B       ; 36           ; 0            ; 0            ; 1                     ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; KEY[1] ; AA15  ; 3B       ; 36           ; 0            ; 17           ; 0                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW[0]  ; AB12  ; 3A       ; 12           ; 0            ; 17           ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW[1]  ; AC12  ; 3A       ; 16           ; 0            ; 0            ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 ; SW[2]  ; AF9   ; 3A       ; 8            ; 0            ; 34           ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
@@ -695,7 +695,7 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ; B2L      ; 0 / 0 ( -- )     ; --            ; --           ; --            ;
 ; B1L      ; 0 / 0 ( -- )     ; --            ; --           ; --            ;
 ; 3A       ; 10 / 32 ( 31 % ) ; 2.5V          ; --           ; 2.5V          ;
-; 3B       ; 2 / 48 ( 4 % )   ; 2.5V          ; --           ; 2.5V          ;
+; 3B       ; 1 / 48 ( 2 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 4A       ; 0 / 80 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
 ; 5A       ; 16 / 32 ( 50 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 5B       ; 12 / 16 ( 75 % ) ; 2.5V          ; --           ; 2.5V          ;
@@ -756,7 +756,7 @@ The pin-out file can be found in C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 
 ; AA12     ; 74         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AA13     ; 90         ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AA14     ; 122        ; 3B             ; KEY[0]                          ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
-; AA15     ; 120        ; 3B             ; KEY[1]                          ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
+; AA15     ; 120        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AA16     ; 146        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AA17     ;            ; 4A             ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AA18     ; 168        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -1619,7 +1619,6 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------+-------------------------------+
 ; Pin Name ; Reason                        ;
 +----------+-------------------------------+
-; KEY[1]   ; Incomplete set of assignments ;
 ; HEX0[6]  ; Incomplete set of assignments ;
 ; HEX0[5]  ; Incomplete set of assignments ;
 ; HEX0[4]  ; Incomplete set of assignments ;
@@ -1667,7 +1666,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                 ; Entity Name                  ; Library Name ;
 +-------------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------+--------------+
-; |my_ram32x4_decoders_on_board                   ; 11.0 (0.5)           ; 11.0 (0.5)                       ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 22 (1)              ; 0 (0)                     ; 0 (0)         ; 128               ; 1     ; 0          ; 40   ; 0            ; |my_ram32x4_decoders_on_board                                                                                                                       ; my_ram32x4_decoders_on_board ; work         ;
+; |my_ram32x4_decoders_on_board                   ; 11.0 (0.5)           ; 11.0 (0.5)                       ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 22 (1)              ; 0 (0)                     ; 0 (0)         ; 128               ; 1     ; 0          ; 39   ; 0            ; |my_ram32x4_decoders_on_board                                                                                                                       ; my_ram32x4_decoders_on_board ; work         ;
 ;    |my_ram32x4_decoders:ram_dec|                ; 10.5 (0.0)           ; 10.5 (0.0)                       ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 21 (0)              ; 0 (0)                     ; 0 (0)         ; 128               ; 1     ; 0          ; 0    ; 0            ; |my_ram32x4_decoders_on_board|my_ram32x4_decoders:ram_dec                                                                                           ; my_ram32x4_decoders          ; work         ;
 ;       |decoder_hex_16:dec_addr0|                ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |my_ram32x4_decoders_on_board|my_ram32x4_decoders:ram_dec|decoder_hex_16:dec_addr0                                                                  ; decoder_hex_16               ; work         ;
 ;       |decoder_hex_16:dec_data_in|              ; 3.5 (3.5)            ; 3.5 (3.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |my_ram32x4_decoders_on_board|my_ram32x4_decoders:ram_dec|decoder_hex_16:dec_data_in                                                                ; decoder_hex_16               ; work         ;
@@ -1685,7 +1684,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 ; Name    ; Pin Type ; D1 ; D3_0 ; D3_1 ; D4 ; D5   ; D5 OE ; D5 OCT ; T11 (Postamble Gating) ; T11 (Postamble Ungating) ;
 +---------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
-; KEY[1]  ; Input    ; -- ; --   ; --   ; -- ; --   ; --    ; --     ; --                     ; --                       ;
 ; HEX0[6] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; HEX0[5] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
 ; HEX0[4] ; Output   ; -- ; --   ; --   ; -- ; (0)  ; (31)  ; --     ; --                     ; --                       ;
@@ -1733,7 +1731,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------+---------+
 ; Source Pin / Fanout                                                                                                                       ; Pad To Core Index ; Setting ;
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------+---------+
-; KEY[1]                                                                                                                                    ;                   ;         ;
 ; SW[0]                                                                                                                                     ;                   ;         ;
 ;      - my_ram32x4_decoders:ram_dec|my_ram32x4:ram|ram32x4:ram|altsyncram:altsyncram_component|altsyncram_t6o1:auto_generated|ram_block1a0 ; 0                 ; 0       ;
 ;      - my_ram32x4_decoders:ram_dec|decoder_hex_16:dec_data_in|WideOr6~0                                                                   ; 0                 ; 0       ;
@@ -1855,12 +1852,12 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +---------------------------------------------+------------------------+
 ; Block interconnects                         ; 48 / 289,320 ( < 1 % ) ;
 ; C12 interconnects                           ; 17 / 13,420 ( < 1 % )  ;
-; C2 interconnects                            ; 39 / 119,108 ( < 1 % ) ;
-; C4 interconnects                            ; 25 / 56,300 ( < 1 % )  ;
+; C2 interconnects                            ; 34 / 119,108 ( < 1 % ) ;
+; C4 interconnects                            ; 28 / 56,300 ( < 1 % )  ;
 ; DQS bus muxes                               ; 0 / 25 ( 0 % )         ;
 ; DQS-18 I/O buses                            ; 0 / 25 ( 0 % )         ;
 ; DQS-9 I/O buses                             ; 0 / 25 ( 0 % )         ;
-; Direct links                                ; 1 / 289,320 ( < 1 % )  ;
+; Direct links                                ; 0 / 289,320 ( 0 % )    ;
 ; Global clocks                               ; 1 / 16 ( 6 % )         ;
 ; HPS SDRAM PLL inputs                        ; 0 / 1 ( 0 % )          ;
 ; HPS SDRAM PLL outputs                       ; 0 / 1 ( 0 % )          ;
@@ -1921,7 +1918,7 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 ; R14 interconnects                           ; 57 / 12,676 ( < 1 % )  ;
 ; R14/C12 interconnect drivers                ; 63 / 20,720 ( < 1 % )  ;
 ; R3 interconnects                            ; 18 / 130,992 ( < 1 % ) ;
-; R6 interconnects                            ; 30 / 266,960 ( < 1 % ) ;
+; R6 interconnects                            ; 31 / 266,960 ( < 1 % ) ;
 ; Spine clocks                                ; 1 / 360 ( < 1 % )      ;
 ; Wire stub REs                               ; 0 / 15,858 ( 0 % )     ;
 +---------------------------------------------+------------------------+
@@ -1982,11 +1979,10 @@ Note: Fitter may spread logical memories into multiple blocks to improve timing.
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 ; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000034    ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
-; Total Pass         ; 40        ; 0            ; 40        ; 0            ; 0            ; 40        ; 40        ; 0            ; 40        ; 40        ; 0            ; 28           ; 0            ; 0            ; 0            ; 0            ; 28           ; 0            ; 0            ; 0            ; 0            ; 28           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Total Pass         ; 39        ; 0            ; 39        ; 0            ; 0            ; 39        ; 39        ; 0            ; 39        ; 39        ; 0            ; 28           ; 0            ; 0            ; 0            ; 0            ; 28           ; 0            ; 0            ; 0            ; 0            ; 28           ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Total Inapplicable ; 0         ; 40           ; 0         ; 40           ; 40           ; 0         ; 0         ; 40           ; 0         ; 0         ; 40           ; 12           ; 40           ; 40           ; 40           ; 40           ; 12           ; 40           ; 40           ; 40           ; 40           ; 12           ; 40           ; 40           ; 40           ; 40           ; 40           ; 40           ;
+; Total Inapplicable ; 0         ; 39           ; 0         ; 39           ; 39           ; 0         ; 0         ; 39           ; 0         ; 0         ; 39           ; 11           ; 39           ; 39           ; 39           ; 39           ; 11           ; 39           ; 39           ; 39           ; 39           ; 11           ; 39           ; 39           ; 39           ; 39           ; 39           ; 39           ;
 ; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; KEY[1]             ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; HEX0[6]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; HEX0[5]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; HEX0[4]            ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
@@ -2240,6 +2236,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "HEX3[6]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "IRDA_RXD" is assigned to location or region, but does not exist in design
     Warning (15706): Node "IRDA_TXD" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "KEY[1]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "KEY[2]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "KEY[3]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "LEDR[0]" is assigned to location or region, but does not exist in design
@@ -2314,7 +2311,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_SYNC_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:09
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:10
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'my_ram32x4_decoders_on_board.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
@@ -2333,19 +2330,19 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.19 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.18 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:04
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 2/my_ram32x4_decoders_on_board/output_files/my_ram32x4_decoders_on_board.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 226 warnings
-    Info: Peak virtual memory: 7006 megabytes
-    Info: Processing ended: Sat May 11 18:56:46 2024
+Info: Quartus Prime Fitter was successful. 0 errors, 227 warnings
+    Info: Peak virtual memory: 7014 megabytes
+    Info: Processing ended: Tue May 14 17:44:29 2024
     Info: Elapsed time: 00:00:32
-    Info: Total CPU time (on all processors): 00:01:24
+    Info: Total CPU time (on all processors): 00:01:22
 
 
 +----------------------------+

@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/11/2024 20:29:51"
+// Generated on "05/20/2024 08:41:17"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          ram_1_sec_word_showing
 // 
@@ -61,6 +61,69 @@ begin
 	clk = #2500 1'b1;
 	#2500;
 end 
+
+// reset
+initial
+begin
+	reset = 1'b1;
+end 
+// write_addr[ 4 ]
+initial
+begin
+	write_addr[4] = 1'b0;
+end 
+// write_addr[ 3 ]
+initial
+begin
+	write_addr[3] = 1'b0;
+	write_addr[3] = #15000 1'b1;
+	write_addr[3] = #5000 1'b0;
+	write_addr[3] = #15000 1'b1;
+	write_addr[3] = #5000 1'b0;
+end 
+// write_addr[ 2 ]
+initial
+begin
+	write_addr[2] = 1'b0;
+	write_addr[2] = #15000 1'b1;
+	write_addr[2] = #5000 1'b0;
+	write_addr[2] = #5000 1'b1;
+	write_addr[2] = #5000 1'b0;
+end 
+// write_addr[ 1 ]
+initial
+begin
+	write_addr[1] = 1'b0;
+	write_addr[1] = #5000 1'b1;
+	write_addr[1] = #5000 1'b0;
+	write_addr[1] = #15000 1'b1;
+	write_addr[1] = #5000 1'b0;
+	write_addr[1] = #5000 1'b1;
+	write_addr[1] = #5000 1'b0;
+end 
+// write_addr[ 0 ]
+initial
+begin
+	write_addr[0] = 1'b0;
+	write_addr[0] = #5000 1'b1;
+	write_addr[0] = #5000 1'b0;
+	write_addr[0] = #15000 1'b1;
+	write_addr[0] = #5000 1'b0;
+end 
+
+// write_ena
+initial
+begin
+	write_ena = 1'b0;
+	write_ena = #5000 1'b1;
+	write_ena = #5000 1'b0;
+	write_ena = #5000 1'b1;
+	write_ena = #5000 1'b0;
+	write_ena = #5000 1'b1;
+	write_ena = #5000 1'b0;
+	write_ena = #5000 1'b1;
+	write_ena = #5000 1'b0;
+end 
 // data[ 3 ]
 initial
 begin
@@ -96,63 +159,8 @@ begin
 	data[0] = #5000 1'b0;
 	data[0] = #5000 1'b1;
 	data[0] = #5000 1'b0;
-end 
-
-// write_ena
-initial
-begin
-	write_ena = 1'b0;
-	write_ena = #5000 1'b1;
-	write_ena = #5000 1'b0;
-	write_ena = #5000 1'b1;
-	write_ena = #5000 1'b0;
-	write_ena = #5000 1'b1;
-	write_ena = #5000 1'b0;
-end 
-// write_addr[ 4 ]
-initial
-begin
-	write_addr[4] = 1'b0;
-end 
-// write_addr[ 3 ]
-initial
-begin
-	write_addr[3] = 1'b0;
-	write_addr[3] = #15000 1'b1;
-	write_addr[3] = #5000 1'b0;
-end 
-// write_addr[ 2 ]
-initial
-begin
-	write_addr[2] = 1'b0;
-	write_addr[2] = #15000 1'b1;
-	write_addr[2] = #5000 1'b0;
-	write_addr[2] = #5000 1'b1;
-	write_addr[2] = #5000 1'b0;
-end 
-// write_addr[ 1 ]
-initial
-begin
-	write_addr[1] = 1'b0;
-	write_addr[1] = #5000 1'b1;
-	write_addr[1] = #5000 1'b0;
-	write_addr[1] = #15000 1'b1;
-	write_addr[1] = #5000 1'b0;
-end 
-// write_addr[ 0 ]
-initial
-begin
-	write_addr[0] = 1'b0;
-	write_addr[0] = #5000 1'b1;
-	write_addr[0] = #5000 1'b0;
-	write_addr[0] = #15000 1'b1;
-	write_addr[0] = #5000 1'b0;
-end 
-
-// reset
-initial
-begin
-	reset = 1'b1;
+	data[0] = #15000 1'b1;
+	data[0] = #5000 1'b0;
 end 
 endmodule
 

@@ -3,7 +3,7 @@ $comment
 		vcd file my_ram32x4.msim.vcd -direction
 $end
 $date
-	Sat May 11 17:54:55 2024
+	Wed May 15 14:09:56 2024
 $end
 $version
 	ModelSim Version 10.5b

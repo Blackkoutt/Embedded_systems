@@ -2,6 +2,7 @@ vendor_name = ModelSim
 source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 4/Zadanie 2/decoder_hex_16/decoder_hex_16.v
 source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory/my_ram32x4_in_memory.v
 source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/my_ram32x4_in_memory_decoders.v
+source_file = 1, C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 3/my_ram32x4_in_memory_decoders/Waveform.vwf
 source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/altsyncram.tdf
 source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/stratix_ram_block.inc
 source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/megafunctions/lpm_mux.inc

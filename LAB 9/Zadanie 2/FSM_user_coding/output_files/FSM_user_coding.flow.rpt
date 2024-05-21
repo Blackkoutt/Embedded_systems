@@ -1,5 +1,5 @@
 Flow report for FSM_user_coding
-Mon May 06 01:37:56 2024
+Mon May 13 08:35:41 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon May 06 01:37:51 2024       ;
+; Flow Status                     ; Successful - Mon May 13 08:35:41 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; FSM_user_coding                             ;
 ; Top-level Entity Name           ; FSM_user_coding                             ;
@@ -100,7 +100,9 @@ refer to the applicable agreement for further details.
 ; Fitter               ; 00:00:35     ; 1.0                     ; 6975 MB             ; 00:03:24                           ;
 ; Assembler            ; 00:00:06     ; 1.0                     ; 4832 MB             ; 00:00:05                           ;
 ; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 5151 MB             ; 00:00:03                           ;
-; Total                ; 00:00:53     ; --                      ; --                  ; 00:03:49                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
+; Total                ; 00:00:56     ; --                      ; --                  ; 00:03:51                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -113,6 +115,8 @@ refer to the applicable agreement for further details.
 ; Fitter               ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-PSKRIS3  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -123,6 +127,8 @@ quartus_map --read_settings_files=on --write_settings_files=off FSM_user_coding 
 quartus_fit --read_settings_files=off --write_settings_files=off FSM_user_coding -c FSM_user_coding
 quartus_asm --read_settings_files=off --write_settings_files=off FSM_user_coding -c FSM_user_coding
 quartus_sta FSM_user_coding -c FSM_user_coding
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off FSM_user_coding -c FSM_user_coding --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 9/Zadanie 2/FSM_user_coding/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 9/Zadanie 2/FSM_user_coding/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 9/Zadanie 2/FSM_user_coding/simulation/qsim/" FSM_user_coding -c FSM_user_coding
 
 
 

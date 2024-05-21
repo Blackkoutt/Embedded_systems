@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 10/Zadanie 2/my_ram32x4_decoders/simulation/qsim
 vmy_ram32x4_decoders
-Z1 !s110 1715446275
+Z1 !s110 1715775476
 !i10b 1
 !s100 i14OdA9FMJaKHYO0GXz@V3
 I<6n8=R4hdD?eQZVAI8^RJ0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1715446274
+w1715775475
 8my_ram32x4_decoders.vo
 Fmy_ram32x4_decoders.vo
 L0 31
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1715446275.000000
+Z4 !s108 1715775476.000000
 !s107 my_ram32x4_decoders.vo|
 !s90 -work|work|my_ram32x4_decoders.vo|
 !i113 1
@@ -36,7 +36,7 @@ R1
 I;G_IWaW0B1nnUN3_5L5m81
 R2
 R0
-w1715446273
+w1715775474
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29
