@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Jun 16 22:33:35 2024
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : part1
+Top-level Entity Name : part1
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 638
+Total pins : 13
+Total virtual pins : 0
+Total block memory bits : 12,288
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

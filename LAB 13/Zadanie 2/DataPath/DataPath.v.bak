@@ -1,0 +1,13 @@
+module DataPath(input [7:0] mem_out, A, 
+					 input [4:0] search_ADDR,
+					 output [4:0] Address, L,
+					 output Found, Less_Or_Greather);
+		
+		always @(*) begin
+			if(A > mem_out) Less_Or_Greather = 1'b1;
+			else if (A < mem_out) Less_Or_Greather = 1'b0;
+			else Found = 1'b1;
+			
+		assign Address = search_ADDR;
+	
+endmodule

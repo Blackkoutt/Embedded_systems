@@ -1,0 +1,21 @@
+|control_unit
+clk => state~3.DATAIN
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+read_ready => Selector1.IN3
+read_ready => Selector0.IN2
+write_ready => state.OUTPUTSELECT
+write_ready => state.OUTPUTSELECT
+write_ready => state.OUTPUTSELECT
+write_ready => state.OUTPUTSELECT
+write_ready => state.OUTPUTSELECT
+noise_on => Selector3.IN3
+noise_on => Selector2.IN2
+read_ena << read_ena.DB_MAX_OUTPUT_PORT_TYPE
+write_ena << write_ena.DB_MAX_OUTPUT_PORT_TYPE
+noise_ena << noise_ena.DB_MAX_OUTPUT_PORT_TYPE
+
+

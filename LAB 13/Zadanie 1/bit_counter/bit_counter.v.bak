@@ -1,0 +1,58 @@
+module bit_counter (
+    input wire [7:0] A,   
+    input clk, sclr, Run   
+    output reg [3:0] result,
+    output reg Done       
+);
+
+	// Stany automatu skończonego
+	localparam [1:0] S1 = 2'b00, S2 = 2'b01, S3 = 2'b10;
+   reg [7:0] reg_shift_A;  // Register to store the shifted value of A
+	reg [7:0] init_reg_value;
+	reg [7:0] out_reg_value;
+	reg [1:0] state, next;	// Stan aktualny i stan przejścia
+    
+	// opis pamięci (rejestru)                
+   always @(posedge clk)
+        if(~sclr)   		state <= S1;
+        else if (Run)   state <= next;
+		  else state <= state;
+		  
+	// opis funkcji przejść
+   always @(*) begin
+		case (state)
+			S1: begin
+				result <= 4'b0000;
+				done <= 1'b0;
+				init_reg_value <= A;
+				//reg_shift_A <= A;
+				next <= S2;
+			end
+			S2: begin
+				if(reg_shift_A == 8'd0) begin
+					next <= S3;
+				end
+				else begin
+					//if(reg_shift_A[0] == 1'b1) begin
+					if(out_reg_value[0] == 1'b1) begin
+						result <= result + 1;
+					end
+					else begin
+						
+						//reg_shift_A <= reg_shift_A >> 1;
+					end
+				end
+			end
+			S3: begin
+				Done <= 1'b1;
+			end
+			default: begin
+				next <= S1;
+			end
+		endcase
+	end
+	
+	shift_register #(8) (.clk(clk), .aclr(sclr), .w(w),
+								.init_state(), .state());
+	
+endmodule

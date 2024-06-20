@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 13/Zadanie 2/binary_search/simulation/qsim
+vbinary_search
+Z1 !s110 1717985547
+!i10b 1
+!s100 JSOn<;Z802hkESOVFNd7W1
+I06d302P6zg;`eBXW>1icZ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1717985547
+8binary_search.vo
+Fbinary_search.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1717985547.000000
+!s107 binary_search.vo|
+!s90 -work|work|binary_search.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vbinary_search_vlg_vec_tst
+R1
+!i10b 1
+!s100 `N5XKCN8J6nmV0K<]BiDE1
+IkUCeTRe:]U4OD;azhjF4>0
+R2
+R0
+w1717985546
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

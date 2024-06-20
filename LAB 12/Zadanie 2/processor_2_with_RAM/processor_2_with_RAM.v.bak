@@ -1,0 +1,20 @@
+module processor_2_with_RAM (
+	input Resetn, Clock, Run,
+	output [8:0] LEDs
+);
+
+	wire [8:0] RAM_out, ADDR, DOUT /* synthesis keep */;
+	
+	wire W /* synthesis keep */;
+	
+	wire wr_en = ( ( ~(ADDR[7] | A[8] ) ) & W ) /* synthesis keep */;
+	wire E = ( ( ~(~ADDR[7] | A[8] ) ) & W ) /* synthesis keep */;
+	
+	regn #(9) reg_LED(.R(DOUT), .ena(E), .clk(Clock), .Q(LEDs));
+	RAM128x9 ram(ADDR[6:0], Clock, DOUT, wr_en, q);
+	
+	wire Done;
+	wire [8:0] Bus;
+	processor_2 proc(DIN, Resetn, Clock, Run, Done, Bus, ADDR, DOUT, W);
+	
+endmodule

@@ -1,0 +1,25 @@
+|control_unit
+clk => state~1.DATAIN
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+read_ready => state.DATAB
+read_ready => Selector0.IN2
+write_ready => state.DATAB
+write_ready => Selector1.IN4
+noise_on => state.OUTPUTSELECT
+noise_on => state.OUTPUTSELECT
+noise_on => state.DATAB
+filter_on => state.DATAA
+filter_on => Selector2.IN3
+filter_on => state.DATAA
+filter_on => Selector1.IN2
+read_ena <= read_ena.DB_MAX_OUTPUT_PORT_TYPE
+write_ena <= write_ena.DB_MAX_OUTPUT_PORT_TYPE
+noise_ena <= noise_ena.DB_MAX_OUTPUT_PORT_TYPE
+filter_ena <= filter_ena.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at counter_9_bits_on_sload.v(6): always construct contains both blocking and non-blocking assignments File: C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 12/Zadanie 1/counter_9_bits_on_sload/counter_9_bits_on_sload.v Line: 6

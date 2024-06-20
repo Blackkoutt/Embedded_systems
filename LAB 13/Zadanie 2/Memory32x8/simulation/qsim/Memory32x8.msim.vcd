@@ -1,0 +1,859 @@
+$comment
+	File created using the following command:
+		vcd file Memory32x8.msim.vcd -direction
+$end
+$date
+	Mon Jun 10 04:09:26 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Memory32x8_vlg_vec_tst $end
+$var reg 5 ! Address [4:0] $end
+$var reg 1 " Clock $end
+$var reg 8 # DataIn [7:0] $end
+$var reg 1 $ Write $end
+$var wire 1 % DataOut [7] $end
+$var wire 1 & DataOut [6] $end
+$var wire 1 ' DataOut [5] $end
+$var wire 1 ( DataOut [4] $end
+$var wire 1 ) DataOut [3] $end
+$var wire 1 * DataOut [2] $end
+$var wire 1 + DataOut [1] $end
+$var wire 1 , DataOut [0] $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 4 Clock~input_o $end
+$var wire 1 5 Clock~inputCLKENA0_outclk $end
+$var wire 1 6 Write~input_o $end
+$var wire 1 7 regWrite~feeder_combout $end
+$var wire 1 8 regWrite~q $end
+$var wire 1 9 DataIn[0]~input_o $end
+$var wire 1 : regDataIn[0]~feeder_combout $end
+$var wire 1 ; Address[0]~input_o $end
+$var wire 1 < regAddr[0]~feeder_combout $end
+$var wire 1 = Address[1]~input_o $end
+$var wire 1 > regAddr[1]~feeder_combout $end
+$var wire 1 ? Address[2]~input_o $end
+$var wire 1 @ Address[3]~input_o $end
+$var wire 1 A regAddr[3]~feeder_combout $end
+$var wire 1 B Address[4]~input_o $end
+$var wire 1 C DataIn[1]~input_o $end
+$var wire 1 D regDataIn[1]~feeder_combout $end
+$var wire 1 E DataIn[2]~input_o $end
+$var wire 1 F regDataIn[2]~feeder_combout $end
+$var wire 1 G DataIn[3]~input_o $end
+$var wire 1 H regDataIn[3]~feeder_combout $end
+$var wire 1 I DataIn[4]~input_o $end
+$var wire 1 J regDataIn[4]~feeder_combout $end
+$var wire 1 K DataIn[5]~input_o $end
+$var wire 1 L regDataIn[5]~feeder_combout $end
+$var wire 1 M DataIn[6]~input_o $end
+$var wire 1 N regDataIn[6]~feeder_combout $end
+$var wire 1 O DataIn[7]~input_o $end
+$var wire 1 P regDataIn[7]~feeder_combout $end
+$var wire 1 Q comb_32|altsyncram_component|auto_generated|q_a [7] $end
+$var wire 1 R comb_32|altsyncram_component|auto_generated|q_a [6] $end
+$var wire 1 S comb_32|altsyncram_component|auto_generated|q_a [5] $end
+$var wire 1 T comb_32|altsyncram_component|auto_generated|q_a [4] $end
+$var wire 1 U comb_32|altsyncram_component|auto_generated|q_a [3] $end
+$var wire 1 V comb_32|altsyncram_component|auto_generated|q_a [2] $end
+$var wire 1 W comb_32|altsyncram_component|auto_generated|q_a [1] $end
+$var wire 1 X comb_32|altsyncram_component|auto_generated|q_a [0] $end
+$var wire 1 Y regDataIn [7] $end
+$var wire 1 Z regDataIn [6] $end
+$var wire 1 [ regDataIn [5] $end
+$var wire 1 \ regDataIn [4] $end
+$var wire 1 ] regDataIn [3] $end
+$var wire 1 ^ regDataIn [2] $end
+$var wire 1 _ regDataIn [1] $end
+$var wire 1 ` regDataIn [0] $end
+$var wire 1 a regAddr [4] $end
+$var wire 1 b regAddr [3] $end
+$var wire 1 c regAddr [2] $end
+$var wire 1 d regAddr [1] $end
+$var wire 1 e regAddr [0] $end
+$var wire 1 f comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [19] $end
+$var wire 1 g comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [18] $end
+$var wire 1 h comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 i comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 j comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 k comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 l comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 m comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 n comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 o comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 p comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 q comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 r comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 s comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 t comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 u comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 v comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 w comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 x comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 y comb_32|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111 !
+0"
+b0 #
+0$
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0-
+1.
+x/
+10
+11
+12
+03
+04
+05
+06
+07
+08
+09
+0:
+1;
+1<
+1=
+1>
+1?
+1@
+1A
+1B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0e
+0d
+0c
+0b
+0a
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+$end
+#2500
+1"
+14
+15
+1a
+1b
+1c
+1d
+1e
+#2501
+1y
+1X
+1,
+#5000
+b1111 !
+b111 !
+b11 !
+b1 !
+b0 !
+0"
+0;
+0=
+0?
+0@
+0B
+04
+05
+0A
+0>
+0<
+#7500
+1"
+14
+15
+0a
+0b
+0c
+0d
+0e
+#7501
+0y
+1t
+0X
+1S
+1'
+0,
+#10000
+b1 !
+0"
+1;
+04
+05
+1<
+#12500
+1"
+14
+15
+1e
+#12501
+1y
+0t
+1X
+0S
+0'
+1,
+#15000
+b11 !
+b10 !
+0"
+0;
+1=
+04
+05
+1>
+0<
+#17500
+1"
+14
+15
+1d
+0e
+#17501
+0y
+1x
+0X
+1W
+1+
+0,
+#20000
+b11 !
+0"
+1;
+04
+05
+1<
+#22500
+1"
+14
+15
+1e
+#22501
+1y
+1X
+1,
+#25000
+b111 !
+b101 !
+b100 !
+0"
+0;
+0=
+1?
+04
+05
+0>
+0<
+#27500
+1"
+14
+15
+1c
+0d
+0e
+#27501
+0x
+1w
+0W
+1V
+1*
+0+
+#30000
+b101 !
+0"
+1;
+04
+05
+1<
+#32500
+1"
+14
+15
+1e
+#32501
+0y
+1x
+0X
+1W
+1+
+0,
+#35000
+b111 !
+b110 !
+0"
+0;
+1=
+04
+05
+1>
+0<
+#37500
+1"
+14
+15
+1d
+0e
+#40000
+b111 !
+0"
+1;
+04
+05
+1<
+#42500
+1"
+14
+15
+1e
+#42501
+1y
+1X
+1,
+#45000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0"
+0;
+0=
+0?
+1@
+04
+05
+1A
+0>
+0<
+#47500
+1"
+14
+15
+1b
+0c
+0d
+0e
+#47501
+0y
+0x
+0w
+1v
+0X
+0W
+0V
+1U
+1)
+0*
+0+
+0,
+#50000
+b1001 !
+0"
+1;
+04
+05
+1<
+#52500
+1"
+14
+15
+1e
+#52501
+1y
+1X
+1,
+#55000
+b1011 !
+b1010 !
+0"
+0;
+1=
+04
+05
+1>
+0<
+#57500
+1"
+14
+15
+1d
+0e
+#57501
+0y
+1x
+0X
+1W
+1+
+0,
+#60000
+b1011 !
+0"
+1;
+04
+05
+1<
+#62500
+1"
+14
+15
+1e
+#62501
+1y
+1X
+1,
+#65000
+b1111 !
+b1101 !
+b1100 !
+0"
+0;
+0=
+1?
+04
+05
+0>
+0<
+#67500
+1"
+14
+15
+1c
+0d
+0e
+#67501
+0y
+0x
+1w
+0X
+0W
+1V
+1*
+0+
+0,
+#70000
+b1101 !
+0"
+1;
+04
+05
+1<
+#72500
+1"
+14
+15
+1e
+#72501
+1y
+1X
+1,
+#75000
+b1111 !
+b1110 !
+0"
+0;
+1=
+04
+05
+1>
+0<
+#77500
+1"
+14
+15
+1d
+0e
+#77501
+0y
+1x
+0X
+1W
+1+
+0,
+#80000
+b1111 !
+0"
+1;
+04
+05
+1<
+#82500
+1"
+14
+15
+1e
+#82501
+1y
+1X
+1,
+#85000
+b11111 !
+b10111 !
+b10011 !
+b10001 !
+b10000 !
+0"
+0;
+0=
+0?
+0@
+1B
+04
+05
+0A
+0>
+0<
+#87500
+1"
+14
+15
+1a
+0b
+0c
+0d
+0e
+#87501
+0y
+0x
+0w
+0v
+1u
+0X
+0W
+0V
+0U
+1T
+1(
+0)
+0*
+0+
+0,
+#90000
+b10001 !
+0"
+1;
+04
+05
+1<
+#92500
+1"
+14
+15
+1e
+#92501
+1y
+1X
+1,
+#95000
+b10011 !
+b10010 !
+0"
+0;
+1=
+04
+05
+1>
+0<
+#97500
+1"
+14
+15
+1d
+0e
+#97501
+0y
+1x
+0X
+1W
+1+
+0,
+#100000
+b10011 !
+0"
+1;
+04
+05
+1<
+#102500
+1"
+14
+15
+1e
+#102501
+1y
+1X
+1,
+#105000
+b10111 !
+b10101 !
+b10100 !
+0"
+0;
+0=
+1?
+04
+05
+0>
+0<
+#107500
+1"
+14
+15
+1c
+0d
+0e
+#107501
+0y
+0x
+1w
+0X
+0W
+1V
+1*
+0+
+0,
+#110000
+b10101 !
+0"
+1;
+04
+05
+1<
+#112500
+1"
+14
+15
+1e
+#112501
+1y
+1X
+1,
+#115000
+b10111 !
+b10110 !
+0"
+0;
+1=
+04
+05
+1>
+0<
+#117500
+1"
+14
+15
+1d
+0e
+#117501
+0y
+1x
+0X
+1W
+1+
+0,
+#120000
+b10111 !
+0"
+1;
+04
+05
+1<
+#122500
+1"
+14
+15
+1e
+#122501
+1y
+1X
+1,
+#125000
+b11111 !
+b11011 !
+b11001 !
+b11000 !
+0"
+0;
+0=
+0?
+1@
+04
+05
+1A
+0>
+0<
+#127500
+1"
+14
+15
+1b
+0c
+0d
+0e
+#127501
+0y
+0x
+0w
+1v
+0X
+0W
+0V
+1U
+1)
+0*
+0+
+0,
+#130000
+b11001 !
+0"
+1;
+04
+05
+1<
+#132500
+1"
+14
+15
+1e
+#132501
+1y
+1X
+1,
+#135000
+b11011 !
+b11010 !
+0"
+0;
+1=
+04
+05
+1>
+0<
+#137500
+1"
+14
+15
+1d
+0e
+#137501
+0y
+1x
+0X
+1W
+1+
+0,
+#140000
+b11011 !
+0"
+1;
+04
+05
+1<
+#142500
+1"
+14
+15
+1e
+#142501
+1y
+1X
+1,
+#145000
+b11111 !
+b11101 !
+b11100 !
+0"
+0;
+0=
+1?
+04
+05
+0>
+0<
+#147500
+1"
+14
+15
+1c
+0d
+0e
+#147501
+0y
+0x
+1w
+0X
+0W
+1V
+1*
+0+
+0,
+#150000

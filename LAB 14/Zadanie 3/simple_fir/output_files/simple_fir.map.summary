@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Jun 16 21:43:57 2024
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : simple_fir
+Top-level Entity Name : simple_fir
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 168
+Total pins : 51
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

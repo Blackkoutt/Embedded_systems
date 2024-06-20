@@ -1,5 +1,5 @@
 Flow report for proc_with_ROM_on_board
-Mon May 20 20:24:47 2024
+Mon May 27 09:18:48 2024
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon May 20 20:24:42 2024       ;
+; Flow Status                     ; Successful - Mon May 27 09:18:40 2024       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; proc_with_ROM_on_board                      ;
 ; Top-level Entity Name           ; proc_with_ROM_on_board                      ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 95 / 32,070 ( < 1 % )                       ;
-; Total registers                 ; 111                                         ;
+; Logic utilization (in ALMs)     ; 92 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 112                                         ;
 ; Total pins                      ; 22 / 457 ( 5 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 288 / 4,065,280 ( < 1 % )                   ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+------------------------+
 ; Option            ; Setting                ;
 +-------------------+------------------------+
-; Start date & time ; 05/20/2024 20:23:45    ;
+; Start date & time ; 05/27/2024 09:17:14    ;
 ; Main task         ; Compilation            ;
 ; Revision Name     ; proc_with_ROM_on_board ;
 +-------------------+------------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 145862339874939.171622942419484        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 145862339874939.171679423317184        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; ../proc_with_ROM/rom32x9_bb.v          ; --            ; --          ; --         ;
@@ -96,11 +96,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4864 MB             ; 00:00:19                           ;
-; Fitter               ; 00:00:42     ; 1.0                     ; 7072 MB             ; 00:02:34                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4823 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.2                     ; 5205 MB             ; 00:00:05                           ;
-; Total                ; 00:01:00     ; --                      ; --                  ; 00:03:03                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4873 MB             ; 00:00:25                           ;
+; Fitter               ; 00:01:06     ; 1.0                     ; 7072 MB             ; 00:03:36                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4827 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.2                     ; 5205 MB             ; 00:00:07                           ;
+; Total                ; 00:01:31     ; --                      ; --                  ; 00:04:15                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

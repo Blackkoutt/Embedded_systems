@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "read_ena",
+					"strict" : false
+				},
+				{
+					"name" : "write_ena",
+					"strict" : false
+				},
+				{
+					"name" : "noise_ena",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "read_ready",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "write_ready",
+					"strict" : false
+				},
+				{
+					"name" : "noise_on",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

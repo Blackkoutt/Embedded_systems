@@ -1,0 +1,135 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/09/2024 22:38:45"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Control
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Control_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [7:0] A;
+reg Clock;
+reg Found;
+reg Less_Or_Greather;
+reg Start;
+reg aReset;
+// wires                                               
+wire [7:0] A_out;
+wire Done;
+wire [4:0] M;
+
+// assign statements (if any)                          
+Control i1 (
+// port map - connection between master ports and signals/registers   
+	.A(A),
+	.A_out(A_out),
+	.Clock(Clock),
+	.Done(Done),
+	.Found(Found),
+	.Less_Or_Greather(Less_Or_Greather),
+	.M(M),
+	.Start(Start),
+	.aReset(aReset)
+);
+initial 
+begin 
+#100000 $finish;
+end 
+
+// Clock
+always
+begin
+	Clock = 1'b0;
+	Clock = #2500 1'b1;
+	#2500;
+end 
+
+// Start
+initial
+begin
+	Start = 1'b0;
+	Start = #10000 1'b1;
+end 
+
+// aReset
+initial
+begin
+	aReset = 1'b0;
+	aReset = #10000 1'b1;
+end 
+// A[ 7 ]
+initial
+begin
+	A[7] = 1'b0;
+end 
+// A[ 6 ]
+initial
+begin
+	A[6] = 1'b0;
+end 
+// A[ 5 ]
+initial
+begin
+	A[5] = 1'b0;
+end 
+// A[ 4 ]
+initial
+begin
+	A[4] = 1'b0;
+end 
+// A[ 3 ]
+initial
+begin
+	A[3] = 1'b0;
+end 
+// A[ 2 ]
+initial
+begin
+	A[2] = 1'b0;
+end 
+// A[ 1 ]
+initial
+begin
+	A[1] = 1'b1;
+end 
+// A[ 0 ]
+initial
+begin
+	A[0] = 1'b1;
+end 
+
+// Less_Or_Greather
+initial
+begin
+	Less_Or_Greather = 1'b0;
+end 
+
+// Found
+initial
+begin
+	Found = 1'b0;
+end 
+endmodule
+

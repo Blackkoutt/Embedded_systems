@@ -11,16 +11,16 @@ SW[8] => ~NO_FANOUT~
 SW[9] => SW[9].IN1
 KEY[0] => _.IN1
 KEY[1] => _.IN1
-LEDR[0] <= proc_with_ROM:processor_ROM.Bus
-LEDR[1] <= proc_with_ROM:processor_ROM.Bus
-LEDR[2] <= proc_with_ROM:processor_ROM.Bus
-LEDR[3] <= proc_with_ROM:processor_ROM.Bus
-LEDR[4] <= proc_with_ROM:processor_ROM.Bus
-LEDR[5] <= proc_with_ROM:processor_ROM.Bus
-LEDR[6] <= proc_with_ROM:processor_ROM.Bus
-LEDR[7] <= proc_with_ROM:processor_ROM.Bus
-LEDR[8] <= proc_with_ROM:processor_ROM.Bus
-LEDR[9] <= proc_with_ROM:processor_ROM.Done
+LEDR[0] << proc_with_ROM:processor_ROM.Bus
+LEDR[1] << proc_with_ROM:processor_ROM.Bus
+LEDR[2] << proc_with_ROM:processor_ROM.Bus
+LEDR[3] << proc_with_ROM:processor_ROM.Bus
+LEDR[4] << proc_with_ROM:processor_ROM.Bus
+LEDR[5] << proc_with_ROM:processor_ROM.Bus
+LEDR[6] << proc_with_ROM:processor_ROM.Bus
+LEDR[7] << proc_with_ROM:processor_ROM.Bus
+LEDR[8] << proc_with_ROM:processor_ROM.Bus
+LEDR[9] << proc_with_ROM:processor_ROM.Done
 
 
 |proc_with_ROM_on_board|proc_with_ROM:processor_ROM

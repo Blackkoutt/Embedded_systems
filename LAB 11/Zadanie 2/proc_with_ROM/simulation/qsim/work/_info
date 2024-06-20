@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 2/proc_with_ROM/simulation/qsim
 vproc_with_ROM
-Z1 !s110 1716228253
+Z1 !s110 1716794491
 !i10b 1
-!s100 YXkFYe76a2?hYW`do3[4L0
-ImbLbYKeiFMZ0ko8j]<na42
+!s100 PkNBhKAd@OG?UL52KbhA=1
+I<Z8VQl38BnebOkBWidYh=2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1716228252
+w1716794490
 8proc_with_ROM.vo
 Fproc_with_ROM.vo
 L0 31
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1716228253.000000
+Z4 !s108 1716794491.000000
 !s107 proc_with_ROM.vo|
 !s90 -work|work|proc_with_ROM.vo|
 !i113 1
@@ -37,7 +37,7 @@ R1
 I1zZD<iZZQ_cn`UzNm[com1
 R2
 R0
-w1716228251
+w1716794488
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

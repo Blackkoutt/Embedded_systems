@@ -25,7 +25,7 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Mon May 20 20:17:28 2024
+    Info: Processing started: Mon May 27 08:36:16 2024
 Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off proc -c proc --vector_source="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 1/proc/Waveform.vwf" --testbench_file="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 1/proc/simulation/qsim/Waveform.vwf.vt"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
@@ -55,13 +55,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Mon May 20 20:17:29 2024
+    Info: Processing started: Mon May 27 08:36:18 2024
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 1/proc/simulation/qsim/" proc -c proc
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file proc.vo in folder "C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 1/proc/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4715 megabytes
-    Info: Processing ended: Mon May 20 20:17:30 2024
+    Info: Processing ended: Mon May 27 08:36:19 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
@@ -82,29 +82,31 @@ Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
 # 10.5b
 
 # do proc.do
+
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:17:30 on May 20,2024
+# Start time: 08:36:20 on May 27,2024
 # vlog -work work proc.vo 
 
 # -- Compiling module proc
+
 # 
 # Top level modules:
 # 	proc
-# End time: 20:17:31 on May 20,2024, Elapsed time: 0:00:01
+# End time: 08:36:20 on May 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 20:17:31 on May 20,2024
+# Start time: 08:36:20 on May 27,2024
 # vlog -work work Waveform.vwf.vt 
 # -- Compiling module proc_vlg_vec_tst
 # 
 # Top level modules:
 # 	proc_vlg_vec_tst
-# End time: 20:17:31 on May 20,2024, Elapsed time: 0:00:00
+# End time: 08:36:21 on May 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.proc_vlg_vec_tst 
-# Start time: 20:17:31 on May 20,2024
+# Start time: 08:36:21 on May 27,2024
 # Loading work.proc_vlg_vec_tst
 # Loading work.proc
 # Loading cyclonev_ver.cyclonev_io_obuf
@@ -116,7 +118,7 @@ Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
 # after#25
 # ** Note: $finish    : Waveform.vwf.vt(52)
 #    Time: 230 ns  Iteration: 0  Instance: /proc_vlg_vec_tst
-# End time: 20:17:31 on May 20,2024, Elapsed time: 0:00:00
+# End time: 08:36:21 on May 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
@@ -129,7 +131,7 @@ Reading C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 1/proc/simulat
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 1/proc/simulation/qsim/proc_20240520201731.sim.vwf
+Writing the resulting VWF to C:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 11/Zadanie 1/proc/simulation/qsim/proc_20240527083621.sim.vwf
 
 Finished VCD to VWF conversion.
 

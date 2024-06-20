@@ -1,0 +1,17 @@
+module Memory_32x8(input clk,
+						input [4:0] Address,
+						input [7:0] DataIn,
+						input Write, Clock,
+						output [7:0] DataOut);
+						
+	reg regAddr, regDataIn, regWrite;
+	
+	always @(posedge clk) begin
+		regAddr <= Address;
+		regDataIn <= DataIn;
+		regWrite <= Write;
+	end
+		
+	RAM32x8(regAddr, clk, regDataIn, regWrite, DataOut);
+	
+endmodule

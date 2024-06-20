@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mateusz/Desktop/Systemy wbudowane/LAB 13/Zadanie 2/Memory32x8/simulation/qsim
+vMemory32x8
+Z1 !s110 1717985365
+!i10b 1
+!s100 [i[Na^R91hkJMQ=O5^0?U3
+If8H2ULKRQmWhVHdgSIVgW3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1717985365
+8Memory32x8.vo
+FMemory32x8.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1717985365.000000
+!s107 Memory32x8.vo|
+!s90 -work|work|Memory32x8.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@memory32x8
+vMemory32x8_vlg_vec_tst
+R1
+!i10b 1
+!s100 9GXe^MXD[d9YkezmX?jGz1
+Ij1n3TL8MB>59ID7UYAb>S2
+R2
+R0
+w1717985364
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@memory32x8_vlg_vec_tst

@@ -1,0 +1,9 @@
+
+State Machine - |control_unit|state
+Name state.FILTERPROC state.NOISEADD state.WRITEDATA state.WAITFORWRITE state.READDATA state.START 
+state.START 0 0 0 0 0 0 
+state.READDATA 0 0 0 0 1 1 
+state.WAITFORWRITE 0 0 0 1 0 1 
+state.WRITEDATA 0 0 1 0 0 1 
+state.NOISEADD 0 1 0 0 0 1 
+state.FILTERPROC 1 0 0 0 0 1 

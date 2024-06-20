@@ -3,7 +3,7 @@ $comment
 		vcd file proc_with_ROM.msim.vcd -direction
 $end
 $date
-	Mon May 20 20:04:13 2024
+	Mon May 27 09:21:32 2024
 $end
 $version
 	ModelSim Version 10.5b
@@ -36,89 +36,89 @@ $var tri1 1 2 devclrn $end
 $var tri1 1 3 devpor $end
 $var tri1 1 4 devoe $end
 $var wire 1 5 ~QUARTUS_CREATED_GND~I_combout $end
-$var wire 1 6 MClock~input_o $end
-$var wire 1 7 MClock~inputCLKENA0_outclk $end
-$var wire 1 8 Resetn~input_o $end
-$var wire 1 9 counter|Q[0]~4_combout $end
-$var wire 1 : counter|Q[0]~DUPLICATE_q $end
-$var wire 1 ; counter|Q[1]~0_combout $end
-$var wire 1 < counter|Q[1]~DUPLICATE_q $end
-$var wire 1 = counter|Q[2]~1_combout $end
-$var wire 1 > counter|Q[3]~2_combout $end
-$var wire 1 ? counter|Q[3]~DUPLICATE_q $end
-$var wire 1 @ counter|Q[4]~3_combout $end
-$var wire 1 A PClock~input_o $end
-$var wire 1 B PClock~inputCLKENA0_outclk $end
+$var wire 1 6 PClock~input_o $end
+$var wire 1 7 PClock~inputCLKENA0_outclk $end
+$var wire 1 8 MClock~input_o $end
+$var wire 1 9 MClock~inputCLKENA0_outclk $end
+$var wire 1 : Resetn~input_o $end
+$var wire 1 ; counter|Q[0]~4_combout $end
+$var wire 1 < counter|Q[0]~DUPLICATE_q $end
+$var wire 1 = counter|Q[1]~0_combout $end
+$var wire 1 > counter|Q[1]~DUPLICATE_q $end
+$var wire 1 ? counter|Q[2]~1_combout $end
+$var wire 1 @ counter|Q[3]~2_combout $end
+$var wire 1 A counter|Q[3]~DUPLICATE_q $end
+$var wire 1 B counter|Q[4]~3_combout $end
 $var wire 1 C Run~input_o $end
 $var wire 1 D processor|Tstep_D.T1~0_combout $end
 $var wire 1 E processor|Tstep_Q.T1~q $end
-$var wire 1 F processor|Selector17~0_combout $end
-$var wire 1 G processor|Tstep_D.T2~0_combout $end
-$var wire 1 H processor|Tstep_Q.T2~q $end
-$var wire 1 I processor|Tstep_Q.T3~DUPLICATE_q $end
-$var wire 1 J processor|Selector0~0_combout $end
-$var wire 1 K processor|Tstep_Q.T0~q $end
-$var wire 1 L processor|Selector1~0_combout $end
+$var wire 1 F processor|Tstep_Q.T3~DUPLICATE_q $end
+$var wire 1 G processor|Selector17~0_combout $end
+$var wire 1 H processor|Tstep_D.T2~0_combout $end
+$var wire 1 I processor|Tstep_Q.T2~DUPLICATE_q $end
+$var wire 1 J processor|Tstep_Q.T3~q $end
+$var wire 1 K processor|Selector0~0_combout $end
+$var wire 1 L processor|Tstep_Q.T0~q $end
 $var wire 1 M processor|Selector1~3_combout $end
-$var wire 1 N processor|Selector3~0_combout $end
-$var wire 1 O processor|Selector1~1_combout $end
-$var wire 1 P processor|Selector3~1_combout $end
-$var wire 1 Q processor|Selector3~2_combout $end
-$var wire 1 R processor|Selector12~0_combout $end
-$var wire 1 S processor|Selector12~1_combout $end
-$var wire 1 T processor|add_sub~0_combout $end
-$var wire 1 U processor|Selector4~0_combout $end
-$var wire 1 V processor|Selector2~0_combout $end
-$var wire 1 W processor|Selector2~2_combout $end
-$var wire 1 X processor|Selector2~1_combout $end
-$var wire 1 Y processor|Selector2~3_combout $end
-$var wire 1 Z processor|Selector11~0_combout $end
-$var wire 1 [ processor|Selector5~0_combout $end
-$var wire 1 \ processor|Selector5~1_combout $end
-$var wire 1 ] processor|mux|Equal0~0_combout $end
-$var wire 1 ^ processor|Selector1~2_combout $end
-$var wire 1 _ processor|Selector1~4_combout $end
-$var wire 1 ` processor|Selector7~0_combout $end
-$var wire 1 a processor|Selector16~0_combout $end
-$var wire 1 b processor|Selector8~0_combout $end
-$var wire 1 c processor|Selector6~1_combout $end
-$var wire 1 d processor|Selector6~0_combout $end
-$var wire 1 e processor|Selector6~2_combout $end
-$var wire 1 f processor|Selector7~1_combout $end
-$var wire 1 g processor|Selector7~2_combout $end
-$var wire 1 h processor|mux|Equal2~0_combout $end
-$var wire 1 i processor|mux|Selector8~1_combout $end
-$var wire 1 j processor|mux|Equal0~1_combout $end
-$var wire 1 k processor|mux|WideNor0~0_combout $end
-$var wire 1 l processor|Tstep_Q.T3~q $end
-$var wire 1 m processor|G_out~0_combout $end
-$var wire 1 n processor|mux|WideNor0~1_combout $end
-$var wire 1 o processor|mux|WideNor0~combout $end
-$var wire 1 p processor|Selector15~0_combout $end
-$var wire 1 q processor|Selector14~0_combout $end
-$var wire 1 r processor|mux|Equal4~0_combout $end
-$var wire 1 s processor|mux|Selector8~2_combout $end
-$var wire 1 t processor|A_in~0_combout $end
-$var wire 1 u processor|ALU|add_or_sub[0].FA|s~0_combout $end
-$var wire 1 v processor|mux|Equal0~2_combout $end
-$var wire 1 w processor|mux|Equal7~0_combout $end
-$var wire 1 x processor|Selector16~1_combout $end
-$var wire 1 y processor|Selector10~0_combout $end
-$var wire 1 z processor|mux|Equal1~0_combout $end
-$var wire 1 { processor|mux|Selector8~3_combout $end
-$var wire 1 | processor|mux|Equal0~3_combout $end
-$var wire 1 } processor|Selector9~0_combout $end
-$var wire 1 ~ processor|reg_4|Q[0]~feeder_combout $end
-$var wire 1 !! processor|Selector13~0_combout $end
-$var wire 1 "! processor|mux|Selector8~0_combout $end
-$var wire 1 #! processor|mux|Selector8~4_combout $end
-$var wire 1 $! processor|reg_6|Q[1]~feeder_combout $end
-$var wire 1 %! processor|mux|Selector7~2_combout $end
-$var wire 1 &! processor|reg_3|Q[1]~feeder_combout $end
-$var wire 1 '! processor|mux|Selector7~1_combout $end
-$var wire 1 (! processor|add_sub~1_combout $end
-$var wire 1 )! processor|reg_4|Q[1]~feeder_combout $end
-$var wire 1 *! processor|mux|Selector7~0_combout $end
+$var wire 1 N processor|Selector1~1_combout $end
+$var wire 1 O processor|Selector1~0_combout $end
+$var wire 1 P processor|Selector5~0_combout $end
+$var wire 1 Q processor|Selector5~1_combout $end
+$var wire 1 R processor|Selector15~0_combout $end
+$var wire 1 S processor|Selector7~1_combout $end
+$var wire 1 T processor|Selector7~0_combout $end
+$var wire 1 U processor|Selector7~2_combout $end
+$var wire 1 V processor|Selector6~0_combout $end
+$var wire 1 W processor|Tstep_Q.T2~q $end
+$var wire 1 X processor|Selector2~0_combout $end
+$var wire 1 Y processor|Selector6~1_combout $end
+$var wire 1 Z processor|Selector6~2_combout $end
+$var wire 1 [ processor|Selector14~0_combout $end
+$var wire 1 \ processor|Selector1~2_combout $end
+$var wire 1 ] processor|Selector1~4_combout $end
+$var wire 1 ^ processor|mux|Equal0~0_combout $end
+$var wire 1 _ processor|Selector2~2_combout $end
+$var wire 1 ` processor|Selector2~1_combout $end
+$var wire 1 a processor|Selector2~3_combout $end
+$var wire 1 b processor|Selector3~0_combout $end
+$var wire 1 c processor|Selector3~1_combout $end
+$var wire 1 d processor|Selector3~2_combout $end
+$var wire 1 e processor|add_sub~0_combout $end
+$var wire 1 f processor|Selector12~0_combout $end
+$var wire 1 g processor|Selector4~0_combout $end
+$var wire 1 h processor|Selector16~0_combout $end
+$var wire 1 i processor|Selector8~0_combout $end
+$var wire 1 j processor|mux|Equal4~0_combout $end
+$var wire 1 k processor|mux|Selector8~2_combout $end
+$var wire 1 l processor|mux|Equal2~0_combout $end
+$var wire 1 m processor|Selector11~0_combout $end
+$var wire 1 n processor|Selector12~1_combout $end
+$var wire 1 o processor|mux|Selector8~1_combout $end
+$var wire 1 p processor|mux|Equal0~1_combout $end
+$var wire 1 q processor|mux|WideNor0~0_combout $end
+$var wire 1 r processor|G_out~0_combout $end
+$var wire 1 s processor|mux|WideNor0~1_combout $end
+$var wire 1 t processor|mux|WideNor0~combout $end
+$var wire 1 u processor|Selector13~0_combout $end
+$var wire 1 v processor|Selector9~0_combout $end
+$var wire 1 w processor|mux|Equal0~2_combout $end
+$var wire 1 x processor|mux|Equal0~3_combout $end
+$var wire 1 y processor|mux|Selector8~0_combout $end
+$var wire 1 z processor|reg_7|Q[0]~feeder_combout $end
+$var wire 1 { processor|Selector16~1_combout $end
+$var wire 1 | processor|mux|Equal7~0_combout $end
+$var wire 1 } processor|A_in~0_combout $end
+$var wire 1 ~ processor|ALU|add_or_sub[0].FA|s~0_combout $end
+$var wire 1 !! processor|Selector10~0_combout $end
+$var wire 1 "! processor|mux|Equal1~0_combout $end
+$var wire 1 #! processor|mux|Selector8~3_combout $end
+$var wire 1 $! processor|mux|Selector8~4_combout $end
+$var wire 1 %! processor|mux|Selector7~1_combout $end
+$var wire 1 &! processor|mux|Selector7~0_combout $end
+$var wire 1 '! processor|mux|Selector7~2_combout $end
+$var wire 1 (! processor|reg_7|Q[1]~feeder_combout $end
+$var wire 1 )! processor|reg_1|Q[1]~feeder_combout $end
+$var wire 1 *! processor|add_sub~1_combout $end
 $var wire 1 +! processor|mux|Selector7~5_combout $end
 $var wire 1 ,! processor|ALU|comb~0_combout $end
 $var wire 1 -! processor|mux|Selector8~5_combout $end
@@ -126,228 +126,216 @@ $var wire 1 .! processor|ALU|add_or_sub[0].FA|cout~0_combout $end
 $var wire 1 /! processor|ALU|add_or_sub[1].FA|s~combout $end
 $var wire 1 0! processor|mux|Selector7~3_combout $end
 $var wire 1 1! processor|mux|Selector7~4_combout $end
-$var wire 1 2! processor|reg_3|Q[2]~feeder_combout $end
-$var wire 1 3! processor|mux|Selector6~1_combout $end
-$var wire 1 4! processor|reg_6|Q[2]~feeder_combout $end
-$var wire 1 5! processor|mux|Selector6~2_combout $end
-$var wire 1 6! processor|reg_4|Q[2]~feeder_combout $end
-$var wire 1 7! processor|mux|Selector6~0_combout $end
-$var wire 1 8! processor|mux|Selector6~5_combout $end
-$var wire 1 9! processor|ALU|comb~1_combout $end
-$var wire 1 :! processor|ALU|add_or_sub[2].FA|s~combout $end
-$var wire 1 ;! processor|mux|Selector6~3_combout $end
-$var wire 1 <! processor|mux|Selector6~4_combout $end
-$var wire 1 =! processor|mux|Selector5~2_combout $end
-$var wire 1 >! processor|mux|Selector5~0_combout $end
-$var wire 1 ?! processor|mux|Selector5~1_combout $end
-$var wire 1 @! processor|mux|Selector5~5_combout $end
-$var wire 1 A! processor|ALU|add_or_sub[3].FA|s~0_combout $end
-$var wire 1 B! processor|ALU|add_or_sub[3].FA|s~combout $end
-$var wire 1 C! processor|reg_7|Q[3]~feeder_combout $end
-$var wire 1 D! processor|mux|Selector5~3_combout $end
-$var wire 1 E! processor|mux|Selector5~4_combout $end
+$var wire 1 2! processor|mux|Selector6~1_combout $end
+$var wire 1 3! processor|mux|Selector6~0_combout $end
+$var wire 1 4! processor|mux|Selector6~2_combout $end
+$var wire 1 5! processor|mux|Selector6~5_combout $end
+$var wire 1 6! processor|ALU|comb~1_combout $end
+$var wire 1 7! processor|ALU|add_or_sub[2].FA|s~combout $end
+$var wire 1 8! processor|mux|Selector6~3_combout $end
+$var wire 1 9! processor|mux|Selector6~4_combout $end
+$var wire 1 :! processor|mux|Selector5~0_combout $end
+$var wire 1 ;! processor|reg_6|Q[3]~feeder_combout $end
+$var wire 1 <! processor|mux|Selector5~2_combout $end
+$var wire 1 =! processor|mux|Selector5~1_combout $end
+$var wire 1 >! processor|mux|Selector5~5_combout $end
+$var wire 1 ?! processor|ALU|add_or_sub[3].FA|s~0_combout $end
+$var wire 1 @! processor|ALU|add_or_sub[3].FA|s~combout $end
+$var wire 1 A! processor|mux|Selector5~3_combout $end
+$var wire 1 B! processor|mux|Selector5~4_combout $end
+$var wire 1 C! processor|reg_6|Q[4]~feeder_combout $end
+$var wire 1 D! processor|mux|Selector4~2_combout $end
+$var wire 1 E! processor|reg_3|Q[4]~feeder_combout $end
 $var wire 1 F! processor|mux|Selector4~1_combout $end
-$var wire 1 G! processor|mux|Selector4~2_combout $end
-$var wire 1 H! processor|ALU|comb~2_combout $end
+$var wire 1 G! processor|reg_7|Q[4]~feeder_combout $end
+$var wire 1 H! processor|mux|Selector4~0_combout $end
 $var wire 1 I! processor|mux|Selector4~5_combout $end
-$var wire 1 J! processor|mux|Selector4~0_combout $end
-$var wire 1 K! processor|ALU|add_or_sub[4].FA|s~0_combout $end
+$var wire 1 J! processor|ALU|add_or_sub[4].FA|s~0_combout $end
+$var wire 1 K! processor|ALU|comb~2_combout $end
 $var wire 1 L! processor|ALU|add_or_sub[1].FA|cout~combout $end
 $var wire 1 M! processor|ALU|add_or_sub[4].FA|s~combout $end
 $var wire 1 N! processor|mux|Selector4~3_combout $end
 $var wire 1 O! processor|mux|Selector4~4_combout $end
-$var wire 1 P! processor|mux|Selector3~1_combout $end
-$var wire 1 Q! processor|reg_5|Q[5]~feeder_combout $end
-$var wire 1 R! processor|mux|Selector3~2_combout $end
-$var wire 1 S! processor|mux|Selector3~0_combout $end
-$var wire 1 T! processor|ALU|add_or_sub[3].FA|cout~0_combout $end
-$var wire 1 U! processor|mux|Selector3~5_combout $end
-$var wire 1 V! processor|ALU|comb~4_combout $end
-$var wire 1 W! processor|ALU|comb~3_combout $end
-$var wire 1 X! processor|ALU|add_or_sub[3].FA|cout~1_combout $end
-$var wire 1 Y! processor|ALU|add_or_sub[5].FA|s~combout $end
-$var wire 1 Z! processor|mux|Selector3~3_combout $end
-$var wire 1 [! processor|mux|Selector3~4_combout $end
-$var wire 1 \! processor|reg_6|Q[6]~feeder_combout $end
-$var wire 1 ]! processor|reg_5|Q[6]~feeder_combout $end
-$var wire 1 ^! processor|mux|Selector2~2_combout $end
-$var wire 1 _! processor|reg_3|Q[6]~feeder_combout $end
-$var wire 1 `! processor|mux|Selector2~1_combout $end
-$var wire 1 a! processor|mux|Selector2~0_combout $end
-$var wire 1 b! processor|reg_7|Q[6]~feeder_combout $end
-$var wire 1 c! processor|mux|Selector2~5_combout $end
-$var wire 1 d! processor|ALU|add_or_sub[6].FA|s~0_combout $end
-$var wire 1 e! processor|ALU|add_or_sub[3].FA|cout~combout $end
-$var wire 1 f! processor|ALU|add_or_sub[6].FA|s~combout $end
-$var wire 1 g! processor|mux|Selector2~3_combout $end
-$var wire 1 h! processor|mux|Selector2~4_combout $end
-$var wire 1 i! processor|mux|Selector1~0_combout $end
-$var wire 1 j! processor|reg_3|Q[7]~feeder_combout $end
+$var wire 1 P! processor|reg_3|Q[5]~feeder_combout $end
+$var wire 1 Q! processor|mux|Selector3~1_combout $end
+$var wire 1 R! processor|reg_6|Q[5]~feeder_combout $end
+$var wire 1 S! processor|mux|Selector3~2_combout $end
+$var wire 1 T! processor|reg_7|Q[5]~feeder_combout $end
+$var wire 1 U! processor|ALU|comb~3_combout $end
+$var wire 1 V! processor|ALU|add_or_sub[3].FA|cout~0_combout $end
+$var wire 1 W! processor|mux|Selector3~0_combout $end
+$var wire 1 X! processor|mux|Selector3~5_combout $end
+$var wire 1 Y! processor|ALU|comb~4_combout $end
+$var wire 1 Z! processor|ALU|add_or_sub[3].FA|cout~1_combout $end
+$var wire 1 [! processor|ALU|add_or_sub[5].FA|s~combout $end
+$var wire 1 \! processor|mux|Selector3~3_combout $end
+$var wire 1 ]! processor|mux|Selector3~4_combout $end
+$var wire 1 ^! processor|reg_4|Q[6]~feeder_combout $end
+$var wire 1 _! processor|mux|Selector2~0_combout $end
+$var wire 1 `! processor|reg_1|Q[6]~feeder_combout $end
+$var wire 1 a! processor|reg_6|Q[6]~feeder_combout $end
+$var wire 1 b! processor|mux|Selector2~2_combout $end
+$var wire 1 c! processor|mux|Selector2~1_combout $end
+$var wire 1 d! processor|mux|Selector2~5_combout $end
+$var wire 1 e! processor|ALU|add_or_sub[6].FA|s~0_combout $end
+$var wire 1 f! processor|ALU|add_or_sub[3].FA|cout~combout $end
+$var wire 1 g! processor|ALU|add_or_sub[6].FA|s~combout $end
+$var wire 1 h! processor|mux|Selector2~3_combout $end
+$var wire 1 i! processor|mux|Selector2~4_combout $end
+$var wire 1 j! processor|mux|Selector1~0_combout $end
 $var wire 1 k! processor|mux|Selector1~1_combout $end
-$var wire 1 l! processor|reg_7|Q[7]~feeder_combout $end
-$var wire 1 m! processor|ALU|comb~5_combout $end
-$var wire 1 n! processor|reg_6|Q[7]~feeder_combout $end
-$var wire 1 o! processor|mux|Selector1~2_combout $end
-$var wire 1 p! processor|mux|Selector1~5_combout $end
-$var wire 1 q! processor|ALU|comb~6_combout $end
+$var wire 1 l! processor|reg_6|Q[7]~feeder_combout $end
+$var wire 1 m! processor|reg_5|Q[7]~feeder_combout $end
+$var wire 1 n! processor|mux|Selector1~2_combout $end
+$var wire 1 o! processor|mux|Selector1~5_combout $end
+$var wire 1 p! processor|ALU|comb~6_combout $end
+$var wire 1 q! processor|ALU|comb~5_combout $end
 $var wire 1 r! processor|ALU|add_or_sub[5].FA|cout~combout $end
 $var wire 1 s! processor|ALU|add_or_sub[7].FA|s~combout $end
 $var wire 1 t! processor|mux|Selector1~3_combout $end
 $var wire 1 u! processor|mux|Selector1~4_combout $end
-$var wire 1 v! processor|reg_3|Q[8]~feeder_combout $end
-$var wire 1 w! processor|mux|Selector0~2_combout $end
-$var wire 1 x! processor|reg_6|Q[8]~feeder_combout $end
-$var wire 1 y! processor|mux|Selector0~0_combout $end
+$var wire 1 v! processor|mux|Selector0~1_combout $end
+$var wire 1 w! processor|reg_6|Q[8]~feeder_combout $end
+$var wire 1 x! processor|mux|Selector0~0_combout $end
+$var wire 1 y! processor|mux|Selector0~2_combout $end
 $var wire 1 z! processor|mux|Selector0~5_combout $end
-$var wire 1 {! processor|reg_4|Q[8]~feeder_combout $end
-$var wire 1 |! processor|mux|Selector0~1_combout $end
-$var wire 1 }! processor|ALU|add_or_sub[8].FA|s~0_combout $end
-$var wire 1 ~! processor|ALU|add_or_sub[8].FA|s~combout $end
-$var wire 1 !" processor|reg_7|Q[8]~feeder_combout $end
-$var wire 1 "" processor|mux|Selector0~3_combout $end
-$var wire 1 #" processor|mux|Selector0~4_combout $end
-$var wire 1 $" ROM|altsyncram_component|auto_generated|q_a [8] $end
-$var wire 1 %" ROM|altsyncram_component|auto_generated|q_a [7] $end
-$var wire 1 &" ROM|altsyncram_component|auto_generated|q_a [6] $end
-$var wire 1 '" ROM|altsyncram_component|auto_generated|q_a [5] $end
-$var wire 1 (" ROM|altsyncram_component|auto_generated|q_a [4] $end
-$var wire 1 )" ROM|altsyncram_component|auto_generated|q_a [3] $end
-$var wire 1 *" ROM|altsyncram_component|auto_generated|q_a [2] $end
-$var wire 1 +" ROM|altsyncram_component|auto_generated|q_a [1] $end
-$var wire 1 ," ROM|altsyncram_component|auto_generated|q_a [0] $end
-$var wire 1 -" processor|reg_6|Q [8] $end
-$var wire 1 ." processor|reg_6|Q [7] $end
-$var wire 1 /" processor|reg_6|Q [6] $end
-$var wire 1 0" processor|reg_6|Q [5] $end
-$var wire 1 1" processor|reg_6|Q [4] $end
-$var wire 1 2" processor|reg_6|Q [3] $end
-$var wire 1 3" processor|reg_6|Q [2] $end
-$var wire 1 4" processor|reg_6|Q [1] $end
-$var wire 1 5" processor|reg_6|Q [0] $end
-$var wire 1 6" processor|reg_2|Q [8] $end
-$var wire 1 7" processor|reg_2|Q [7] $end
-$var wire 1 8" processor|reg_2|Q [6] $end
-$var wire 1 9" processor|reg_2|Q [5] $end
-$var wire 1 :" processor|reg_2|Q [4] $end
-$var wire 1 ;" processor|reg_2|Q [3] $end
-$var wire 1 <" processor|reg_2|Q [2] $end
-$var wire 1 =" processor|reg_2|Q [1] $end
-$var wire 1 >" processor|reg_2|Q [0] $end
-$var wire 1 ?" processor|reg_IR|Q [8] $end
-$var wire 1 @" processor|reg_IR|Q [7] $end
-$var wire 1 A" processor|reg_IR|Q [6] $end
-$var wire 1 B" processor|reg_IR|Q [5] $end
-$var wire 1 C" processor|reg_IR|Q [4] $end
-$var wire 1 D" processor|reg_IR|Q [3] $end
-$var wire 1 E" processor|reg_IR|Q [2] $end
-$var wire 1 F" processor|reg_IR|Q [1] $end
-$var wire 1 G" processor|reg_IR|Q [0] $end
-$var wire 1 H" processor|reg_4|Q [8] $end
-$var wire 1 I" processor|reg_4|Q [7] $end
-$var wire 1 J" processor|reg_4|Q [6] $end
-$var wire 1 K" processor|reg_4|Q [5] $end
-$var wire 1 L" processor|reg_4|Q [4] $end
-$var wire 1 M" processor|reg_4|Q [3] $end
-$var wire 1 N" processor|reg_4|Q [2] $end
-$var wire 1 O" processor|reg_4|Q [1] $end
-$var wire 1 P" processor|reg_4|Q [0] $end
-$var wire 1 Q" DIN [8] $end
-$var wire 1 R" DIN [7] $end
-$var wire 1 S" DIN [6] $end
-$var wire 1 T" DIN [5] $end
-$var wire 1 U" DIN [4] $end
-$var wire 1 V" DIN [3] $end
-$var wire 1 W" DIN [2] $end
-$var wire 1 X" DIN [1] $end
-$var wire 1 Y" DIN [0] $end
-$var wire 1 Z" processor|reg_0|Q [8] $end
-$var wire 1 [" processor|reg_0|Q [7] $end
-$var wire 1 \" processor|reg_0|Q [6] $end
-$var wire 1 ]" processor|reg_0|Q [5] $end
-$var wire 1 ^" processor|reg_0|Q [4] $end
-$var wire 1 _" processor|reg_0|Q [3] $end
-$var wire 1 `" processor|reg_0|Q [2] $end
-$var wire 1 a" processor|reg_0|Q [1] $end
-$var wire 1 b" processor|reg_0|Q [0] $end
-$var wire 1 c" processor|reg_3|Q [8] $end
-$var wire 1 d" processor|reg_3|Q [7] $end
-$var wire 1 e" processor|reg_3|Q [6] $end
-$var wire 1 f" processor|reg_3|Q [5] $end
-$var wire 1 g" processor|reg_3|Q [4] $end
-$var wire 1 h" processor|reg_3|Q [3] $end
-$var wire 1 i" processor|reg_3|Q [2] $end
-$var wire 1 j" processor|reg_3|Q [1] $end
-$var wire 1 k" processor|reg_3|Q [0] $end
-$var wire 1 l" processor|reg_G|Q [8] $end
-$var wire 1 m" processor|reg_G|Q [7] $end
-$var wire 1 n" processor|reg_G|Q [6] $end
-$var wire 1 o" processor|reg_G|Q [5] $end
-$var wire 1 p" processor|reg_G|Q [4] $end
-$var wire 1 q" processor|reg_G|Q [3] $end
-$var wire 1 r" processor|reg_G|Q [2] $end
-$var wire 1 s" processor|reg_G|Q [1] $end
-$var wire 1 t" processor|reg_G|Q [0] $end
-$var wire 1 u" processor|reg_5|Q [8] $end
-$var wire 1 v" processor|reg_5|Q [7] $end
-$var wire 1 w" processor|reg_5|Q [6] $end
-$var wire 1 x" processor|reg_5|Q [5] $end
-$var wire 1 y" processor|reg_5|Q [4] $end
-$var wire 1 z" processor|reg_5|Q [3] $end
-$var wire 1 {" processor|reg_5|Q [2] $end
-$var wire 1 |" processor|reg_5|Q [1] $end
-$var wire 1 }" processor|reg_5|Q [0] $end
-$var wire 1 ~" processor|reg_7|Q [8] $end
-$var wire 1 !# processor|reg_7|Q [7] $end
-$var wire 1 "# processor|reg_7|Q [6] $end
-$var wire 1 ## processor|reg_7|Q [5] $end
-$var wire 1 $# processor|reg_7|Q [4] $end
-$var wire 1 %# processor|reg_7|Q [3] $end
-$var wire 1 &# processor|reg_7|Q [2] $end
-$var wire 1 '# processor|reg_7|Q [1] $end
-$var wire 1 (# processor|reg_7|Q [0] $end
-$var wire 1 )# processor|reg_1|Q [8] $end
-$var wire 1 *# processor|reg_1|Q [7] $end
-$var wire 1 +# processor|reg_1|Q [6] $end
-$var wire 1 ,# processor|reg_1|Q [5] $end
-$var wire 1 -# processor|reg_1|Q [4] $end
-$var wire 1 .# processor|reg_1|Q [3] $end
-$var wire 1 /# processor|reg_1|Q [2] $end
-$var wire 1 0# processor|reg_1|Q [1] $end
-$var wire 1 1# processor|reg_1|Q [0] $end
-$var wire 1 2# processor|reg_A|Q [8] $end
-$var wire 1 3# processor|reg_A|Q [7] $end
-$var wire 1 4# processor|reg_A|Q [6] $end
-$var wire 1 5# processor|reg_A|Q [5] $end
-$var wire 1 6# processor|reg_A|Q [4] $end
-$var wire 1 7# processor|reg_A|Q [3] $end
-$var wire 1 8# processor|reg_A|Q [2] $end
-$var wire 1 9# processor|reg_A|Q [1] $end
-$var wire 1 :# processor|reg_A|Q [0] $end
-$var wire 1 ;# counter|Q [4] $end
-$var wire 1 <# counter|Q [3] $end
-$var wire 1 =# counter|Q [2] $end
-$var wire 1 ># counter|Q [1] $end
-$var wire 1 ?# counter|Q [0] $end
-$var wire 1 @# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [19] $end
-$var wire 1 A# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [18] $end
-$var wire 1 B# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
-$var wire 1 C# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
-$var wire 1 D# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
-$var wire 1 E# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
-$var wire 1 F# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
-$var wire 1 G# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
-$var wire 1 H# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
-$var wire 1 I# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
-$var wire 1 J# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
-$var wire 1 K# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
-$var wire 1 L# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
-$var wire 1 M# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
-$var wire 1 N# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
-$var wire 1 O# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
-$var wire 1 P# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
-$var wire 1 Q# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
-$var wire 1 R# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
-$var wire 1 S# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$var wire 1 {! processor|ALU|add_or_sub[8].FA|s~0_combout $end
+$var wire 1 |! processor|ALU|add_or_sub[8].FA|s~combout $end
+$var wire 1 }! processor|mux|Selector0~3_combout $end
+$var wire 1 ~! processor|mux|Selector0~4_combout $end
+$var wire 1 !" ROM|altsyncram_component|auto_generated|q_a [8] $end
+$var wire 1 "" ROM|altsyncram_component|auto_generated|q_a [7] $end
+$var wire 1 #" ROM|altsyncram_component|auto_generated|q_a [6] $end
+$var wire 1 $" ROM|altsyncram_component|auto_generated|q_a [5] $end
+$var wire 1 %" ROM|altsyncram_component|auto_generated|q_a [4] $end
+$var wire 1 &" ROM|altsyncram_component|auto_generated|q_a [3] $end
+$var wire 1 '" ROM|altsyncram_component|auto_generated|q_a [2] $end
+$var wire 1 (" ROM|altsyncram_component|auto_generated|q_a [1] $end
+$var wire 1 )" ROM|altsyncram_component|auto_generated|q_a [0] $end
+$var wire 1 *" processor|reg_6|Q [8] $end
+$var wire 1 +" processor|reg_6|Q [7] $end
+$var wire 1 ," processor|reg_6|Q [6] $end
+$var wire 1 -" processor|reg_6|Q [5] $end
+$var wire 1 ." processor|reg_6|Q [4] $end
+$var wire 1 /" processor|reg_6|Q [3] $end
+$var wire 1 0" processor|reg_6|Q [2] $end
+$var wire 1 1" processor|reg_6|Q [1] $end
+$var wire 1 2" processor|reg_6|Q [0] $end
+$var wire 1 3" processor|reg_2|Q [8] $end
+$var wire 1 4" processor|reg_2|Q [7] $end
+$var wire 1 5" processor|reg_2|Q [6] $end
+$var wire 1 6" processor|reg_2|Q [5] $end
+$var wire 1 7" processor|reg_2|Q [4] $end
+$var wire 1 8" processor|reg_2|Q [3] $end
+$var wire 1 9" processor|reg_2|Q [2] $end
+$var wire 1 :" processor|reg_2|Q [1] $end
+$var wire 1 ;" processor|reg_2|Q [0] $end
+$var wire 1 <" processor|reg_IR|Q [8] $end
+$var wire 1 =" processor|reg_IR|Q [7] $end
+$var wire 1 >" processor|reg_IR|Q [6] $end
+$var wire 1 ?" processor|reg_IR|Q [5] $end
+$var wire 1 @" processor|reg_IR|Q [4] $end
+$var wire 1 A" processor|reg_IR|Q [3] $end
+$var wire 1 B" processor|reg_IR|Q [2] $end
+$var wire 1 C" processor|reg_IR|Q [1] $end
+$var wire 1 D" processor|reg_IR|Q [0] $end
+$var wire 1 E" processor|reg_4|Q [8] $end
+$var wire 1 F" processor|reg_4|Q [7] $end
+$var wire 1 G" processor|reg_4|Q [6] $end
+$var wire 1 H" processor|reg_4|Q [5] $end
+$var wire 1 I" processor|reg_4|Q [4] $end
+$var wire 1 J" processor|reg_4|Q [3] $end
+$var wire 1 K" processor|reg_4|Q [2] $end
+$var wire 1 L" processor|reg_4|Q [1] $end
+$var wire 1 M" processor|reg_4|Q [0] $end
+$var wire 1 N" processor|reg_0|Q [8] $end
+$var wire 1 O" processor|reg_0|Q [7] $end
+$var wire 1 P" processor|reg_0|Q [6] $end
+$var wire 1 Q" processor|reg_0|Q [5] $end
+$var wire 1 R" processor|reg_0|Q [4] $end
+$var wire 1 S" processor|reg_0|Q [3] $end
+$var wire 1 T" processor|reg_0|Q [2] $end
+$var wire 1 U" processor|reg_0|Q [1] $end
+$var wire 1 V" processor|reg_0|Q [0] $end
+$var wire 1 W" processor|reg_3|Q [8] $end
+$var wire 1 X" processor|reg_3|Q [7] $end
+$var wire 1 Y" processor|reg_3|Q [6] $end
+$var wire 1 Z" processor|reg_3|Q [5] $end
+$var wire 1 [" processor|reg_3|Q [4] $end
+$var wire 1 \" processor|reg_3|Q [3] $end
+$var wire 1 ]" processor|reg_3|Q [2] $end
+$var wire 1 ^" processor|reg_3|Q [1] $end
+$var wire 1 _" processor|reg_3|Q [0] $end
+$var wire 1 `" processor|reg_G|Q [8] $end
+$var wire 1 a" processor|reg_G|Q [7] $end
+$var wire 1 b" processor|reg_G|Q [6] $end
+$var wire 1 c" processor|reg_G|Q [5] $end
+$var wire 1 d" processor|reg_G|Q [4] $end
+$var wire 1 e" processor|reg_G|Q [3] $end
+$var wire 1 f" processor|reg_G|Q [2] $end
+$var wire 1 g" processor|reg_G|Q [1] $end
+$var wire 1 h" processor|reg_G|Q [0] $end
+$var wire 1 i" processor|reg_5|Q [8] $end
+$var wire 1 j" processor|reg_5|Q [7] $end
+$var wire 1 k" processor|reg_5|Q [6] $end
+$var wire 1 l" processor|reg_5|Q [5] $end
+$var wire 1 m" processor|reg_5|Q [4] $end
+$var wire 1 n" processor|reg_5|Q [3] $end
+$var wire 1 o" processor|reg_5|Q [2] $end
+$var wire 1 p" processor|reg_5|Q [1] $end
+$var wire 1 q" processor|reg_5|Q [0] $end
+$var wire 1 r" processor|reg_7|Q [8] $end
+$var wire 1 s" processor|reg_7|Q [7] $end
+$var wire 1 t" processor|reg_7|Q [6] $end
+$var wire 1 u" processor|reg_7|Q [5] $end
+$var wire 1 v" processor|reg_7|Q [4] $end
+$var wire 1 w" processor|reg_7|Q [3] $end
+$var wire 1 x" processor|reg_7|Q [2] $end
+$var wire 1 y" processor|reg_7|Q [1] $end
+$var wire 1 z" processor|reg_7|Q [0] $end
+$var wire 1 {" processor|reg_1|Q [8] $end
+$var wire 1 |" processor|reg_1|Q [7] $end
+$var wire 1 }" processor|reg_1|Q [6] $end
+$var wire 1 ~" processor|reg_1|Q [5] $end
+$var wire 1 !# processor|reg_1|Q [4] $end
+$var wire 1 "# processor|reg_1|Q [3] $end
+$var wire 1 ## processor|reg_1|Q [2] $end
+$var wire 1 $# processor|reg_1|Q [1] $end
+$var wire 1 %# processor|reg_1|Q [0] $end
+$var wire 1 &# counter|Q [4] $end
+$var wire 1 '# counter|Q [3] $end
+$var wire 1 (# counter|Q [2] $end
+$var wire 1 )# counter|Q [1] $end
+$var wire 1 *# counter|Q [0] $end
+$var wire 1 +# processor|reg_A|Q [8] $end
+$var wire 1 ,# processor|reg_A|Q [7] $end
+$var wire 1 -# processor|reg_A|Q [6] $end
+$var wire 1 .# processor|reg_A|Q [5] $end
+$var wire 1 /# processor|reg_A|Q [4] $end
+$var wire 1 0# processor|reg_A|Q [3] $end
+$var wire 1 1# processor|reg_A|Q [2] $end
+$var wire 1 2# processor|reg_A|Q [1] $end
+$var wire 1 3# processor|reg_A|Q [0] $end
+$var wire 1 4# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [19] $end
+$var wire 1 5# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [18] $end
+$var wire 1 6# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 7# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 8# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 9# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 :# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 ;# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 <# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 =# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 ># ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 ?# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 @# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 A# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 B# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 C# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 D# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 E# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 F# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 G# ROM|altsyncram_component|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -377,9 +365,9 @@ x1
 06
 07
 08
-19
+09
 0:
-0;
+1;
 0<
 0=
 0>
@@ -390,16 +378,16 @@ x1
 0C
 0D
 0E
-1F
-0G
+0F
+1G
 0H
 0I
 0J
 0K
 0L
 0M
-0N
-1O
+1N
+0O
 0P
 0Q
 0R
@@ -409,47 +397,47 @@ x1
 0V
 0W
 0X
-1Y
-0Z
+0Y
+1Z
 0[
 0\
 0]
 0^
 0_
 0`
-0a
+1a
 0b
 0c
 0d
-1e
+0e
 0f
 0g
-1h
+0h
 0i
 1j
 0k
-0l
+1l
 0m
-1n
-1o
-0p
+0n
+0o
+1p
 0q
-1r
-0s
-0t
+0r
+1s
+1t
 0u
-1v
-0w
-0x
+0v
+1w
+1x
 0y
 0z
-1{
-1|
+0{
+0|
 0}
 0~
 0!!
 0"!
-0#!
+1#!
 0$!
 0%!
 0&!
@@ -467,22 +455,22 @@ x1
 02!
 03!
 04!
-05!
+15!
 06!
 07!
 18!
 09!
 0:!
-1;!
+0;!
 0<!
 0=!
-0>!
+1>!
 0?!
-1@!
-0A!
+0@!
+1A!
 0B!
 0C!
-1D!
+0D!
 0E!
 0F!
 0G!
@@ -499,34 +487,34 @@ x1
 0R!
 0S!
 0T!
-1U!
+0U!
 0V!
 0W!
-0X!
+1X!
 0Y!
-1Z!
+0Z!
 0[!
-0\!
+1\!
 0]!
 0^!
 0_!
 0`!
 0a!
 0b!
-1c!
-0d!
+0c!
+1d!
 0e!
 0f!
-1g!
-0h!
+0g!
+1h!
 0i!
 0j!
 0k!
 0l!
 0m!
 0n!
-0o!
-1p!
+1o!
+0p!
 0q!
 1r!
 0s!
@@ -539,110 +527,114 @@ x1
 1z!
 0{!
 0|!
-0}!
+1}!
 0~!
-0!"
-1""
-0#"
-0,"
-0+"
-0*"
 0)"
 0("
 0'"
 0&"
 0%"
 0$"
-05"
-04"
-03"
+0#"
+0""
+0!"
 02"
 01"
 00"
 0/"
 0."
 0-"
-0>"
-0="
-0<"
+0,"
+0+"
+0*"
 0;"
 0:"
 09"
 08"
 07"
 06"
-0G"
-0F"
-0E"
+05"
+04"
+03"
 0D"
 0C"
 0B"
 0A"
 0@"
 0?"
-0P"
-0O"
-0N"
+0>"
+0="
+0<"
 0M"
 0L"
 0K"
 0J"
 0I"
 0H"
-0Y"
-0X"
-0W"
+0G"
+0F"
+0E"
 0V"
 0U"
 0T"
 0S"
 0R"
 0Q"
-0b"
-0a"
-0`"
+0P"
+0O"
+0N"
 0_"
 0^"
 0]"
 0\"
 0["
 0Z"
-0k"
-0j"
-0i"
+0Y"
+0X"
+0W"
 0h"
 0g"
 0f"
 0e"
 0d"
 0c"
-0t"
-0s"
-0r"
+0b"
+0a"
+0`"
 0q"
 0p"
 0o"
 0n"
 0m"
 0l"
-0}"
-0|"
-0{"
+0k"
+0j"
+0i"
 0z"
 0y"
 0x"
 0w"
 0v"
 0u"
-0(#
-0'#
-0&#
+0t"
+0s"
+0r"
 0%#
 0$#
 0##
 0"#
 0!#
 0~"
+0}"
+0|"
+0{"
+0*#
+0)#
+0(#
+0'#
+0&#
+03#
+02#
 01#
 00#
 0/#
@@ -650,34 +642,6 @@ x1
 0-#
 0,#
 0+#
-0*#
-0)#
-0:#
-09#
-08#
-07#
-06#
-05#
-04#
-03#
-02#
-0?#
-0>#
-0=#
-0<#
-0;#
-0S#
-0R#
-0Q#
-0P#
-0O#
-0N#
-0M#
-0L#
-0K#
-0J#
-0I#
-0H#
 0G#
 0F#
 0E#
@@ -686,719 +650,683 @@ x1
 0B#
 0A#
 0@#
+0?#
+0>#
+0=#
+0<#
+0;#
+0:#
+09#
+08#
+07#
+06#
+05#
+04#
 $end
 #10000
 1"
-1A
-1B
+16
+17
 #20000
 1#
 1!
 1$
 0"
-18
-16
-1C
-0A
-0B
-17
-1D
-1J
 1:
-1?#
-1;
-09
+18
+1C
+06
+07
+19
+1K
+1D
+1<
+1*#
+1=
+0;
 #20001
-1M#
-1&"
-1S"
-0c!
-1h!
+1A#
+1#"
+0d!
+1i!
 1'
-1m!
-1d!
-1b!
-1_!
-1]!
-1\!
-1f!
+1q!
+1e!
+1a!
+1`!
+1^!
+1g!
 #30000
 0!
 1"
-06
-1A
-1B
-07
-1A"
-1K
+08
+16
+17
+09
+1>"
+1L
 1E
-1]
-1G
-0F
-0D
-0J
-1.
-1}
+1^
+0K
 0G
-0|
-0r
+1H
+0D
+1.
+1v
+0x
+0p
+0l
 0j
-0h
+0H
 #40000
 0$
 1!
 0"
 0C
-16
-0A
-0B
-17
-1<
-1>#
-0:
-0?#
+18
+06
+07
 19
+1>
+1)#
+0<
+0*#
+1;
 #40001
-1S#
-1Q#
-0M#
-0&"
-1*"
-1,"
-1Y"
-1W"
-0S"
-1c!
-08!
+1G#
+1E#
+0A#
+0#"
+1'"
+1)"
 0-!
-0h!
-1<!
-1#!
-1-
-1+
-0'
+05!
+1d!
+1$!
 19!
-0m!
-0d!
-1~
-1u
+0i!
+0'
+1+
+1-
+0q!
+0e!
 16!
-14!
-12!
-0b!
-0_!
-0]!
-0\!
-0f!
-1:!
+0a!
+0`!
+0^!
+1~
+1z
+17!
+0g!
 #50000
 0!
 1"
-06
-1A
-1B
-07
-1`"
-1b"
-0K
+08
+16
+17
+09
+1T"
+1V"
+0L
 0E
-0]
-1F
+0^
+1G
 0.
-0}
-1|
-1r
+0v
+1x
+1p
+1l
 1j
-1h
 #60000
 1$
 1!
 0"
 1C
-16
-0A
-0B
-17
+18
+06
+07
+19
+1K
 1D
-1J
-1:
-1?#
-1=
+1<
+1*#
+1?
+0=
 0;
-09
 #60001
-0S#
-0Q#
-1P#
-1)"
-0*"
-0,"
-0Y"
-0W"
-1V"
-0@!
-18!
+0G#
+0E#
+1D#
+1&"
+0'"
+0)"
 1-!
-1E!
-0<!
-0#!
-0-
-0+
-1*
+15!
+0>!
+0$!
 09!
-1H!
-1A!
-0~
-0u
-06!
-04!
-02!
-1C!
 1B!
-0:!
+1*
+0+
+0-
+1K!
+1?!
+06!
+1;!
+0~
+0z
+1@!
+07!
 #70000
 0!
 1"
-06
-1A
-1B
-07
-1D"
-0A"
-1K
+08
+16
+17
+09
+1A"
+0>"
+1L
 1E
 1M
-1G
-0F
-0D
-0J
-1.
-1y
+0K
 0G
-1_
-17!
-1"!
-0r
-1k
-0h
-1@!
-0o
+1H
+0D
+1.
+1!!
+1]
+0H
+13!
+1y
+1q
+0l
+0j
+1>!
+0t
+16!
+1$!
 19!
-1#!
-1<!
 1+
 1-
-0H!
-0A!
-1:!
-0E!
-16!
-14!
-12!
-1~
-1u
-0*
+0K!
+0?!
+17!
 0B!
-0C!
+1~
+1z
+0*
+0@!
+0;!
 #80000
 0$
 0"
 0C
-0A
-0B
+06
+07
 #90000
 1"
-1A
-1B
-1/#
-11#
-0K
+16
+17
+1##
+1%#
+0L
 0E
 0M
-1F
+1G
 0.
+0!!
+0]
+03!
 0y
-0_
-07!
-0"!
-1r
-0k
-1h
-0@!
-1o
+0q
+1l
+1j
+0>!
+1t
+06!
+0$!
 09!
-0#!
-0<!
 0+
 0-
-1H!
-1A!
-0:!
-1E!
-06!
-04!
-02!
-0~
-0u
-1*
+1K!
+1?!
+07!
 1B!
-1C!
+0~
+0z
+1*
+1@!
+1;!
 #100000
 1!
 1$
 0"
-16
+18
 1C
-0A
-0B
-17
-1D
-1J
-1=#
-0<
-0>#
-0:
-0?#
+06
+07
 19
+1K
+1D
+1(#
+0>
+0)#
+0<
+0*#
+1;
 #100001
-1S#
-0P#
-1L#
-1%"
-0)"
-1,"
-1Y"
-0V"
-1R"
-0p!
-1@!
+1G#
+0D#
+1@#
+1""
+0&"
+1)"
 0-!
-1u!
-0E!
-1#!
-1-
-0*
-1&
-0H!
-0A!
-1q!
-1~
-1u
-0C!
-1n!
-1l!
-1j!
-1s!
+1>!
+0o!
+1$!
 0B!
+1u!
+1&
+0*
+1-
+1p!
+0K!
+0?!
+1m!
+1l!
+0;!
+1~
+1z
+0@!
+1s!
 #110000
 0!
 1"
-06
-1A
-1B
-07
-0D"
-1G"
-1K
+08
+16
+17
+09
+0A"
+1D"
+1L
 1E
-1@"
-1t
-1^
-0O
+1="
+1}
+1\
+0N
 1M
-1G
+1H
 0D
-1_
-17!
-1"!
-0r
-1k
-0h
-1p!
+1]
+13!
+1y
+1q
+0l
+0j
+1o!
 1-!
-0o
-19!
-1<!
-1+
-0q!
-1:!
-0u!
+0t
 16!
-14!
-12!
+19!
+1+
+0p!
+17!
+0u!
 0&
 0s!
-0n!
+0m!
 0l!
-0j!
 #120000
 0$
 0"
 0C
-0A
-0B
+06
+07
 #130000
 1"
-1A
-1B
-18#
-1:#
-1H
+16
+17
+11#
+13#
+1W
+1I
 0E
-0t
+0}
 0M
-0G
-1V
-1T
+1e
+1X
 1.!
-0u
-1B!
-0:!
-0Y
-0_
-1/!
+0H
+0~
+1@!
 07!
-0"!
-0k
-1h
-0|
-0j
-1z
-0n
-0p!
+0a
+0]
+1/!
+03!
+0y
+0q
+1l
+0x
+0p
+1"!
+0s
+0o!
 0-!
-1o
+1t
 0.!
+06!
+0$!
 09!
-0#!
-0<!
 0+
 0-
 1.!
-1q!
 1p!
+1o!
 1-!
-0o
-0;!
-0{
-0B!
-1:!
+0t
+08!
+0#!
+0@!
+17!
 0/!
 1u!
-1#!
-06!
-04!
-02!
-0~
-1u
+1$!
+1~
+0z
 1-
 1&
+16!
+0p!
 19!
-0q!
-1<!
 0u!
 1s!
 1/!
-1~
-0u
-1n!
+0~
+1z
+1m!
 1l!
-1j!
 0&
 1+
 0s!
-1B!
-0:!
-0n!
+1@!
+07!
+0m!
 0l!
-0j!
-16!
-14!
-12!
 #140000
 0"
-0A
-0B
+06
+07
 #150000
 1"
-1A
-1B
-1q"
-1s"
-1l
-1I
-0H
-0V
-0T
-1]
-0F
-1m
-0J
+16
+17
+1e"
+1g"
+0W
+1J
+0I
+1F
+1^
+0G
+0e
+1r
+0K
+0X
 1.
-0D!
+1a
+0A!
 00!
-1}
-0h
-1Y
-0z
+1v
+0l
+0"!
 1,!
-1H!
-1A!
+1K!
+1?!
 11!
-1E!
+1B!
 1*
 1,
-1X!
-1e!
-1;!
-1{
+1Z!
+1f!
+18!
+1#!
 1L!
-0B!
+0@!
 1M!
-1:!
+17!
 0/!
-1C!
+1;!
 1)!
-1&!
-1$!
+1(!
 0.!
+06!
+0$!
 09!
-0#!
-0<!
 0+
 0-
-0X!
+0Z!
 0L!
-1B!
+1@!
 1/!
-06!
-04!
-02!
-0~
-1u
-0e!
+1~
+0z
+0f!
 0M!
 #160000
 0"
-0A
-0B
+06
+07
 #170000
 1"
-1A
-1B
-1_"
-0`"
-1a"
-0b"
-0l
-0K
-0I
-0]
-1F
-0m
+16
+17
+1S"
+0T"
+1U"
+0V"
+0L
+0J
+0F
+0^
+1G
+0r
 0.
-1D!
+1A!
 10!
-1n
-0}
-1|
-1r
+1s
+0v
+1x
+1p
+1l
 1j
-1h
-0p!
+0o!
 0-!
-1o
+1t
 0,!
-0H!
-0A!
+0K!
+0?!
 01!
-0E!
+0B!
 0*
 0,
 1.!
-1q!
-0B!
+1p!
+0@!
 0/!
 1u!
-1#!
-0C!
+1$!
+0;!
 0)!
-0&!
-0$!
+0(!
 1-
 1&
 1s!
 1/!
-1~
-0u
-1n!
+0~
+1z
+1m!
 1l!
-1j!
 #180000
 1!
 1$
 0"
-16
+18
 1C
-0A
-0B
-17
+06
+07
+19
+1K
 1D
-1J
-1:
-1?#
-1;
-09
+1<
+1*#
+1=
+0;
 #180001
-0S#
-1M#
-1&"
-0,"
-0Y"
-1S"
-0c!
+0G#
+1A#
+1#"
+0)"
 1-!
-1h!
-0#!
-0-
+0d!
+0$!
+1i!
 1'
+0-
+1q!
+1e!
 0.!
-1m!
-1d!
-0~
-1u
-1b!
-1_!
-1]!
-1\!
-1f!
+1a!
+1`!
+1^!
+1~
+0z
 0/!
+1g!
 #190000
 0!
 1"
-06
-1A
-1B
-07
-1A"
-0G"
-1K
+08
+16
+17
+09
+0D"
+1>"
+1L
 1E
-1t
+1}
 1M
-1G
+1H
 0D
-1_
-1>!
-1*!
-0r
-1k
-0h
-1p!
-1c!
-0o
+1]
+1:!
+1&!
+1q
+0l
+0j
+1o!
+1d!
+0t
 1,!
-1H!
-1A!
+1K!
+1?!
 11!
-1E!
+1B!
 1*
 1,
-0m!
-0d!
 0q!
-1B!
+0e!
+0p!
+1@!
 1/!
 0u!
-0h!
-1C!
+0i!
+1;!
 1)!
-1&!
-1$!
+1(!
 0'
 0&
 0s!
-0f!
-0b!
-0_!
-0]!
-0\!
-0n!
+0g!
+0a!
+0`!
+0^!
+0m!
 0l!
-0j!
 #200000
 0$
 1!
 0"
 0C
-16
-0A
-0B
-17
-1<
-1>#
-0:
-0?#
+18
+06
+07
 19
+1>
+1)#
+0<
+0*#
+1;
 #200001
-0M#
-0L#
-0%"
-0&"
-0S"
-0R"
+0A#
+0@#
+0""
+0#"
 #210000
 0!
 1"
-06
-1A
-1B
-07
-17#
-08#
-19#
-0:#
-1H
+08
+16
+17
+09
+10#
+01#
+12#
+03#
+1W
+1I
 0E
-0t
+0}
 0M
-0G
-1T
-1L
+1e
+1O
 1L!
-1e!
-1T!
-0A!
-0u
+1f!
+1V!
+0?!
+0H
+0~
 0/!
 1M!
-1(!
-0B!
-1}!
+1*!
+0@!
+1{!
 1q!
-1m!
-1d!
-1W!
-1V!
-0T!
-1K!
-0H!
-1A!
-19!
+1p!
+1e!
+1Y!
+0V!
+1U!
+0K!
+1J!
+1?!
+16!
 1.!
 0,!
-1X!
-0:!
+1Z!
+07!
 0M!
-1Y!
-1~!
+1[!
+1|!
 1s!
 0r!
-0Y!
-0~!
+0[!
+0|!
 0s!
 #220000
 0"
-0A
-0B
+06
+07
 #230000

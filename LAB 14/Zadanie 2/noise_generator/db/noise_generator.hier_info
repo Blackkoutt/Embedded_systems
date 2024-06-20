@@ -1,0 +1,33 @@
+|noise_generator
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+enable => counter[0].ENA
+enable => counter[1].ENA
+enable => counter[2].ENA
+Q[0] <= <GND>
+Q[1] <= <GND>
+Q[2] <= <GND>
+Q[3] <= <GND>
+Q[4] <= <GND>
+Q[5] <= <GND>
+Q[6] <= <GND>
+Q[7] <= <GND>
+Q[8] <= <GND>
+Q[9] <= <GND>
+Q[10] <= <GND>
+Q[11] <= <GND>
+Q[12] <= <GND>
+Q[13] <= counter[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= counter[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[16] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[17] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[18] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[19] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[20] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[21] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[22] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[23] <= counter[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

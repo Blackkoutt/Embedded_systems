@@ -1,0 +1,8 @@
+module processor_2_with_RAM_on_board(input [0:0] KEY, 
+												input [9:0] SW,
+												input CLOCK_50,
+												output [8:0] LEDR);
+												
+	processor_2_with_RAM  proc_with_ram(.Resetn(KEY[0]), .Clock(CLOCK_50), .Run(SW[9]),
+													.LEDs(LEDR[8:0]));											
+endmodule

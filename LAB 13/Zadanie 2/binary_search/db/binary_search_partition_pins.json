@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "L[0]",
+					"strict" : false
+				},
+				{
+					"name" : "L[1]",
+					"strict" : false
+				},
+				{
+					"name" : "L[2]",
+					"strict" : false
+				},
+				{
+					"name" : "L[3]",
+					"strict" : false
+				},
+				{
+					"name" : "L[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ADDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Found",
+					"strict" : false
+				},
+				{
+					"name" : "Less_Or_Greather",
+					"strict" : false
+				},
+				{
+					"name" : "Done[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Done[1]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "memory_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Start",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "A[7]",
+					"strict" : false
+				},
+				{
+					"name" : "A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

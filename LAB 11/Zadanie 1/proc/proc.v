@@ -11,23 +11,23 @@ module proc(input [8:0]DIN,
 	
 	// Sieci połączeń
 	wire [9:1] IR;	// rejestr instrukcji
-	wire [8:0] A, G, R0, R1, R2, R3, R4, R5, R6, R7;
-	wire [8:0] Sum;	
+	wire [8:0] A, G, R0, R1, R2, R3, R4, R5, R6, R7;// Pozostałe rejestry
+	wire [8:0] Sum; // wyjście z ALU
 	wire [0:7] Xreg, Yreg;	// rejestr X oraz Y zawarty w instrukcji
 	wire [2:0] I;	// kod rozkazu
 	
 	// Zmienne 
-	reg G_in, G_out, DIN_out, add_sub, IR_in, A_in;
+	reg G_in, G_out, DIN_out, add_sub, IR_in, A_in; // sygnały sterowania
 	reg [1:0] Tstep_D;
 	reg [1:0] Tstep_Q /* synthesis keep */;
-	reg [0:7] R_in, R_out;
+	reg [0:7] R_in, R_out;	// wartość wejściowa i wyjściowa rejstru
 	
 	// Kod rozkazu
 	assign I = IR[9:7];
 	
-	// Dekodowanie do systemu ósemkowego kodu rejestrów (8 rejestrów R)
-	dec3to8 decX(IR[6:4], 1'b1, Xreg);
-	dec3to8 decY(IR[3:1], 1'b1, Yreg);
+	// Dekodowanie kodu rejestrów (3 bity) do kodu one-hot (8 bitów)
+	dec3to8 decX(.W(IR[6:4]), .En(1'b1), .Y(Xreg));
+	dec3to8 decY(.W(IR[3:1]), .En(1'b1), .Y(Yreg));
 	
 	// Przejścia między stanami automatu
 	always @(Tstep_Q, Run, Done)
@@ -63,20 +63,20 @@ module proc(input [8:0]DIN,
 					case(I)
 						mv:
 							begin
-								R_out = Yreg; // kod rejestru wyjściowego (stąd odczyt)
-								R_in = Xreg; // kod rejestru wejściowego (tu zapis)
-								Done = 1'b1; // koniec operacji
+								R_out = Yreg; // wybór rejestru odczytu (kod one_hot)
+								R_in = Xreg; // wybór rejestru zapisu (kod one-hot)
+								Done = 1'b1; // sygnalizacja koniec operacji
 							end
 						mvi:
 							begin
-								DIN_out = 1'b1; // inicjacja ładowania zmiennej na szynę danych
-								R_in = Xreg; // kod rejestru wejściowego (tu zapis)
+								DIN_out = 1'b1; // inicjacja pobrania danych z szyny DIN
+								R_in = Xreg; // wybór rejestru zapisu (kod one-hot)
 								Done = 1'b1; // koniec operacji
 							end
 						add, sub:
 							begin
-								R_out = Xreg; // kod rejestru wyjściowego (tu odczyt)
-								A_in = 1'b1; // inicjacja ładowania danych z Xreg do rejestru A
+								R_out = Xreg; // wybór rejestru odczytu (kod one_hot)
+								A_in = 1'b1; // inicjacja ładowania danych do rejestru A
 							end
 					endcase
 				T2:
