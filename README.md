@@ -1,4 +1,4 @@
-# <img width="340" alt="image" src="https://github.com/user-attachments/assets/4eae9cee-8ddb-49d8-8f0d-4fe62f48fdec" />
+# <img width="300" alt="image" src="https://github.com/user-attachments/assets/4eae9cee-8ddb-49d8-8f0d-4fe62f48fdec" />
 
 <h1 id="general-info">ℹ️ General info</h1>
 
